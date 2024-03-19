@@ -1666,14 +1666,6 @@
 
 # id: 149
 # intent: reminder/show_reminders
-# text-en: Show my reminder
-# text: Zoag meine Erinnerungen  
-1	Zoag	reminder/show_reminders	O
-2	meine	reminder/show_reminders	B-reference
-3	Erinnerungen	reminder/show_reminders	O
-
-# id: 150
-# intent: reminder/show_reminders
 # text-en: Show all my reminders
 # text: Zoag alle meine Erinnerungen
 1	Zoag	reminder/show_reminders	O
@@ -1681,7 +1673,7 @@
 3	meine	reminder/show_reminders	I-reference
 4	Erinnerungen	reminder/show_reminders	O
 
-# id: 151
+# id: 150
 # intent: reminder/set_reminder
 # text-en: Set a reminder for dog food on Monday.
 # text: Stei a Erinnerung für Mondog für Hundefutter ei.
@@ -1695,7 +1687,7 @@
 8	ei	reminder/set_reminder	O
 9	.	reminder/set_reminder	O
 
-# id: 152
+# id: 151
 # intent: reminder/set_reminder
 # text-en: Set reminder "Sub yoga class Tuesday night at Bala" for tomorrow
 # text: Mach a Erinnerung "Sub yoga Unterricht Dienstag Nacht in Bala" füa moang
@@ -1714,7 +1706,7 @@
 13	füa	reminder/set_reminder	O
 14	moang	reminder/set_reminder	B-datetime
 
-# id: 153
+# id: 152
 # intent: reminder/cancel_reminder
 # text-en: Cancel all reminders for today
 # text:	Lösch alle Erinnerung füa heid
@@ -1724,7 +1716,7 @@
 4	füa	reminder/cancel_reminder	O
 5	heid	reminder/cancel_reminder	B-datetime
 
-# id: 154
+# id: 153
 # intent: weather/find
 # text-en: What will the weather be in New York city this week
 # text: Wia werds Weda in New York dera Woch
@@ -1737,7 +1729,7 @@
 7	dera	weather/find	B-datetime
 8	Woch	weather/find	I-datetime
 
-# id: 155
+# id: 154
 # intent: reminder/set_reminder
 # text-en: remind me of a doctor visit Thursday at 12 pm
 # text: Erinner me an den Arztbesuch am Diensdog um zwoife nammiddog
@@ -1752,7 +1744,7 @@
 9	zwoife	reminder/set_reminder	I-datetime
 10	nammiddog	reminder/set_reminder	I-datetime
 
-# id: 156
+# id: 155
 # intent: alarm/set_alarm
 # text-en: Set an alarm for 6:50 pm
 # text: Setz an Wegga füa 6:50 nammiddog
@@ -1763,7 +1755,7 @@
 5	6:50	alarm/set_alarm	B-datetime
 6	nammiddog	alarm/set_alarm	I-datetime
 
-# id: 157
+# id: 156
 # intent: weather/find
 # text-en: Is it going to snow today?
 # text: Werds heid schnein?
@@ -1772,7 +1764,7 @@
 3	schnein	weather/find	B-weather/attribute
 4	?	weather/find	O
 
-# id: 158
+# id: 157
 # intent: alarm/show_alarms
 # text-en: What alarms are set?
 # text: Weichane Alarme san gsteid?
@@ -1782,7 +1774,7 @@
 4	gsteid	alarm/show_alarms	O
 5	?	alarm/show_alarms	O
 
-# id: 159
+# id: 158
 # intent: reminder/set_reminder
 # text-en: Set a reminder alarm for October 7
 # text: Stei an Erinnerungsalarm füan 7. Oktoba
@@ -1793,7 +1785,7 @@
 5	7.	reminder/set_reminder	B-datetime
 6	Oktoba	reminder/set_reminder	I-datetime
 
-# id: 160
+# id: 159
 # intent: weather/find
 # text-en: Will there be snow today?
 # text: Gibts heid Schnee?
@@ -1802,7 +1794,7 @@
 3	Schnee	weather/find	B-weather/attribute
 4	?	weather/find	O
 
-# id: 161
+# id: 160
 # intent: alarm/snooze_alarm
 # text-en: snooze alarm for 15 minutes
 # text: Snooze an Wegga füa 15 Minutn
@@ -1813,7 +1805,7 @@
 5	15	alarm/snooze_alarm	B-datetime
 6	Minutn	alarm/snooze_alarm	I-datetime
 
-# id: 162
+# id: 161
 # intent: weather/find
 # text-en: How much snow are they predicting?
 # text: Wia vui Schnee is ogsogt?
@@ -1824,7 +1816,7 @@
 5	ogsogt	weather/find	O
 6	?	weather/find	O
 
-# id: 163
+# id: 162
 # intent: weather/find
 # text-en: is it hot outside
 # text: Is hoaß draußn
@@ -1832,7 +1824,7 @@
 2	hoaß	weather/find	B-weather/attribute
 3	draußn	weather/find	B-location
 
-# id: 164
+# id: 163
 # intent: weather/find
 # text-en: What is the temperature going to be today?
 # text: Wia werdn d Temperatur heid sei?
@@ -1844,7 +1836,7 @@
 6	sei	weather/find	O
 7	?	weather/find	O
 
-# id: 165
+# id: 164
 # intent: weather/find
 # text-en: what will the weather be like in Dallas tomorrow
 # text: Wia werdn s Weda in Dallas moang
@@ -1856,7 +1848,7 @@
 6	Dallas	weather/find	B-location
 7	moang	weather/find	B-datetime
 
-# id: 166
+# id: 165
 # intent: reminder/show_reminders
 # text-en: Show me all my reminders for today
 # text: Zoag ma olle meine Erinnerung füa heid
@@ -1868,7 +1860,7 @@
 6	füa	reminder/show_reminders	O
 7	heid	reminder/show_reminders	B-datetime
 
-# id: 167
+# id: 166
 # intent: reminder/set_reminder
 # text-en: Set a weekly reminder for groceries.
 # text: Mach a wöchentliche Erinnerung für Lebensmittl. 
@@ -1880,13 +1872,13 @@
 6	Lebensmittl	reminder/set_reminder	B-reminder/todo
 7	.	reminder/set_reminder	O
 
-# id: 168
+# id: 167
 # intent: weather/find
 # text-en: weather
 # text: Weda
 1	Weda	weather/find	O
 
-# id: 169
+# id: 168
 # intent: weather/find
 # text-en: Is it supposed to rain all day?
 # text: Werds an ganzn Dog regna?
@@ -1897,7 +1889,7 @@
 5	regna	weather/find	B-weather/attribute
 6	?	weather/find	O
 
-# id: 170
+# id: 169
 # intent: weather/find
 # text-en: is it going to rain tomorrow
 # text: Werds moang renga
@@ -1905,7 +1897,7 @@
 2	moang	weather/find	B-datetime
 3	regna	weather/find	B-weather/attribute
 
-# id: 171
+# id: 170
 # intent: reminder/set_reminder
 # text-en: Remind me to reply to work emails tonight
 # text: Erinner mi de Arbeitsemails heid auf Nacht zum beantwortn
@@ -1919,14 +1911,14 @@
 8	zum	reminder/set_reminder	B-reminder/todo
 9	beantwortn	reminder/set_reminder	B-reminder/todo
 
-# id: 172
+# id: 171
 # intent: alarm/cancel_alarm
 # text-en: Delete alarms
 # text: Lösch Alarme
 1	Lösch	alarm/cancel_alarm	O
 2	Alarme	alarm/cancel_alarm	O
 
-# id: 173
+# id: 172
 # intent: alarm/cancel_alarm
 # text-en: Cancel my alarms
 # text: Lösch meine Wegga
@@ -1934,7 +1926,7 @@
 2	meine	alarm/cancel_alarm	B-reference
 3	Wegga	alarm/cancel_alarm	O
 
-# id: 174
+# id: 173
 # intent: weather/find
 # text-en: Can I wear shorts today?
 # text: Konn i heid kurze Hosn oziagn?
@@ -1946,7 +1938,7 @@
 6	oziagn	weather/find	O
 7	?	weather/find	O
 
-# id: 175
+# id: 174
 # intent: weather/find
 # text-en: Will it rain tomorrow?
 # text: Werds moang regna?
@@ -1955,7 +1947,7 @@
 3	regna	weather/find	B-weather/attribute
 4	?	weather/find	O
 
-# id: 176
+# id: 175
 # intent: alarm/set_alarm
 # text-en: Set alarm for 10 am
 # text: Setz an Wegga füa zehne in da fria
@@ -1968,7 +1960,7 @@
 7	da	alarm/set_alarm	I-datetime
 8	fria	alarm/set_alarm	I-datetime
 
-# id: 177
+# id: 176
 # intent: weather/find
 # text-en: Is it going to rain this week?
 # text: Werds de Woch regna?
@@ -1978,7 +1970,7 @@
 4	regna	weather/find	B-weather/attribute
 5	?	weather/find	O
 
-# id: 178
+# id: 177
 # intent: reminder/show_reminders
 # text-en: show all reminders
 # text: Zoag alle Erinnerungen
@@ -1986,7 +1978,7 @@
 2	alle	reminder/show_reminders	B-reference
 3	Erinnerungen	reminder/show_reminders	O
 
-# id: 179
+# id: 178
 # intent: alarm/cancel_alarm
 # text-en: cancel alarms
 # text: Brich Alarme ob
@@ -1994,7 +1986,7 @@
 2	Alarme	alarm/cancel_alarm	O
 3	ab	alarm/cancel_alarm	O
 
-# id: 180
+# id: 179
 # intent: alarm/cancel_alarm
 # text-en: turn off all alarms
 # text: Schoid alle Wegga aus
@@ -2003,7 +1995,7 @@
 3	Wegga	alarm/cancel_alarm	O
 4	aus	alarm/cancel_alarm	O
 
-# id: 181
+# id: 180
 # intent: alarm/show_alarms
 # text-en: show all alarms preset
 # text: Zoag alle voreigsteiden Alarme
@@ -2012,7 +2004,7 @@
 3	voreigsteiden	alarm/show_alarms	O
 4	Alarme	alarm/show_alarms	O
 
-# id: 182
+# id: 181
 # intent: alarm/set_alarm
 # text-en: Set alarm every minute for 20 minutes.
 # text: Stei an Alarm jede Minut füa 20 Minutn.
@@ -2026,7 +2018,7 @@
 8	Minutn	alarm/set_alarm	I-recurring_datetime
 9	.	alarm/set_alarm	O
 
-# id: 183
+# id: 182
 # intent: reminder/show_reminders
 # text-en: What are my reminders?
 # text: Wos san meine Erinnerungen?
@@ -2036,7 +2028,7 @@
 4	Erinnerungen	reminder/show_reminders	O
 5	?	reminder/show_reminders	O
 
-# id: 184
+# id: 183
 # intent: alarm/cancel_alarm
 # text-en: cancel alarm for tomorrow
 # text: Lösch an Wegga füa moang
@@ -2046,7 +2038,7 @@
 4	füa	alarm/cancel_alarm	O
 5	moang	alarm/cancel_alarm	B-datetime
 
-# id: 185
+# id: 184
 # intent: weather/find
 # text-en: Do I need an umbrella today?
 # text: Brauch i heid an Regnschirm?
@@ -2057,7 +2049,7 @@
 5	Regnschirm	weather/find	B-weather/attribute
 6	?	weather/find	O
 
-# id: 186
+# id: 185
 # intent: weather/find
 # text-en: is it supposed to snow today?
 # text: Sois heid schnein?
@@ -2066,7 +2058,7 @@
 3	schnein	weather/find	B-weather/attribute
 4	?	weather/find	O
 
-# id: 187
+# id: 186
 # intent: reminder/set_reminder
 # text-en: Remind me to call my mom tonight
 # text: Erinner mi heid auf Nacht mei Mama ozumruafa
@@ -2079,7 +2071,7 @@
 7	Mama	reminder/set_reminder	I-reminder/todo
 8	ozumruafa	reminder/set_reminder	I-reminder/todo
 
-# id: 188
+# id: 187
 # intent: weather/find
 # text-en: will it rain today?
 # text: Werds heid regna?
@@ -2088,7 +2080,7 @@
 3	regna	weather/find	B-weather/attribute
 4	?	weather/find	O
 
-# id: 189
+# id: 188
 # intent: weather/find
 # text-en: Is it going to rain Saturday?
 # text: Werds am Samsdog regna?
@@ -2098,7 +2090,7 @@
 4	regna		weather/find	B-weather/attribute
 5	?	weather/find	O
 
-# id: 190
+# id: 189
 # intent: alarm/set_alarm
 # text-en: Will you set the alarm every minute for 20 minutes?
 # text: Setzt du mir an Alarm jede Minut füa 20 Minutn?
@@ -2114,7 +2106,7 @@
 10	Minutn	alarm/set_alarm	I-recurring_datetime
 11	?	alarm/set_alarm	O
 
-# id: 191
+# id: 190
 # intent: weather/find
 # text-en: Tropical storms in caribbean
 # text: Tropenstürme in da Karibik
@@ -2123,7 +2115,7 @@
 3	da	weather/find	O
 4	Karibik	weather/find	B-location
 
-# id: 192
+# id: 191
 # intent: alarm/cancel_alarm
 # text-en: cancel all alarms
 # text: Lösch alle Alarme
@@ -2131,7 +2123,7 @@
 2	alle	alarm/cancel_alarm	B-reference
 3	Alarme	alarm/cancel_alarm	O
 
-# id: 193
+# id: 192
 # intent: alarm/set_alarm
 # text-en: Set alarm for every nine minutes.
 # text: Mach an Wegga für alle nein Minutn.
@@ -2144,7 +2136,7 @@
 7	Minutn	alarm/set_alarm	I-recurring_datetime
 8	.	alarm/set_alarm	O
 
-# id: 194
+# id: 193
 # intent: reminder/cancel_reminder
 # text-en: Delete the last two reminders on my list
 # text: Lösch de letztn zwoa Erinnerungen auf meina Listn
@@ -2157,7 +2149,7 @@
 7	meina	reminder/cancel_reminder	B-reference
 8	Listn	reminder/cancel_reminder	O
 
-# id: 195
+# id: 194
 # intent: weather/find
 # text-en: hows the weather today
 # text: Wia isn s Weda heid
@@ -2167,7 +2159,7 @@
 4	Weda	weather/find	O
 5	heid	weather/find	B-datetime
 
-# id: 196
+# id: 195
 # intent: alarm/set_alarm
 # text-en: turn on my alarm
 # text: Schoid mein Alarm o
@@ -2176,7 +2168,7 @@
 3	Alarm	alarm/set_alarm	O
 4	o	alarm/set_alarm	O
 
-# id: 197
+# id: 196
 # intent: weather/find
 # text-en: What is the humidity today?
 # text: Wia is de Luftfeuchtigkeit heid?
@@ -2187,7 +2179,7 @@
 5	heid	weather/find	B-datetime
 6	?	weather/find	O
 
-# id: 198
+# id: 197
 # intent: reminder/set_reminder
 # text-en: remind me to set an alarm for ups
 # text: Erinner mi an Alarm für ups zum macha
@@ -2200,7 +2192,7 @@
 7	zum	reminder/set_reminder	I-reminder/todo
 8	macha	reminder/set_reminder	I-reminder/todo
 
-# id: 199
+# id: 198
 # intent: weather/find
 # text-en: Will it snow this weekend?
 # text: Werds des Wochenende schnein?
@@ -2210,7 +2202,7 @@
 4	schnein	weather/find	B-weather/attribute
 5	?	weather/find	O
 
-# id: 200
+# id: 199
 # intent: weather/find
 # text-en: How hot will it get today?
 # text: Wia hoaß wirds heid?
@@ -2220,7 +2212,7 @@
 4	heid	weather/find	B-datetime
 5	?	weather/find	O
 
-# id: 201
+# id: 200
 # intent: alarm/show_alarms
 # text-en: What time is my alarm set for
 # text: Füa weicha Zeit is mei Alarm gsteid
@@ -2232,7 +2224,7 @@
 6	Alarm	alarm/show_alarms	O
 7	gsteid	alarm/show_alarms	O
 
-# id: 202
+# id: 201
 # intent: weather/find
 # text-en: What's the weather like today?
 # text: Wia isn s Weda heid?
@@ -2243,7 +2235,7 @@
 5	heid	weather/find	B-datetime
 6	?	weather/find	O
 
-# id: 203
+# id: 202
 # intent: weather/find
 # text-en: Will it rain tomorrow?
 # text: Werds moang regna?
@@ -2252,7 +2244,7 @@
 3	regna	weather/find	B-weather/attribute
 4	?	weather/find	O
 
-# id: 204
+# id: 203
 # intent: alarm/cancel_alarm
 # text-en: Cancel my alarm for 5:15am on Tuesday
 # text: Lösch mein Alarm füa 5:15 in da fria am Diensdog
@@ -2267,7 +2259,7 @@
 9	am	alarm/cancel_alarm	I-datetime
 10	Diensdog	alarm/cancel_alarm	I-datetime
 
-# id: 205
+# id: 204
 # intent: reminder/cancel_reminder
 # text-en: cancel reminder for tonight's game
 # text: Lösch mei Erinnerung für des Spui heid auf Nacht
@@ -2281,7 +2273,7 @@
 8	auf	reminder/cancel_reminder	I-datetime
 9	Nacht	reminder/cancel_reminder	I-datetime
 
-# id: 206
+# id: 205
 # intent: alarm/set_alarm
 # text-en: set alarm for 3am
 # text: Stei an Alarm für 3 in da fria
@@ -2294,7 +2286,7 @@
 7	da	alarm/set_alarm	I-datetime
 8	fria	alarm/set_alarm	I-datetime
 
-# id: 207
+# id: 206
 # intent: alarm/cancel_alarm
 # text-en: cancel all alarms for saturday
 # text: Lösch alle Alarme für Samsdog
@@ -2304,7 +2296,7 @@
 4	für	alarm/cancel_alarm	O
 5	Samsdog	alarm/cancel_alarm	B-datetime
 
-# id: 208
+# id: 207
 # intent: reminder/set_reminder
 # text-en: i need a reminder to pick Lisa up
 # text: I brauch a Erinnerung um d Lisa abzumhoin
@@ -2317,7 +2309,7 @@
 7	Lisa	reminder/set_reminder	B-reminder/todo
 8	abzumhoin	reminder/set_reminder	I-reminder/todo
 
-# id: 209
+# id: 208
 # intent: weather/find
 # text-en: What is the high today?
 # text: Wia is des Hoch heid?
@@ -2328,7 +2320,7 @@
 5	heid	weather/find	B-datetime
 6	?	weather/find	O
 
-# id: 210
+# id: 209
 # intent: weather/find
 # text-en: Is it going to be cloudy today in Grindstone?
 # text: Wirds heid bewölkt sei in Grindstone?
@@ -2340,7 +2332,7 @@
 6	Grindstone	weather/find	B-location
 7	?	weather/find	O
 
-# id: 211
+# id: 210
 # intent: reminder/set_reminder
 # text-en: Remind me later
 # text: Erinner mi späda
@@ -2348,7 +2340,7 @@
 2	mi	reminder/set_reminder	O
 3	späda	reminder/set_reminder	B-datetime
 
-# id: 212
+# id: 211
 # intent: weather/find
 # text-en: what is the weather in france today
 # text: Wia isn s Weda in Frankreich heid
@@ -2360,7 +2352,7 @@
 6	Frankreich	weather/find	B-location
 7	heid	weather/find	B-datetime
 
-# id: 213
+# id: 212
 # intent: weather/find
 # text-en: Will it be sunny for the party on Saturday?
 # text: Werds am Samsdog sonnig sei für de Party?
@@ -2374,7 +2366,7 @@
 8	Party	weather/find	O
 9	?	weather/find	O
 
-# id: 214
+# id: 213
 # intent: weather/find
 # text-en: Is it going to rain tomorrow?
 # text: Werds moang regna?
@@ -2383,7 +2375,7 @@
 3	regna	weather/find	B-weather/attribute
 4	?	weather/find	O
 
-# id: 215
+# id: 214
 # intent: weather/find
 # text-en: Can I wear shorts today?
 # text: Konn i heid kurze Hosn oziagn?
@@ -2395,7 +2387,7 @@
 6	oziagn	weather/find	O
 7	?	weather/find	O
 
-# id: 216
+# id: 215
 # intent: reminder/show_reminders
 # text-en: Show my reminder
 # text: Zoag meine Erinnerungen
@@ -2403,7 +2395,7 @@
 2	meine	reminder/show_reminders	B-reference
 3	Erinnerungen	reminder/show_reminders	O
 
-# id: 217
+# id: 216
 # intent: weather/find
 # text-en: what is the average forecast for september
 # text: Wos is de durchschnittliche Vorhersage fürn Septemba
@@ -2415,7 +2407,7 @@
 6	fürn	weather/find	O
 7	Septemba	weather/find	B-datetime
 
-# id: 218
+# id: 217
 # intent: weather/find
 # text-en: Is it cold today?
 # text: Werds heid koid?
@@ -2424,7 +2416,7 @@
 3	koid	weather/find	B-weather/attribute
 4	?	weather/find	O
 
-# id: 219
+# id: 218
 # intent: reminder/cancel_reminder
 # text-en: Cancel all reminders
 # text: Lösch alle Erinnerungen
@@ -2432,7 +2424,7 @@
 2	alle	reminder/cancel_reminder	B-reference
 3	Erinnerungen	reminder/cancel_reminder	O
 
-# id: 220
+# id: 219
 # intent: weather/find
 # text-en: is it hot?
 # text: Iss hoaß?
@@ -2440,7 +2432,7 @@
 2	hoaß	weather/find	B-weather/attribute
 3	?	weather/find	O
 
-# id: 221
+# id: 220
 # intent: alarm/set_alarm
 # text-en: Make alarm for weekends at 2pm
 # text: Mach an Alarm um 2 nammiddog an Wochenenden
@@ -2453,7 +2445,7 @@
 7	an	alarm/set_alarm	I-recurring_datetime
 8	Wochenenden	alarm/set_alarm	I-recurring_datetime
 
-# id: 222
+# id: 221
 # intent: alarm/set_alarm
 # text-en: Set alarm for 2 am
 # text: Setz an Alarm für zwoa in da fria
@@ -2466,7 +2458,7 @@
 7	da	alarm/set_alarm	I-datetime
 8	fria	alarm/set_alarm	I-datetime
 
-# id: 223
+# id: 222
 # intent: weather/find
 # text-en: What is the humidity today?
 # text: Wia is de Luftfeuchtigkeit heid?
@@ -2477,7 +2469,7 @@
 5	heid	weather/find	B-datetime
 6	?	weather/find	O
 
-# id: 224
+# id: 223
 # intent: alarm/show_alarms
 # text-en: show all my alarms
 # text: Zoag alle meine Alarme
@@ -2486,7 +2478,7 @@
 3	meine	alarm/show_alarms	I-reference
 4	Alarme	alarm/show_alarms	O
 
-# id: 225
+# id: 224
 # intent: reminder/show_reminders
 # text-en: Show me all my reminders
 # text: Zoag ma alle meine Erinnerungen
@@ -2496,7 +2488,7 @@
 4	meine	reminder/show_reminders	I-reference
 5	Erinnerungen	reminder/show_reminders	O
 
-# id: 226
+# id: 225
 # intent: alarm/cancel_alarm
 # text-en: cancel all alarms
 # text: Lösch alle Alarme
@@ -2504,7 +2496,7 @@
 2	alle	alarm/cancel_alarm	B-reference
 3	Alarme	alarm/cancel_alarm	O
 
-# id: 227
+# id: 226
 # intent: weather/find
 # text-en: Is there a storm headed for my area?
 # text: Kimmt a Sturm in mei Gegend?
@@ -2516,7 +2508,7 @@
 6	Gegend	weather/find	I-location
 7	?	weather/find	O
 
-# id: 228
+# id: 227
 # intent: weather/find
 # text-en: what's the weather today
 # text: Wia isn s Weda heid
@@ -2526,7 +2518,7 @@
 4	Weda	weather/find	O
 5	heid	weather/find	B-datetime
 
-# id: 229
+# id: 228
 # intent: reminder/cancel_reminder
 # text-en: delete last reminder
 # text: Lösch de letzte Erinnerung
@@ -2535,7 +2527,7 @@
 3	letzte	reminder/cancel_reminder	B-reference
 4	Erinnerung	reminder/cancel_reminder	O
 
-# id: 230
+# id: 229
 # intent: alarm/time_left_on_alarm
 # text-en: What time is left on the alarm.
 # text: Wia vui Zeit is no aufm Alarm.
@@ -2548,7 +2540,7 @@
 7	Alarm	alarm/time_left_on_alarm	O
 8	.	alarm/time_left_on_alarm	O
 
-# id: 231
+# id: 230
 # intent: alarm/cancel_alarm
 # text-en: Cancel all my alarms for Sunday.
 # text: Lösch alle meine Alarme fürn Sondog.
@@ -2560,7 +2552,7 @@
 6	Sondog	alarm/cancel_alarm	B-datetime
 7	.	alarm/cancel_alarm	O
 
-# id: 232
+# id: 231
 # intent: weather/find
 # text-en: How hot will it get today?
 # text: Wia hoaß werds heid wern?
@@ -2571,7 +2563,7 @@
 5	wern	weather/find	O
 6	?	weather/find	O
 
-# id: 233
+# id: 232
 # intent: alarm/set_alarm
 # text-en: I'd like you to create a new alarm for 8:45 tomorrow morning
 # text: Dadsd du mir an neia Wegga für moang um 8:45 in da fria macha
@@ -2590,7 +2582,7 @@
 13	fria	alarm/set_alarm	I-datetime
 14	macha	alarm/set_alarm	O
 
-# id: 234
+# id: 233
 # intent: alarm/cancel_alarm
 # text-en: cancel all alarms
 # text: Lösch alle Wegga
@@ -2598,7 +2590,7 @@
 2	alle	alarm/cancel_alarm	B-reference
 3	Wegga	alarm/cancel_alarm	O
 
-# id: 235
+# id: 234
 # intent: weather/find
 # text-en: Is it going to snow today?
 # text: Werds heid schnein?
@@ -2607,7 +2599,7 @@
 3	schnein	weather/find	B-weather/attribute
 4	?	weather/find	O
 
-# id: 236
+# id: 235
 # intent: reminder/set_reminder
 # text-en: remind me to buy ice#
 # text: Erinner mi Eis zum kaufa
@@ -2617,7 +2609,7 @@
 4	zum	reminder/set_reminder	I-reminder/todo
 5	kaufa	reminder/set_reminder	I-reminder/todo
 
-# id: 237
+# id: 236
 # intent: reminder/show_reminders
 # text-en: show all reminders
 # text: Zoag alle Erinnerungen
@@ -2625,7 +2617,7 @@
 2	alle	reminder/show_reminders	B-reference
 3	Erinnerungen	reminder/show_reminders	O
 
-# id: 238
+# id: 237
 # intent: alarm/show_alarms
 # text-en: show all alarms
 # text: Zoag alle Wegga
@@ -2633,7 +2625,7 @@
 2	alle	alarm/show_alarms	B-reference
 3	Wegga	alarm/show_alarms	O
 
-# id: 239
+# id: 238
 # intent: weather/find
 # text-en: What's the weather in San Francisco?
 # text: Wia isn s Weda in San Francisco?
@@ -2646,7 +2638,7 @@
 7	Francisco	weather/find	I-location
 8	?	weather/find	O
 
-# id: 240
+# id: 239
 # intent: reminder/cancel_reminder
 # text-en: Cancel all reminders
 # text: Lösch alle Erinnerungen
@@ -2654,7 +2646,7 @@
 2	alle	reminder/cancel_reminder	B-reference
 3	Erinnerungen	reminder/cancel_reminder	O
 
-# id: 241
+# id: 240
 # intent: reminder/cancel_reminder
 # text-en: Cancel reminder for concert
 # text: Lösch de Erinnerung fürs Konzert
@@ -2664,7 +2656,7 @@
 4	fürs	reminder/cancel_reminder	O
 5	Konzert	reminder/cancel_reminder	B-reminder/todo
 
-# id: 242
+# id: 241
 # intent: alarm/cancel_alarm
 # text-en: Cancel the alarm for tomorrow morning
 # text: Lösch den Wegga für moang in da fria
@@ -2677,7 +2669,7 @@
 7	da	alarm/cancel_alarm	I-datetime
 8	fria	alarm/cancel_alarm	I-datetime
 
-# id: 243
+# id: 242
 # intent: weather/find
 # text-en: will it rain this week
 # text: Regnds de Woch
@@ -2685,7 +2677,7 @@
 2	de	weather/find	B-datetime
 3	Woch	weather/find	I-datetime
 
-# id: 244
+# id: 243
 # intent: weather/find
 # text-en: What is the weather like on Wednesday for golfing?
 # text: Wia isn s Weda am Mittwoch fürs Golfen?
@@ -2699,7 +2691,7 @@
 8	Golfen	weather/find	O
 9	?	weather/find	O
 
-# id: 245
+# id: 244
 # intent: alarm/show_alarms
 # text-en: show all alarms
 # text: Zoag alle Wegga
@@ -2707,7 +2699,7 @@
 2	alle	alarm/show_alarms	B-reference
 3	Wegga	alarm/show_alarms	O
 
-# id: 246
+# id: 245
 # intent: alarm/cancel_alarm
 # text-en: turn off all alarms for tomorrow
 # text: Schoid alle Wegga füa moang aus
@@ -2718,7 +2710,7 @@
 5	moang	alarm/cancel_alarm	B-datetime
 6	aus	alarm/cancel_alarm	O
 
-# id: 247
+# id: 246
 # intent: alarm/set_alarm
 # text-en: Set alarm for 5pm tonight
 # text: Stei an Alarm für fünfe heid auf Nacht
@@ -2731,7 +2723,7 @@
 7	auf	alarm/set_alarm	I-datetime
 8	Nacht	alarm/set_alarm	I-datetime
 
-# id: 248
+# id: 247
 # intent: alarm/set_alarm
 # text-en: set alarm for 7 tomorrow
 # text: Stei an Alarm für simme moang
@@ -2742,7 +2734,7 @@
 5	simme	alarm/set_alarm	B-datetime
 6	moang	alarm/set_alarm	I-datetime
 
-# id: 249
+# id: 248
 # intent: weather/find
 # text-en: Will it be sunny tomorrow?
 # text: Werds moang sonnig?
@@ -2751,7 +2743,7 @@
 3	sonnig	weather/find	B-weather/attribute
 4	?	weather/find	O
 
-# id: 250
+# id: 249
 # intent: weather/find
 # text-en: how hot will it be today
 # text: Wia hoaß werds heid
@@ -2760,7 +2752,7 @@
 3	werds	weather/find	O
 4	heid	weather/find	B-datetime
 
-# id: 251
+# id: 250
 # intent: RateBook
 # text-en: Give zero stars to Halo: Ghosts of Onyx
 # text: Gib Halo: Ghosts of Onyx 0 Sterne
@@ -2772,7 +2764,7 @@
 6	0	RateBook	B-rating_value
 7	Sterne	RateBook	B-rating_unit
 
-# id: 252
+# id: 251
 # intent: PlayMusic
 # text-en: Play music by Joy Nilo .
 # text: Spui Musi vo Joy Nilo.
@@ -2783,7 +2775,7 @@
 5	Nilo	PlayMusic	I-artist
 6	.	PlayMusic	O
 
-# id: 253
+# id: 252
 # intent: SearchCreativeWork
 # text-en: Please find me the video game titled 20 Hours in America .
 # text: Bitte suach ma des Computaspui namens 20 Hours in America .
@@ -2799,7 +2791,7 @@
 10	America	SearchCreativeWork	I-object_name
 11	.	SearchCreativeWork	O
 
-# id: 254
+# id: 253
 # intent: PlayMusic
 # text-en: Play my inventive playlist
 # text: Spui mei einfallsreiche Playlist
@@ -2808,7 +2800,7 @@
 3	einfallsreiche	PlayMusic	B-playlist
 4	playlist	PlayMusic	O
 
-# id: 255
+# id: 254
 # intent: BookRestaurant
 # text-en: Book spot for 9 at Thurmont
 # text: Buach an Disch füa neine in Thurmont
@@ -2820,7 +2812,7 @@
 6	in	BookRestaurant	O
 7	Thurmont	BookRestaurant	B-location
 
-# id: 256
+# id: 255
 # intent: AddToPlaylist
 # text-en: Add this tune to dorthy's 80's party playlist
 # text: Füg des Liad zu Dorthy's 80's Party Playlist dazua
@@ -2834,7 +2826,7 @@
 8	Playlist	AddToPlaylist	O
 9	dazua	AddToPlaylist	O
 
-# id: 257
+# id: 256
 # intent: PlayMusic
 # text-en: Play the newest melody on Last Fm by Eddie Vinson .
 # text: Spui de neiste Melodie auf Last Fm vo Eddie Vinson .
@@ -2850,7 +2842,7 @@
 10	Vinson	PlayMusic	I-artist
 11	.	PlayMusic	O
 
-# id: 258
+# id: 257
 # intent: weather/find
 # text-en: Check the forecast for Nebraska .
 # text: Check an Wedabericht füa Nebraska.
@@ -2861,7 +2853,7 @@
 5	Nebraska	weather/find	B-location
 6	.	weather/find	O
 
-# id: 259
+# id: 258
 # intent: weather/find
 # text-en: Is there a storm now in NC ?
 # text: Is jetzad a Sturm in NC ? 
@@ -2873,7 +2865,7 @@
 6	NC	weather/find	B-location
 7	?	weather/find	O
 
-# id: 260
+# id: 259
 # intent: PlayMusic
 # text-en: I want to listen to an ep from 1998 .
 # text: I mog a ep vo 1998 hearn.
@@ -2886,7 +2878,7 @@
 7	hearn	PlayMusic	O
 8	.	PlayMusic	O
 
-# id: 261
+# id: 260
 # intent: SearchScreeningEvent
 # text-en: I need times for A Yiddish World Remembered at Dipson Theatres
 # text: I brauch de Zeiten füa A Yiddish World Remeberd im Dipson Theatres
@@ -2903,7 +2895,7 @@
 11	Dipson	SearchScreeningEvent	B-location
 12	Theatres	SearchScreeningEvent	I-location
 
-# id: 262
+# id: 261
 # intent: RateBook
 # text-en: Give 1 out of 6 rating to the current textbook
 # text: Gib dem aktuellen Schuibuach oans vo sechse Bewertung 
@@ -2916,7 +2908,7 @@
 7	sechse	RateBook	B-best_rating
 8	Bewertung	RateBook	O
 
-# id: 263
+# id: 262
 # intent: AddToPlaylist
 # text-en: Add the Matt Murphy tune to the Flow Español playlist.
 # text: Füg des Matt Murphy Liad zu da Flow Español playlist dazua.
@@ -2933,7 +2925,7 @@
 11	dazua	AddToPlaylist	O
 12	.	AddToPlaylist	O
 
-# id: 264
+# id: 263
 # intent: BookRestaurant
 # text-en: I want to book a sundanese gastropub nearby in Texas for 3 people on 5/20/2025 .
 # text: I mog an Disch in am sudanesischen Gastropub in da Nähe in Texas für drei Leid am 5/20/2025 buacha. 
@@ -2958,7 +2950,7 @@
 19	buacha	BookRestaurant	O
 20	.	BookRestaurant	O
 
-# id: 265
+# id: 264
 # intent: SearchCreativeWork
 # text-en: Could you find the TV series The Approach
 # text: Konnst du mir de TV Serie The Approach findn
@@ -2972,7 +2964,7 @@
 8	Approach	SearchCreativeWork	I-object_name
 9	findn	SearchCreativeWork	O
 
-# id: 266
+# id: 265
 # intent: RateBook
 # text-en: Give this chronicle a 2 rating.
 # text: Gib dera Chronik a zwoa Bewertung.
@@ -2984,7 +2976,7 @@
 6	Bewertung	RateBook	O
 7	.	RateBook	O
 
-# id: 267
+# id: 266
 # intent: RateBook
 # text-en: Give The American Scene 2 of 6 stars
 # text: Gib The American Scene zwoa vo 6 Sterne
@@ -2997,7 +2989,7 @@
 7	6	RateBook	B-best_rating
 8	Sterne	RateBook	B-rating_unit
 
-# id: 268
+# id: 267
 # intent: AddToPlaylist
 # text-en: Add emilie autumn to my Nação Reggae playlist.
 # text: Füg Emilie Autumn zua meina Nação Reggae playlist dazua.
@@ -3012,7 +3004,7 @@
 9	dazua	AddToPlaylist	O
 10	.	AddToPlaylist	O
 
-# id: 269
+# id: 268
 # intent: BookRestaurant
 # text-en: I want to book a jewish restaurant in Gambia .
 # text: I mog in am jüdischen Restauran in Gamiba buacha.
@@ -3027,7 +3019,7 @@
 9	buach	BookRestaurant	O
 10	.	BookRestaurant	O
 
-# id: 270
+# id: 269
 # intent: BookRestaurant
 # text-en: book a table at a Fried chicken restaurant
 # text: Buach an Disch in am Fried Chicken Restaurant
@@ -3040,7 +3032,7 @@
 7	Chicken	BookRestaurant	I-restaurant_name
 8	Restaurant	BookRestaurant	I-restaurant_name
 
-# id: 271
+# id: 270
 # intent: AddToPlaylist
 # text-en: add we have a theme song to my House Afterwork playlist
 # text: Füg we have a theme song zua meina House Afterwork playlist dazua
@@ -3057,7 +3049,7 @@
 11	playlist	AddToPlaylist	O
 12 	dazua	AddToPlaylist	O
 
-# id: 272
+# id: 271
 # intent: weather/find
 # text-en: What will the weather be not far from here on October the nineteenth, 2026 ?
 # text: Wia werds Weda ned weid weg vo do am 19. Oktoba 2026 sei?
@@ -3076,7 +3068,7 @@
 13	sei	weather/find	O
 14	?	weather/find	O
 
-# id: 273
+# id: 272
 # intent: weather/find
 # text-en: Weather in Walden Russia on 12/26/2018
 # text: Weda in Walden Russland am 12/26/2018
@@ -3087,7 +3079,7 @@
 5	am	weather/find	O
 6	12/26/2018	weather/find	B-datetime
 
-# id: 274
+# id: 273
 # intent: BookRestaurant
 # text-en: I want to book a restaurant for my father in law and I in Buckner a year from now .
 # text: I mog an in am Restaurant resaviern füa mein Schwiegervatta und mi in Buckner in am Johr vo jetzad. 
@@ -3111,7 +3103,7 @@
 18	jetzad	BookRestaurant	I-datetime
 19	.	BookRestaurant	O
 
-# id: 275
+# id: 274
 # intent: RateBook
 # text-en: Rate this book a 1
 # text: Bewert des Buch mit na oans
@@ -3122,7 +3114,7 @@
 5	na	RateBook	O
 6	oans	RateBook	B-rating_value
 
-# id: 276
+# id: 275
 # intent: AddToPlaylist
 # text-en: add this artist to my spotlight on country 2016 playlist
 # text: Mach den Musika in mei spotlight on country 2016 playlist
@@ -3137,7 +3129,7 @@
 9	2016	AddToPlaylist	I-playlist
 10	playlist	AddToPlaylist	O
 
-# id: 277
+# id: 276
 # intent: SearchCreativeWork
 # text-en: Could you locate the Epic Conditions picture ?
 # text: Konnst du des Epic Conditions Buidl findn?
@@ -3150,7 +3142,7 @@
 7	findn	SearchCreativeWork	O
 8	?	SearchCreativeWork	O
 
-# id: 278
+# id: 277
 # intent: PlayMusic
 # text-en: Play rich sex on Iheart
 # text: Spui rich sex auf Iheart
@@ -3160,7 +3152,7 @@
 4	auf	PlayMusic	O
 5	Iheart	PlayMusic	B-service
 
-# id: 279
+# id: 278
 # intent: SearchScreeningEvent
 # text-en: Is Bartok the Magnificent playing at seven AM ?
 # text: Spuid Bartok the Magnificent um simme vormiddog?
@@ -3173,7 +3165,7 @@
 7	vormiddog	SearchScreeningEvent	I-datetime
 8	?	SearchScreeningEvent	O
 
-# id: 280
+# id: 279
 # intent: PlayMusic
 # text-en: Play something on Zvooq
 # text: Spui eps auf Zvooq
@@ -3182,7 +3174,7 @@
 3	auf	PlayMusic	O
 4	Zvooq	PlayMusic	B-service
 
-# id: 281
+# id: 280
 # intent: PlayMusic
 # text-en: Let me hear Chris Knight 
 # text: Los mi Chris Knight hearn
@@ -3192,7 +3184,7 @@
 4	Knight	PlayMusic	I-artist
 5	hearn	PlayMusic	O
 
-# id: 282
+# id: 281
 # intent: PlayMusic
 # text-en: play Jill Sobule album
 # text: Spui des Jill Sobule Album
@@ -3202,7 +3194,7 @@
 4	Sobule	PlayMusic	I-artist
 5	Album	PlayMusic	B-music_item
 
-# id: 283
+# id: 282
 # intent: RateBook
 # text-en: Give four stars to The Broken Window
 # text: Gib The Broken Window vier Sterne 
@@ -3213,7 +3205,7 @@
 5	vier	RateBook	B-rating_value
 6	Sterne	RateBook	B-rating_unit
 
-# id: 284
+# id: 283
 # intent: weather/find
 # text-en: Tell me the forecast for 6 am in Tatra-Nationalpark
 # text: Sog ma de Vorhersage für sechse vormiddog im Tatra-Nationalpark
@@ -3227,7 +3219,7 @@
 8	im	weather/find	O
 9	Tatra-Nationalpark	weather/find	B-location
 
-# id: 285
+# id: 284
 # intent: BookRestaurant
 # text-en: Please book me a table at a bistro which serves lorna doone .
 # text: Bitte buach ma an Disch in am Bistro des lorna doone serviert. 
@@ -3245,7 +3237,7 @@
 12	serviert	BookRestaurant	O
 13	.	BookRestaurant	O
 
-# id: 286
+# id: 285
 # intent: RateBook
 # text-en: Rate The Mystery of the Tolling Bell series 4 stars .
 # text: Gib da The Mystery of the Tolling Bell Serie 4 Sterne.
@@ -3262,7 +3254,7 @@
 11	Sterne	RateBook	B-rating_unit
 12	.	RateBook	O
 
-# id: 287
+# id: 286
 # intent: PlayMusic
 # text-en: Use Groove Shark to play music
 # text: Nimm Groove Shark her um Musi zum spein
@@ -3275,7 +3267,7 @@
 7	zum	PlayMusic	O
 8	spein	PlayMusic	O
 
-# id: 288
+# id: 287
 # intent: SearchScreeningEvent
 # text-en: Check the timings for Snowbound at the closest movie theatre .
 # text: Check de Zeiten füa Snowbound im nächsten Kino.
@@ -3289,7 +3281,7 @@
 8	Kino	SearchScreeningEvent	B-object_location_type
 9	.	SearchScreeningEvent	O
 
-# id: 289
+# id: 288
 # intent: PlayMusic
 # text-en: Please open Zvooq
 # text: Mach bitte Zvooq auf
@@ -3298,7 +3290,7 @@
 3	Zvooq	PlayMusic	B-service
 4	auf	PlayMusic	O
 
-# id: 290
+# id: 289
 # intent: BookRestaurant
 # text-en: book spot for 1 at Town of Ramsgate in Merit
 # text: Buach an Disch für 1 im Town of Ramsgate in Merit
@@ -3314,7 +3306,7 @@
 10	in	BookRestaurant	O
 11	Merit	BookRestaurant	B-location
 
-# id: 291
+# id: 290
 # intent: SearchScreeningEvent
 # text-en: Will I Think I Do be playing at 7 PM ?
 # text: Werd I Think I Do um simme aufnacht spuin?
@@ -3329,7 +3321,7 @@
 9	spuin	SearchScreeningEvent	O
 10	?	SearchScreeningEvent	O
 
-# id: 292
+# id: 291
 # intent: weather/find
 # text-en: will Custer National Forest be chillier at seven Pm
 # text: Werd Custer National Forest kühla sei um simme aufnacht
@@ -3343,7 +3335,7 @@
 8	simme	weather/find	B-datetime
 9	aufnacht	weather/find	I-datetime
 
-# id: 293
+# id: 292
 # intent: PlayMusic
 # text-en: I want to listen to something on Youtube
 # text: I mog eps auf Youtube ohearn
@@ -3354,7 +3346,7 @@
 5	Youtube	PlayMusic	B-service
 6	ohearn	PlayMusic	O
 
-# id: 294
+# id: 293
 # intent: SearchCreativeWork
 # text-en: Search for the game Difficult Loves
 # text: Suach des Spui Difficult Loves
@@ -3364,7 +3356,7 @@
 4	Difficult	SearchCreativeWork	B-object_name
 5	Loves	SearchCreativeWork	I-object_name
 
-# id: 295
+# id: 294
 # intent: weather/find
 # text-en: What's the weather forecast for Bothe-Napa Valley State Park close by february 20 ?
 # text: Wia is de Wedavorhersage füa Bothe-Napa Valley State Park um den 20 Februar?
@@ -3383,7 +3375,7 @@
 13	Februar	weather/find	I-datetime
 14	?	weather/find	O
 
-# id: 296
+# id: 295
 # intent: SearchScreeningEvent
 # text-en: show me the schedule of movie The Great Gildersleeve near movie house
 # text: Suach ma den Zeitplan für den Film The Great Gildersleeve in da Nähe vom Film Haus
@@ -3404,7 +3396,7 @@
 15	Film	SearchScreeningEvent	B-object_location_type
 16	Haus	SearchScreeningEvent	I-object_location_type
 
-# id: 297
+# id: 296
 # intent: weather/find
 # text-en: Tell me the weather forecast for Gibsland
 # text: Sog ma de Wedavorhersage füa Gibsland
@@ -3415,7 +3407,7 @@
 5	füa	weather/find	O
 6	Gibsland	weather/find	B-location
 
-# id: 298
+# id: 297
 # intent: SearchScreeningEvent
 # text-en: Can I get the times for movies in the neighbourhood
 # text: Konn i de Zeiten für Filme in da Nachbarschaft hom
@@ -3430,7 +3422,7 @@
 9	Nachbarschaft	SearchScreeningEvent	I-location
 10	hom	SearchScreeningEvent	O
 
-# id: 299
+# id: 298
 # intent: RateBook
 # text-en: Rate Soul Music a 0 .
 # text: Bewert Soul Music mit 0.
@@ -3441,7 +3433,7 @@
 5	0	RateBook	B-rating_value
 6	.	RateBook	O
 
-# id: 300
+# id: 299
 # intent: BookRestaurant
 # text-en: Book a reservation for five people for a tatar taverna in Sargents
 # text: Mach a Reservierung füa fünf Leid füa a tatarische Taverne in Sargents
@@ -3458,7 +3450,7 @@
 11	in	BookRestaurant	O
 12	Sargents	BookRestaurant	B-location
 
-# id: 301
+# id: 300
 # intent: PlayMusic
 # text-en: Play All Things Must Pass .
 # text: Spui All Things Must Pass.
@@ -3469,7 +3461,7 @@
 5	Pass	PlayMusic	I-track
 6	.	PlayMusic	O
 
-# id: 302
+# id: 301
 # intent: weather/find
 # text-en: What is the rain forecast for one hour from now in South Korea
 # text: Wia is de Regenvorhersage füa oa Stund vo jetz in Südkorea
@@ -3485,7 +3477,7 @@
 10	in	weather/find	O
 11	Südkorea	weather/find	B-location
 
-# id: 303
+# id: 302
 # intent: BookRestaurant
 # text-en: Book a spot for 4 in Oklahoma at South Street Diner
 # text: Buach an Disch füa 4 in Oklahoma im South Street Diner
@@ -3501,7 +3493,7 @@
 10	Street	BookRestaurant	I-restaurant_name
 11	Diner	BookRestaurant	I-restaurant_name
 
-# id: 304
+# id: 303
 # intent: PlayMusic
 # text-en: Play music off Netflix .
 # text: Spui Musi auf Netflix.
@@ -3511,7 +3503,7 @@
 4	Netflix	PlayMusic	B-service
 5	.	PlayMusic	O
 
-# id: 305
+# id: 304
 # intent: SearchScreeningEvent
 # text-en: I want to see Shattered Image .
 # text: I dad gern Shattered Image oschaun.
@@ -3523,7 +3515,7 @@
 6	oschaun	SearchScreeningEvent	O
 7	.	SearchScreeningEvent	O
 
-# id: 306
+# id: 305
 # intent: SearchCreativeWork
 # text-en: Search for The Sound of One Hand Clapping
 # text: Suach nach The Sound of One Hand Clapping
@@ -3536,7 +3528,7 @@
 7	Hand	SearchCreativeWork	I-object_name
 8	Clapping	SearchCreativeWork	I-object_name
 
-# id: 307
+# id: 306
 # intent: SearchCreativeWork
 # text-en: Look for the album Wolves Within
 # text: Suach nach dem Album Wovles Within
@@ -3547,7 +3539,7 @@
 5	Wolves	SearchCreativeWork	B-object_name
 6	Within	SearchCreativeWork	I-object_name
 
-# id: 308
+# id: 307
 # intent: SearchScreeningEvent
 # text-en: is We Are Northern Lights playing in any movie theatre
 # text: Kimmt We Are Northern Lights grod in am Kino
@@ -3561,7 +3553,7 @@
 8	am	SearchScreeningEvent	O
 9	Kino	SearchScreeningEvent	B-object_location_type
 
-# id: 309
+# id: 308
 # intent: AddToPlaylist
 # text-en: Add our little corner of the world music from gilmore girls to my The Funny Thing About Football Is playlist.
 # text: Mach our little corner of the world Musik vo de Gilmore Girls in mei The Funny Thing About Football Is playlist.
@@ -3588,7 +3580,7 @@
 21	playlist	AddToPlaylist	O
 22	.	AddToPlaylist	O
 
-# id: 310
+# id: 309
 # intent: weather/find
 # text-en: what is the forecast for hotter weather at Southford Falls State Park
 # text: Wos is de Vorhersage für heaßas Weda in Southford Falls State Park
@@ -3605,7 +3597,7 @@
 11	State	weather/find	I-location
 12	Park	weather/find	I-location
 
-# id: 311
+# id: 310
 # intent: BookRestaurant
 # text-en: Please book me a table at a pizzeria with a parking facility in Ghana .
 # text: Bitte buach ma an Disch in na Pizzeria mit amParkblotz in Ghana.
@@ -3624,7 +3616,7 @@
 13	Ghana	BookRestaurant	B-location
 14	.	BookRestaurant	O
 
-# id: 312
+# id: 311
 # intent: PlayMusic
 # text-en: I want to hear a seventies sound track .
 # text: I mechat an Siebziger Soundtrack hearn.
@@ -3636,7 +3628,7 @@
 6	hearn	PlayMusic	O
 7	.	PlayMusic	O
 
-# id: 313
+# id: 312
 # intent: weather/find
 # text-en: Weather in two hours in Uzbekistan
 # text: Weda in zwoa Stundn in Uzbekistan
@@ -3647,7 +3639,7 @@
 5	in	weather/find	O
 6	Uzbekistan	weather/find	B-location
 
-# id: 314
+# id: 313
 # intent: SearchCreativeWork
 # text-en: Please find me the Journal of the British Astronomical Association movie .
 # text: Bitte suach ma den Journal of the British Astronomical Association Film.
@@ -3664,7 +3656,7 @@
 11	Film	SearchCreativeWork	B-object_type
 12	.	SearchCreativeWork	O
 
-# id: 315
+# id: 314
 # intent: BookRestaurant
 # text-en: Book a reservation for 8 people in Wardville , Kansas
 # text: Mach a Reservierung für 8 Leid in Wardville, Kansas
@@ -3679,7 +3671,7 @@
 9	,	BookRestaurant	O
 10	Kansas	BookRestaurant	B-location
 
-# id: 316
+# id: 315
 # intent: weather/find
 # text-en: What will the weather be faraway from here ?
 # text: Wia werds Weda weid weg vo do sei?
@@ -3693,7 +3685,7 @@
 8	sei	weather/find	O
 9	?	weather/find	O
 
-# id: 317
+# id: 316
 # intent: AddToPlaylist
 # text-en: Add Richard McNamara newest song to the Just Smile playlist
 # text: Mach Richard McNamaras neisten Song in de Just Smile playlist
@@ -3708,7 +3700,7 @@
 9	Smile	AddToPlaylist	I-playlist
 10	playlist	AddToPlaylist	O
 
-# id: 318
+# id: 317
 # intent: weather/find
 # text-en: how cold will it be here in 1 second
 # text: Wia koid werds hier sei in oana Sekundn
@@ -3721,7 +3713,7 @@
 7	oana	weather/find	I-datetime
 8	Sekundn	weather/find	I-datetime
 
-# id: 319
+# id: 318
 # intent: SearchCreativeWork
 # text-en: Looking for a painting with the title With You
 # text: I suach a Gemälde mit dem Titel With You
@@ -3735,7 +3727,7 @@
 8	With	SearchCreativeWork	B-object_name
 9	You	SearchCreativeWork	I-object_name
 
-# id: 320
+# id: 319
 # intent: SearchCreativeWork
 # text-en: Find the creative work Deadly Weapons
 # text: Suach des kreative Werk Deadly Weapons
@@ -3746,7 +3738,7 @@
 5	Deadly	SearchCreativeWork	B-object_name
 6	Weapons	SearchCreativeWork	I-object_name
 
-# id: 321
+# id: 320
 # intent: weather/find
 # text-en: What will the weather be in nov. in Brookneal ?
 # text: Wia werds Weda in nov. in Brookneal sei?
@@ -3760,7 +3752,7 @@
 8	sei	weather/find	O
 9	?	weather/find	O
 
-# id: 322
+# id: 321
 # intent: BookRestaurant
 # text-en: Book a reservation at tavern for noodle
 # text: Mach a Reservierung in na Taverne füa Nudeln 
@@ -3773,7 +3765,7 @@
 7	füa	BookRestaurant	O
 8	Nudeln	BookRestaurant	B-served_dish
 
-# id: 323
+# id: 322
 # intent: weather/find
 # text-en: what is the forecast for Costa Rica
 # text: Wos is de Vorhersage füa Costa Rica 
@@ -3785,7 +3777,7 @@
 6	Costa	weather/find	B-location
 7	Rica	weather/find	I-location
 
-# id: 324
+# id: 323
 # intent: SearchScreeningEvent
 # text-en: Is The Two Gladiators playing
 # text: Spuid The Two Gladiators 
@@ -3794,7 +3786,7 @@
 3	Two	SearchScreeningEvent	I-movie_name
 4	Gladiators	SearchScreeningEvent	I-movie_name
 
-# id: 325
+# id: 324
 # intent: SearchScreeningEvent
 # text-en: what movies at Star Theatres .
 # text: Wos füa Filme in Star Theatres. 
@@ -3806,7 +3798,7 @@
 6	Theatres	SearchScreeningEvent	I-location
 7	.	SearchScreeningEvent	O
 
-# id: 326
+# id: 325
 # intent: SearchCreativeWork
 # text-en: Can you please find me the Harry Hood saga ?
 # text: Konnst du mir bitte de Harry Hood Saga findn? 
@@ -3821,7 +3813,7 @@
 9	findn	SearchCreativeWork	O
 10	?	SearchCreativeWork	O
 
-# id: 327
+# id: 326
 # intent: AddToPlaylist
 # text-en: add this tune to my Sleepify playlist
 # text: Mach des Liad in mei Sleepify Playlist
@@ -3833,7 +3825,7 @@
 6	Sleepify	AddToPlaylist	B-playlist
 7	Playlist	AddToPlaylist	O
 
-# id: 328
+# id: 327
 # intent: SearchScreeningEvent
 # text-en: Is Any Which Way You Can playing in 15 seconds
 # text: Spuid Any Which Way You Can in 15 Sekundn 
@@ -3847,7 +3839,7 @@
 8	15	SearchScreeningEvent	I-datetime
 9	Sekundn	SearchScreeningEvent	I-datetime
 
-# id: 329
+# id: 328
 # intent: PlayMusic
 # text-en: Play music from E-type .
 # text: Spui Musi von E-Type. 
@@ -3857,7 +3849,7 @@
 4	E-type	PlayMusic	B-artist
 5	.	PlayMusic	O
 
-# id: 330
+# id: 329
 # intent: RateBook
 # text-en: Give one start to the current book
 # text: Gib dem aktuellen Buach oan start
@@ -3868,7 +3860,7 @@
 5	oan	RateBook	B-rating_value
 6	start	RateBook	O
 
-# id: 331
+# id: 330
 # intent: PlayMusic
 # text-en: Play Another Passenger from Louis Nelson Delisle .
 # text: Spui Another Passenger vo Louis Nelson Delisle.
@@ -3881,7 +3873,7 @@
 7	Delisle	PlayMusic	I-artist
 8	.	PlayMusic	O
 
-# id: 332
+# id: 331
 # intent: SearchScreeningEvent
 # text-en: Where can I find the movie schedules
 # text: Wo konn i de Film Vorstellungszeitn findn
@@ -3893,7 +3885,7 @@
 6	Vorstellungszeitn	SearchScreeningEvent	I-object_type
 7	findn	SearchScreeningEvent	O
 
-# id: 333
+# id: 332
 # intent: weather/find
 # text-en: what's the forecast for sep. 26 in Emerado Saint Pierre and Miquelon
 # text: Wia is de Vorhersage füan 26. Sep. in Emerado Saint Pierre und Miquelon 
@@ -3911,7 +3903,7 @@
 12	und	weather/find	O
 13	Miquelon	weather/find	B-location
 
-# id: 334
+# id: 333
 # intent: BookRestaurant
 # text-en: Lets eat near Oakfield 17 seconds from now at Ted Peters Famous Smoked Fish
 # text: Ess ma in da Nähe vo Oakfield in 17 Sekundn vo jetzad in Ted Peters Famous Smoked Fish 
@@ -3934,7 +3926,7 @@
 17	Smoked	BookRestaurant	I-restaurant_name
 18	Fish	BookRestaurant	I-restaurant_name
 
-# id: 335
+# id: 334
 # intent: SearchCreativeWork
 # text-en: get me the trailer of Good Morning Sunshine
 # text: Bsorg ma den Trailer vo Good Morning Sunshine 
@@ -3947,7 +3939,7 @@
 7	Morning	SearchCreativeWork	I-object_name
 8	Sunshine	SearchCreativeWork	I-object_name
 
-# id: 336
+# id: 335
 # intent: BookRestaurant
 # text-en: I want to book a brasserie for 3 people in Netherlands Antilles .
 # text: I dad gern a Brasserie für 3 Leid in Niederlande Antilles buacha. 
@@ -3965,7 +3957,7 @@
 12	buacha	BookRestaurant	O
 13	.	BookRestaurant	O
 
-# id: 337
+# id: 336
 # intent: RateBook
 # text-en: rate this current album 0 stars
 # text: Bewert des aktuelle Album mit 0 Sterne
@@ -3977,7 +3969,7 @@
 6	0	RateBook	B-rating_value
 7	Sterne	RateBook	B-rating_unit
 
-# id: 338
+# id: 337
 # intent: BookRestaurant
 # text-en: Like to book a seat in Monaco for the Yankee Doodle Coffee Shop
 # text: Mog an Sitz in Monaco füa den Yankee Doodle Coffee Shop buacha 
@@ -3994,7 +3986,7 @@
 11	Shop	BookRestaurant	I-restaurant_name
 12	buacha	BookRestaurant	O
 
-# id: 339
+# id: 338
 # intent: AddToPlaylist
 # text-en: Add the artist to the political punks playlist.
 # text: Mach den Künstla in de political punks Playlist. 
@@ -4007,7 +3999,7 @@
 7	punks	AddToPlaylist	I-playlist
 8	Playlist.	AddToPlaylist	O
 
-# id: 340
+# id: 339
 # intent: weather/find
 # text-en: Will it be colder four months from now in Suwanee AK
 # text: Werds in viea Monatn vo jetzad keyda sei in Suwanee AK 
@@ -4023,7 +4015,7 @@
 10	Suwanee	weather/find	B-location
 11	AK	weather/find	I-location
 
-# id: 341
+# id: 340
 # intent: AddToPlaylist
 # text-en: add Muzika za decu to my Crash Course playlist
 # text: Mach Muzika za decu in mei Crash Course Playlist 
@@ -4037,7 +4029,7 @@
 8	Course	AddToPlaylist	I-playlist
 9	Playlist	AddToPlaylist	O
 
-# id: 342
+# id: 341
 # intent: SearchCreativeWork
 # text-en: Can you look up the Molecular Oncology saga ?
 # text: Konnst du nach da Molecular Oncology Saga suacha? 
@@ -4051,7 +4043,7 @@
 8	suacha	SearchCreativeWork	O
 9	?	SearchCreativeWork	O
 
-# id: 343
+# id: 342
 # intent: BookRestaurant
 # text-en: I want to book a restaurant for six people in Wagstaff AK .
 # text: I mechat a Restaurant für 6 Leid in Wagstaff AK buacha. 
@@ -4068,7 +4060,7 @@
 11	buacha	BookRestaurant	O
 12	.	BookRestaurant	O
 
-# id: 344
+# id: 343
 # intent: PlayMusic
 # text-en: Play some symphony music from David Lindley .
 # text: Spui Symphonie Musik vo David Lindley.
@@ -4080,7 +4072,7 @@
 6	Lindley	PlayMusic	I-artist
 7	.	PlayMusic	O
 
-# id: 345
+# id: 344
 # intent: SearchCreativeWork
 # text-en: Please fine me the TV series , Now We Are Married .
 # text: Bitte suach ma de TV Serie, Now We Are Married. 
@@ -4097,7 +4089,7 @@
 11	Married	SearchCreativeWork	I-object_name
 12	.	SearchCreativeWork	O
 
-# id: 346
+# id: 345
 # intent: SearchScreeningEvent
 # text-en: I want to see Outcast .
 # text: I mechad Outcast seng.
@@ -4107,7 +4099,7 @@
 4	seng	SearchScreeningEvent	O
 5	.	SearchScreeningEvent	O
 
-# id: 347
+# id: 346
 # intent: AddToPlaylist
 # text-en: add the current track to my This Is Tchaikovsky playlist
 # text: Mach den aktuellen Track in mei This is Tchaikovsky Playlist 
@@ -4122,7 +4114,7 @@
 9	Tchaikovsky	AddToPlaylist	I-playlist
 10	Playlist	AddToPlaylist	O
 
-# id: 348
+# id: 347
 # intent: PlayMusic
 # text-en: Play This Is: Miles Davis on Lastfm .
 # text: Spui This Is: Miles Davis auf Lastfm. 
@@ -4135,7 +4127,7 @@
 7	Lastfm	PlayMusic	B-service
 8	.	PlayMusic	O
 
-# id: 349
+# id: 348
 # intent: BookRestaurant
 # text-en: book the best table in Tanzania for 5 people at a diner
 # text: Buach den bestn Disch in Tansania füa 5 Leid in am Diner
@@ -4152,7 +4144,7 @@
 11	am	BookRestaurant	O
 12	Diner	BookRestaurant	B-restaurant_type
 
-# id: 350
+# id: 349
 # intent: PlayMusic
 # text-en: Let's hear good Mohammad Mamle on Vimeo .
 # text: Los uns den guadn Mohammed Mamle auf Vimeo hearn.
@@ -4167,7 +4159,7 @@
 9	hearn	PlayMusic	O
 10	.	PlayMusic	O
 
-# id: 351
+# id: 350
 # intent: AddToPlaylist
 # text-en: Put Vandemataram Srinivas 's track onto HipHop Hot 50 .
 # text: Mach Vandemataram Srinivas sei Liadl auf HipHop Hot 50. 
@@ -4182,7 +4174,7 @@
 9	50	AddToPlaylist	I-playlist
 10	.	AddToPlaylist	O
 
-# id: 352
+# id: 351
 # intent: SearchCreativeWork
 # text-en: Find me the Secret South song .
 # text: Find ma des Secret South Liadl.
@@ -4194,7 +4186,7 @@
 6	Liadl	SearchCreativeWork	B-object_type
 7	.	SearchCreativeWork	O
 
-# id: 353
+# id: 352
 # intent: PlayMusic
 # text-en: nineties songs on Zvooq
 # text: Neinziger Liadl auf Zvooq
@@ -4203,7 +4195,7 @@
 3	auf	PlayMusic	O
 4	Zvooq	PlayMusic	B-service
 
-# id: 354
+# id: 353
 # intent: weather/find
 # text-en: what is the forecast in Admire in TX starting at seventeen
 # text: Wos is de Vorhersage in Admire in TX startend ab siebzehne
@@ -4219,7 +4211,7 @@
 10	ab	weather/find	O
 11	siebzehne	weather/find	B-datetime
 
-# id: 355
+# id: 354
 # intent: PlayMusic
 # text-en: Play something on Last Fm
 # text: Spui eps auf Last FM
@@ -4229,7 +4221,7 @@
 4	Last	PlayMusic	B-service
 5	Fm	PlayMusic	I-service
 
-# id: 356
+# id: 355
 # intent: SearchScreeningEvent
 # text-en: I want to see The Portrait of a Lady at the nearest cinema .
 # text: I mechat The Portrait of a Lady im nächsten Kino seng.
@@ -4246,7 +4238,7 @@
 11	seng	SearchScreeningEvent	O
 12	.	SearchScreeningEvent	O
 
-# id: 357
+# id: 356
 # intent: SearchCreativeWork
 # text-en: Please find me Phineas Redux .
 # text: Bitte suach ma Phineas Redux.
@@ -4257,7 +4249,7 @@
 5	Redux	SearchCreativeWork	I-object_name
 6	.	SearchCreativeWork	O
 
-# id: 358
+# id: 357
 # intent: AddToPlaylist
 # text-en: Add the 40 cal tune to the laundry playlist.
 # text: Mach des 40 cal Liad in de laundry Playlist.
@@ -4272,7 +4264,7 @@
 9	Playlist	AddToPlaylist	O
 10	.	AddToPlaylist	O
 
-# id: 359
+# id: 358
 # intent: PlayMusic
 # text-en: Open itunes and play Ben Burnley Ready To Die
 # text: Mach iTunes auf und spui Ben Burnley Ready To Die
@@ -4287,7 +4279,7 @@
 9	To	PlayMusic	I-album
 10	Die	PlayMusic	I-album
 
-# id: 360
+# id: 359
 # intent: weather/find
 # text-en: What will the weather be in Monument of Lihula on december the 5th ?
 # text: Wia werds Weda in Monument of Lihula am 5. Dezemba sei?
@@ -4304,7 +4296,7 @@
 11	sei	weather/find	O
 12	?	weather/find	O
 
-# id: 361
+# id: 360
 # intent: SearchScreeningEvent
 # text-en: Show the Sexy Dance 2 times at the closest movie house
 # text: Zoag ma de Sexy Dance 2 Zeitn im nächsten Film Haus
@@ -4320,7 +4312,7 @@
 10	Film	SearchScreeningEvent	B-object_location_type
 11	Haus	SearchScreeningEvent	I-object_location_type
 
-# id: 362
+# id: 361
 # intent: SearchCreativeWork
 # text-en: Looking for a song with the title of Live at the Kings Center
 # text: Suach nach am Liadl mit dem Titel Live at the Kings Center
@@ -4337,7 +4329,7 @@
 11	Kings	SearchCreativeWork	I-object_name
 12	Center	SearchCreativeWork	I-object_name
 
-# id: 363
+# id: 362
 # intent: weather/find
 # text-en: What's the weather like in Tyonek , New Jersey
 # text: Wia isn s Weda in Tyonek, New Jersey
@@ -4351,7 +4343,7 @@
 8	New	weather/find	B-location
 9	Jersey	weather/find	I-location
 
-# id: 364
+# id: 363
 # intent: BookRestaurant
 # text-en: I want to book Tupelo Honey Cafe in New Jersey for five people.
 # text: I mog im Tupelo Honey Cafe in New Jersey füa 5 Leid buacha.
@@ -4370,7 +4362,7 @@
 13	buacha	BookRestaurant	O
 14	.	BookRestaurant	O
 
-# id: 365
+# id: 364
 # intent: BookRestaurant
 # text-en: book spot for my nieces and I at a tea house
 # text: Buach an Blotz für meine Nichtn und mi in am Teehaus
@@ -4386,7 +4378,7 @@
 10	am	BookRestaurant	O
 11	Teehaus	BookRestaurant	B-restaurant_type
 
-# id: 366
+# id: 365
 # intent: weather/find
 # text-en: Will it be hot in the Netherlands on February 16th ?
 # text: Werds hoaß in de Niederlande am 16. Februar?
@@ -4400,7 +4392,7 @@
 8	Februar	weather/find	I-datetime
 9	?	weather/find	O
 
-# id: 367
+# id: 366
 # intent: AddToPlaylist
 # text-en: I'd like to add jordan rudess onto the Divertido para niños playlist.
 # text: I dad gern Jordan Rudess in de Divertido para niños playlist macha.
@@ -4418,7 +4410,7 @@
 12	macha	AddToPlaylist	O
 13	.	AddToPlaylist	O
 
-# id: 368
+# id: 367
 # intent: RateBook
 # text-en: Rate In the Company of Cheerful Ladies a zero out of 6
 # text: Bewert In the Company of Cheerful Ladies mit na null vo sechse
@@ -4435,7 +4427,7 @@
 11	vo	RateBook	O
 12	sechse	RateBook	B-best_rating
 
-# id: 369
+# id: 368
 # intent: BookRestaurant
 # text-en: Book me a reservation for the best bistro
 # text: Buach ma a Reservierung für des beste Bistro
@@ -4448,7 +4440,7 @@
 7	beste	BookRestaurant	B-sort
 8	Bistro	BookRestaurant	B-restaurant_type
 
-# id: 370
+# id: 369
 # intent: RateBook
 # text-en: rate the current textbook 1 out of 6
 # text: Bewert des aktuelle Schuibuach mit oans vo sechse
@@ -4461,7 +4453,7 @@
 7	vo	RateBook	O
 8	sechse	RateBook	B-best_rating
 
-# id: 371
+# id: 370
 # intent: SearchScreeningEvent
 # text-en: what are the movie times
 # text: Wos san de Filmzeiten
@@ -4470,7 +4462,7 @@
 3	de	SearchScreeningEvent	O
 4	Filmzeiten	SearchScreeningEvent	B-object_type
 
-# id: 372
+# id: 371
 # intent: weather/find
 # text-en: What will the weather be in Ohio ?
 # text: Wia werds weda in Ohio?
@@ -4481,7 +4473,7 @@
 5	Ohio	weather/find	B-location
 6	?	weather/find	O
 
-# id: 373
+# id: 372
 # intent: AddToPlaylist
 # text-en: Add this artist to Showstopper Being Mary Jane
 # text: Mach den Künstla zua Showstopper Being Mary Jane
@@ -4494,7 +4486,7 @@
 7	Mary	AddToPlaylist	I-playlist
 8	Jane	AddToPlaylist	I-playlist
 
-# id: 374
+# id: 373
 # intent: BookRestaurant
 # text-en: Book a reservation for my babies and I
 # text: Mach a Reservierung für meine Babys und mi
@@ -4507,7 +4499,7 @@
 7	und	BookRestaurant	I-party_size_description
 8	mi	BookRestaurant	I-party_size_description
 
-# id: 375
+# id: 374
 # intent: weather/find
 # text-en: What will the weather be in Sarygamyş Sanctuary on august 21, 2035 ?
 # text: Wia werds Weda in Sarygamyş Sanctuary am 21. August 2035 sei?
@@ -4524,7 +4516,7 @@
 11	sei	weather/find	O
 12	?	weather/find	O
 
-# id: 376
+# id: 375
 # intent: RateBook
 # text-en: Rate Ruth five out of 6 points .
 # text: Bewert Ruth mit 5 vo 6 Punktn.
@@ -4537,7 +4529,7 @@
 7	Punktn	RateBook	B-rating_unit
 8	.	RateBook	O
 
-# id: 377
+# id: 376
 # intent: RateBook
 # text-en: Reminiscences of the Anti-Japanese Guerillas chronicle deserves zero points out of 6 for a rating.
 # text: De Reminiscences of the Anti-Japanese Guerillas Chroniken ham 0 Punkte vo sechse als Bewertung vadient.
@@ -4558,7 +4550,7 @@
 15	vadient	RateBook	O
 16	.	RateBook	O
 
-# id: 378
+# id: 377
 # intent: SearchScreeningEvent
 # text-en: Show me Southern Theatres movie times
 # text: Zoag ma de Southern Theatres Filmzeiten
@@ -4569,7 +4561,7 @@
 5	Theatres	SearchScreeningEvent	I-location
 6	Filmzeiten	SearchScreeningEvent	B-object_type
 
-# id: 379
+# id: 378
 # intent: SearchScreeningEvent
 # text-en: Find the movie schedule close by
 # text: Find de Filmzeiten in da Nähe
@@ -4580,7 +4572,7 @@
 5	da	SearchScreeningEvent	I-location
 6	Nähe	SearchScreeningEvent	I-location
 
-# id: 380
+# id: 379
 # intent: AddToPlaylist
 # text-en: Add this album to the Spanish Beat playlist
 # text: Mach des Album in de Spanish Beat playlist 
@@ -4593,7 +4585,7 @@
 7	Beat	AddToPlaylist	I-playlist
 8	playlist	AddToPlaylist	O
 
-# id: 381
+# id: 380
 # intent: BookRestaurant
 # text-en: Book a reservation for 6 people for a creole tavern in Montenegro
 # text: Buach a Reservierung für sechs Leid in na kreolischen Taverne in Montenegro
@@ -4610,7 +4602,7 @@
 11	in	BookRestaurant	O
 12	Montenegro	BookRestaurant	B-location
 
-# id: 382
+# id: 381
 # intent: RateBook
 # text-en: Give the Catedral series four stars .
 # text: Gib da Catedral Serie via Sterne.
@@ -4622,7 +4614,7 @@
 6	Sterne	RateBook	B-rating_unit
 7	.	RateBook	O
 
-# id: 383
+# id: 382
 # intent: AddToPlaylist
 # text-en: Add The Famous Flower of Serving-Men to my evening acoustic playlist.
 # text: Mach The Famous Flower of Serving-Men in mei evening acoustic playlist.
@@ -4639,7 +4631,7 @@
 11	playlist	AddToPlaylist	O
 12	.	AddToPlaylist	O
 
-# id: 384
+# id: 383
 # intent: SearchScreeningEvent
 # text-en: Show me the schedule for ArcLight Hollywood for only animated movies
 # text: Zoag ma den Zeitplan füa ArcLight Hollywood nur füa animierte Filme
@@ -4655,7 +4647,7 @@
 10	animierte	SearchScreeningEvent	B-movie_type
 11	Filme	SearchScreeningEvent	I-movie_type
 
-# id: 385
+# id: 384
 # intent: SearchCreativeWork
 # text-en: Please search for the painting titled This Is the Night .
 # text: Bitte suach nach dem Gemälde namens This Is the Night. 
@@ -4671,7 +4663,7 @@
 10	Night	SearchCreativeWork	I-object_name
 11	.	SearchCreativeWork	O
 
-# id: 386
+# id: 385
 # intent: weather/find
 # text-en: What will the humidity be in the current spot at 15:19:29 ?
 # text: Wia werd de Luftfeuchtigkeit am jetzigen Ort um 15:19:29 sei?
@@ -4687,7 +4679,7 @@
 10	sei	weather/find	O
 11	?	weather/find	O
 
-# id: 387
+# id: 386
 # intent: SearchScreeningEvent
 # text-en: i want to see JLA Adventures: Trapped In Time
 # text: I mog JLA Adventures: Trapped In Time seng
@@ -4700,7 +4692,7 @@
 7	Time	SearchScreeningEvent	I-movie_name
 8	seng	SearchScreeningEvent	O
 
-# id: 388
+# id: 387
 # intent: AddToPlaylist
 # text-en: Add a derek watkins tune to This Is Johnny Cash
 # text: Mach a Derek Watkins Liad zua This Is Johnny Cash
@@ -4715,7 +4707,7 @@
 9	Johnny	AddToPlaylist	I-playlist
 10	Cash	AddToPlaylist	I-playlist
 
-# id: 389
+# id: 388
 # intent: SearchCreativeWork
 # text-en: Find a creative work called Fire in the Hole
 # text: Suach ma des kreative Werk namens Fire in the Hole
@@ -4730,7 +4722,7 @@
 9	the	SearchCreativeWork	I-object_name
 10	Hole	SearchCreativeWork	I-object_name
 
-# id: 390
+# id: 389
 # intent: BookRestaurant
 # text-en: book a table near pat's college
 # text: Buach ma an Disch in da Nähe vo Pats College
@@ -4745,7 +4737,7 @@
 9	Pats	BookRestaurant	I-location
 10	College	BookRestaurant	I-location
 
-# id: 391
+# id: 390
 # intent: SearchScreeningEvent
 # text-en: Is Patrick Still Lives showing at AMC Theaters
 # text: Werd Patrick Still Lives in AMC Theatres zoagt
@@ -4758,7 +4750,7 @@
 7	Theaters	SearchScreeningEvent	I-location
 8	zoagt	SearchScreeningEvent	O
 
-# id: 392
+# id: 391
 # intent: BookRestaurant
 # text-en: I want to book a joint in a spa .
 # text: I mechad a Bude in am Spa buacha. 
@@ -4772,7 +4764,7 @@
 8	buacha	BookRestaurant	O
 9	.	BookRestaurant	O
 
-# id: 393
+# id: 392
 # intent: BookRestaurant
 # text-en: need a table somewhere in Quarryville 14 hours from now
 # text: Brauch an Disch irgendwo in Quarryville in 14 Stundn vo jetzad 
@@ -4788,7 +4780,7 @@
 10	vo	BookRestaurant	I-datetime
 11	jetzad	BookRestaurant	I-datetime
 
-# id: 394
+# id: 393
 # intent: PlayMusic
 # text-en: play some Gary Lee Conner
 # text: Spui bissl Gary Lee Conner 
@@ -4798,7 +4790,7 @@
 4	Lee	PlayMusic	I-artist
 5	Conner	PlayMusic	I-artist
 
-# id: 395
+# id: 394
 # intent: SearchScreeningEvent
 # text-en: show the closest movie theatre that shows Boycott
 # text: Zoag des nächste Kino des Boycott spuid
@@ -4810,7 +4802,7 @@
 6	Boycott	SearchScreeningEvent	B-movie_name
 7	spuid	SearchScreeningEvent	O
 
-# id: 396
+# id: 395
 # intent: PlayMusic
 # text-en: Please play my ecstatic playlist.
 # text: Bitte spui mei ecstatic playlist.
@@ -4821,7 +4813,7 @@
 5	playlist	PlayMusic	O
 6	.	PlayMusic	O
 
-# id: 397
+# id: 396
 # intent: SearchCreativeWork
 # text-en: Please look up the song The Mad Magician .
 # text: Bitte suach nach dem Liad The Mad Magician. 
@@ -4835,7 +4827,7 @@
 8	Magician	SearchCreativeWork	I-object_name
 9	.	SearchCreativeWork	O
 
-# id: 398
+# id: 397
 # intent: SearchScreeningEvent
 # text-en: Check the schedule for Bow Tie Cinemas .
 # text: Check de Zeiten fürs Bow Tie Cinemas.
@@ -4848,7 +4840,7 @@
 7	Cinemas	SearchScreeningEvent	I-location
 8	.	SearchScreeningEvent	O
 
-# id: 399
+# id: 398
 # intent: BookRestaurant
 # text-en: Book me a reservation for a party of 3 at a pub in Northern Mariana Islands
 # text: Mach ma a Reservierung füa a Gruppn vo 3 in am Pub in Northern Mariana Islands 
@@ -4869,7 +4861,7 @@
 15	Mariana	BookRestaurant	I-location
 16	Islands	BookRestaurant	I-location
 
-# id: 400
+# id: 399
 # intent: AddToPlaylist
 # text-en: I need to add to my Infinite Indie Folk list the works of Rahim Shah
 # text: I muas de Werke vo Rahim Shah in mei Infinite Indie Folk Liste dazua doa 
@@ -4889,7 +4881,7 @@
 14	dazua	AddToPlaylist	O
 15	doa	AddToPlaylist	O
 
-# id: 401
+# id: 400
 # intent: AddToPlaylist
 # text-en: Add Jerry Calliste, Jr to my Te quiero playlist.
 # text: Mach Jerry Calliste, Jr in mei Te quiero Playlist.
@@ -4904,7 +4896,7 @@
 9	Playlist	AddToPlaylist	O
 10	.	AddToPlaylist	O
 
-# id: 402
+# id: 401
 # intent: weather/find
 # text-en: How much colder will it be not far from Utah around 3 Am ?
 # text: Wia vei keyda werds ned weid weg vo Utah um drei in da fria rum sei?
@@ -4926,7 +4918,7 @@
 16	sei	weather/find	O
 17	?	weather/find	O
 
-# id: 403
+# id: 402
 # intent: AddToPlaylist
 # text-en: Add the album to the Hipster Soul playlist.
 # text: Mach des Album in de Hipster Soul Playlist.
@@ -4940,7 +4932,7 @@
 8	Playlist	AddToPlaylist	O
 9	.	AddToPlaylist	O
 
-# id: 404
+# id: 403
 # intent: BookRestaurant
 # text-en: I want to eat a delicatessen in thirteen hours that serves eastern european food
 # text: I mechad a Feinkost essn in 13 Stundn des osteuropäisches Essn saviert
@@ -4957,7 +4949,7 @@
 11	Essn	BookRestaurant	O
 12	saviert 	BookRestaurant	O
 
-# id: 405
+# id: 404
 # intent: PlayMusic
 # text-en: play a sixties soundtrack
 # text: Spui an Sechziger Soundtrack 
@@ -4966,7 +4958,7 @@
 3	Sechziger	PlayMusic	B-datetime
 4	Soundtrack	PlayMusic	B-music_item
 
-# id: 406
+# id: 405
 # intent: RateBook
 # text-en: Give this album one stars
 # text: Gib dem Album oan Stern
@@ -4976,7 +4968,7 @@
 4	oan	RateBook	B-rating_value
 5	Stern	RateBook	B-rating_unit
 
-# id: 407
+# id: 406
 # intent: PlayMusic
 # text-en: Play the greatest music from Bryan Maclean .
 # text: Spui de beste Musi vo Bryan Maclean. 
@@ -4989,7 +4981,7 @@
 7	Maclean	PlayMusic	I-artist
 8	.	PlayMusic	O
 
-# id: 408
+# id: 407
 # intent: weather/find
 # text-en: what is the forecast in Nicodemus and nearby
 # text: Wos is de Vorhersage in Nicodemus und in da Nähe
@@ -5004,7 +4996,7 @@
 9	da	weather/find	I-location
 10	Nähe	weather/find	I-location
 
-# id: 409
+# id: 408
 # intent: SearchCreativeWork
 # text-en: Looking for a game called Phinally Phamous
 # text: I suach a Spui namens Phinally Phamous 
@@ -5016,7 +5008,7 @@
 6	Phinally	SearchCreativeWork	B-object_name
 7	Phamous	SearchCreativeWork	I-object_name
 
-# id: 410
+# id: 409
 # intent: RateBook
 # text-en: Give a rating of 2 to Juneteenth .
 # text: Gib Juneteenth a Bewertung vo zwoa .
@@ -5028,7 +5020,7 @@
 6	zwoa	RateBook	B-rating_value
 7	.	RateBook	O
 
-# id: 411
+# id: 410
 # intent: RateBook
 # text-en: Give zero stars to Rhialto the Marvellous
 # text: Gib Rhialto the Marvellous null Sterne  
@@ -5039,7 +5031,7 @@
 5	null	RateBook	B-rating_value
 6	Sterne	RateBook	B-rating_unit
 
-# id: 412
+# id: 411
 # intent: PlayMusic
 # text-en: I want to hear soundtrack music on Youtube from Helena Iren Michaelsen
 # text: I mechad Soundtrack Musi vo Helena Iren Michaelsen auf YouTube hearn 
@@ -5055,7 +5047,7 @@
 10	YouTube	PlayMusic	B-service
 11	hearn	PlayMusic	O
 
-# id: 413
+# id: 412
 # intent: BookRestaurant
 # text-en: book a table on 1/20/2023 for 5 people in MH
 # text: Buach an Disch am 1/20/2023 füa 5 Leid in MH 
@@ -5070,7 +5062,7 @@
 9	in	BookRestaurant	O
 10	MH	BookRestaurant	B-location
 
-# id: 414
+# id: 413
 # intent: SearchScreeningEvent
 # text-en: movie schedules close by for animated movies
 # text: Filmzeitn in da Nähe füa animierte Filme
@@ -5082,7 +5074,7 @@
 6	animierte	SearchScreeningEvent	B-movie_type
 7	Filme	SearchScreeningEvent	I-movie_type
 
-# id: 415
+# id: 414
 # intent: AddToPlaylist
 # text-en: Add jack white to my playlist This Is Shakira
 # text: Mach Jack White in mei Playlist This Is Shakira 
@@ -5096,7 +5088,7 @@
 8	Is	AddToPlaylist	I-playlist
 9	Shakira	AddToPlaylist	I-playlist
 
-# id: 416
+# id: 415
 # intent: BookRestaurant
 # text-en: I want to book a restaurant for five people in Sri Lanka .
 # text: I mechad a Restaurant füa fünf Leid in Sri Lanka buacha. 
@@ -5113,7 +5105,7 @@
 11	buacha	BookRestaurant	O
 12	.	BookRestaurant	O
 
-# id: 417
+# id: 416
 # intent: SearchCreativeWork
 # text-en: Please search for the television show , Episodi di The Blacklist .
 # text: Bitte suach nach da Fernsehshow, Episodi di The Blacklist. 
@@ -5129,7 +5121,7 @@
 10	Blacklist	SearchCreativeWork	I-object_name
 11	.	SearchCreativeWork	O
 
-# id: 418
+# id: 417
 # intent: weather/find
 # text-en: what is the forecast for colder temps beginning on Law Day here
 # text: Wia is de Vorhersage für keydare Temps startend am Law Day hier 
@@ -5146,7 +5138,7 @@
 11	Day	weather/find	I-datetime
 12	hier	weather/find	B-location
 
-# id: 419
+# id: 418
 # intent: BookRestaurant
 # text-en: I want to book a restaurant for ten people.
 # text: I mechad a Restaurant füa zehn Leid buacha.
@@ -5159,7 +5151,7 @@
 7	Leid	BookRestaurant	O
 8	buacha	BookRestaurant	O
 
-# id: 420
+# id: 419
 # intent: PlayMusic
 # text-en: Play something by Duke Ellington from the seventies
 # text: Spui wos vo Duke Ellington vo de Siebziga 
@@ -5172,7 +5164,7 @@
 7	de	PlayMusic	O
 8	Siebziga	PlayMusic	B-datetime
 
-# id: 421
+# id: 420
 # intent: RateBook
 # text-en: Rate Cotton Comes to Harlem a 2
 # text: Bewert Cotton Comes to Harlem mit na 2 
@@ -5185,7 +5177,7 @@
 7	na	RateBook	O
 8	2	RateBook	B-rating_value
 
-# id: 422
+# id: 421
 # intent: AddToPlaylist
 # text-en: Add a song to my playlist madden nfl 16
 # text: Mach a Liadl in mei Playlist madden nfl 16 
@@ -5199,7 +5191,7 @@
 8	nfl	AddToPlaylist	I-playlist
 9	16	AddToPlaylist	I-playlist
 
-# id: 423
+# id: 422
 # intent: AddToPlaylist
 # text-en: Add Toyan to my Epic Gaming playlist.
 # text: Mach Toyan in mei Epic Gaming Playlist. 
@@ -5212,7 +5204,7 @@
 7	playlist	AddToPlaylist	O
 8	.	AddToPlaylist	O
 
-# id: 424
+# id: 423
 # intent: PlayMusic
 # text-en: play some new Les Vandyke on Slacker
 # text: Spui boa neie Les Vandyke auf Slacker 
@@ -5224,7 +5216,7 @@
 6	auf	PlayMusic	O
 7	Slacker	PlayMusic	B-service
 
-# id: 425
+# id: 424
 # intent: RateBook
 # text-en: rate the Three Junes one out of 6
 # text: Bewert de Three Junes mit oam vo sechse 
@@ -5237,7 +5229,7 @@
 7	vo	RateBook	O
 8	sechse	RateBook	B-best_rating
 
-# id: 426
+# id: 425
 # intent: BookRestaurant
 # text-en: Book a reservation for nine people at a bakery in Nunez
 # text: Buach a Reservierung füa nein Leid in na Bäckerei in Nunez 
@@ -5253,7 +5245,7 @@
 10	in	BookRestaurant	O
 11	Nunez	BookRestaurant	B-location
 
-# id: 427
+# id: 426
 # intent: RateBook
 # text-en: Rate this current novel two out of 6 .
 # text: Bewert den aktuellen Roman mit zwoa vo 6.
@@ -5267,7 +5259,7 @@
 8	6	RateBook	B-best_rating
 9	.	RateBook	O
 
-# id: 428
+# id: 427
 # intent: PlayMusic
 # text-en: Play The Happy Blues by Ronnie Wood .
 # text: Spui The Happy Blues vo Ronnie Wood. 
@@ -5280,7 +5272,7 @@
 7	Wood	PlayMusic	I-artist
 8	.	PlayMusic	O
 
-# id: 429
+# id: 428
 # intent: PlayMusic
 # text-en: Play a symphony from 2013 .
 # text: Spui a Symphonie vo 2013. 
@@ -5291,7 +5283,7 @@
 5	2013	PlayMusic	B-datetime
 6	.	PlayMusic	O
 
-# id: 430
+# id: 429
 # intent: PlayMusic
 # text-en: Play Subconscious Lobotomy from Jennifer Paull .
 # text: Spui Subconscious Lobotomy vo Jennifer Paull.
@@ -5303,7 +5295,7 @@
 6	Paull	PlayMusic	I-artist
 7	.	PlayMusic	O
 
-# id: 431
+# id: 430
 # intent: RateBook
 # text-en: Give The Crystal Snare 5 stars
 # text: Gib the Crystal Snare 5 Sterne 
@@ -5314,7 +5306,7 @@
 5	5	RateBook	B-rating_value
 6	Sterne	RateBook	B-rating_unit
 
-# id: 432
+# id: 431
 # intent: RateBook
 # text-en: Give zero stars to this textbook
 # text: Gib dem Schuibuach null Sterne
@@ -5324,7 +5316,7 @@
 4	null	RateBook	B-rating_value
 5	Sterne	RateBook	B-rating_unit
 
-# id: 433
+# id: 432
 # intent: RateBook
 # text-en: Rate the current series 4 points
 # text: Bewert de aktuelle Serie mit 4 Punktn
@@ -5336,7 +5328,7 @@
 6	4	RateBook	B-rating_value
 7	Punktn	RateBook	B-rating_unit
 
-# id: 434
+# id: 433
 # intent: BookRestaurant
 # text-en: I want a table at James D. Conrey House in Urbank California
 # text: I mechad an Disch im James D Conrey House in Urbank California 
@@ -5353,7 +5345,7 @@
 11	Urbank	BookRestaurant	B-location
 12	California	BookRestaurant	B-location
 
-# id: 435
+# id: 434
 # intent: SearchScreeningEvent
 # text-en: Is Babar: King of the Elephants playing
 # text: Werd Babar: King of th Elephants gspeid
@@ -5365,7 +5357,7 @@
 6	Elephants	SearchScreeningEvent	I-movie_name
 7	gspeid	SearchScreeningEvent	O
 
-# id: 436
+# id: 435
 # intent: AddToPlaylist
 # text-en: Add a song to this is racionais mc's
 # text: Mach a Liad in This is racionais mc‘s
@@ -5378,7 +5370,7 @@
 7	racionais	AddToPlaylist	I-playlist
 8	mc's	AddToPlaylist	I-playlist
 
-# id: 437
+# id: 436
 # intent: RateBook
 # text-en: rate the current essay zero out of 6 stars
 # text: Bewert den aktuellen Aufsatz mit 0 vo 6 Sterne
@@ -5392,7 +5384,7 @@
 8	6	RateBook	B-best_rating
 9	Sterne	RateBook	B-rating_unit
 
-# id: 438
+# id: 437
 # intent: PlayMusic
 # text-en: Let's hear stuff from Andrew Hewitt .
 # text: Hear ma Sachan vo Andrew Hewitt.
@@ -5404,7 +5396,7 @@
 6	Hewitt	PlayMusic	I-artist
 7	.	PlayMusic	O
 
-# id: 439
+# id: 438
 # intent: SearchScreeningEvent
 # text-en: Find animated movies close by
 # text: Find animierte Filme in da Nähe
@@ -5415,7 +5407,7 @@
 5	da	SearchScreeningEvent	I-location
 6	Nähe	SearchScreeningEvent	I-location
 
-# id: 440
+# id: 439
 # intent: RateBook
 # text-en: give the current chronicle five of 6 points
 # text: Gib da aktuellen Chronik 5 vo 6 Punktn 
@@ -5428,7 +5420,7 @@
 7	6	RateBook	B-best_rating
 8	Punktn	RateBook	B-rating_unit
 
-# id: 441
+# id: 440
 # intent: BookRestaurant
 # text-en: I need a table for 4 in Saint Helena at Settha Palace Hotel
 # text: I brauch an Disch für 4 in Saint Helena im Settha Palace Hotel
@@ -5446,7 +5438,7 @@
 12	Palace	BookRestaurant	I-restaurant_name
 13	Hotel	BookRestaurant	I-restaurant_name
 
-# id: 442
+# id: 441
 # intent: weather/find
 # text-en: What is the weather going to be like in Virginia on st. patrick's day ?
 # text: Wia werds Weda in Virginia am St. Patrick‘s Day sei?
@@ -5462,7 +5454,7 @@
 10	sei	weather/find	O
 11	?	weather/find	O
 
-# id: 443
+# id: 442
 # intent: SearchScreeningEvent
 # text-en: I need a list of Speakeasy Theaters movie times
 # text: I brauch a Listn vo de Speakeasy Theaters Filmzeitn
@@ -5476,7 +5468,7 @@
 8	Theaters	SearchScreeningEvent	I-location
 9	Filmzeitn	SearchScreeningEvent	B-object_type
 
-# id: 444
+# id: 443
 # intent: SearchCreativeWork
 # text-en: Look for the television show Meet the Prince
 # text: Suach nach da Fernsehshow Meet the Prince 
@@ -5488,7 +5480,7 @@
 6	the	SearchCreativeWork	I-object_name
 7	Prince	SearchCreativeWork	I-object_name
 
-# id: 445
+# id: 444
 # intent: SearchCreativeWork
 # text-en: Please get me the Compulsive Disclosure song .
 # text: Bitte suach ma des Compulsive Disclosure Liad. 
@@ -5501,7 +5493,7 @@
 7	Liad	SearchCreativeWork	B-object_type
 8	.	SearchCreativeWork	O
 
-# id: 446
+# id: 445
 # intent: PlayMusic
 # text-en: Play Trance Life on Zvooq .
 # text: Spui Trance Life auf Zvooq.
@@ -5512,7 +5504,7 @@
 5	Zvooq	PlayMusic	B-service
 6	.	PlayMusic	O
 
-# id: 447
+# id: 446
 # intent: SearchCreativeWork
 # text-en: Please find me the work, Serious Awesomeness !.
 # text: Bitte suach ma des Werk, Serious Awesomeness !. 
@@ -5525,7 +5517,7 @@
 7	Awesomeness	SearchCreativeWork	I-object_name
 8	!.	SearchCreativeWork	O
 
-# id: 448
+# id: 447
 # intent: SearchScreeningEvent
 # text-en: i want to see I Dream of Jeanie in a movie theatre
 # text: I mog I Dream of Jeanie im Kino seng 
@@ -5539,7 +5531,7 @@
 8	Kino	SearchScreeningEvent	B-object_location_type
 9	seng	SearchScreeningEvent	O
 
-# id: 449
+# id: 448
 # intent: PlayMusic
 # text-en: Play Paul Mccartney
 # text: Spui Paul McCartney 
@@ -5547,7 +5539,7 @@
 2	Paul	PlayMusic	B-artist
 3	McCartney	PlayMusic	I-artist
 
-# id: 450
+# id: 449
 # intent: RateBook
 # text-en: Rate the current novel 3 stars
 # text: Bewert dem aktuellen Roman mit 3 Sterne 
@@ -5559,7 +5551,7 @@
 6	3	RateBook	B-rating_value
 7	Sterne	RateBook	B-rating_unit
 
-# id: 451
+# id: 450
 # intent: SearchCreativeWork
 # text-en: Can you search the book , Paris - When It Sizzles ?
 # text: Konnst du mir des Buach Paris - When It Sizzles suacha? 
@@ -5576,7 +5568,7 @@
 11	suacha	SearchCreativeWork	O
 12	?	SearchCreativeWork	O
 
-# id: 452
+# id: 451
 # intent: PlayMusic
 # text-en: play some seventies Filipp Kirkorow
 # text: Spui boa Siebzga Filipp Kirkorow
@@ -5586,7 +5578,7 @@
 4	Filipp	PlayMusic	B-artist
 5	Kirkorow	PlayMusic	I-artist
 
-# id: 453
+# id: 452
 # intent: BookRestaurant
 # text-en: I want to book a bougatsa restaurant in next year nearby Penn for three people.
 # text: I mechat a Bougatsa Restaurant nächsts Johr in da Nähe vo Penn füa drei Leid buacha. 
@@ -5608,7 +5600,7 @@
 16	buacha	BookRestaurant	O
 17	.	BookRestaurant	O
 
-# id: 454
+# id: 453
 # intent: weather/find
 # text-en: Will it be rainy in Tenino ?
 # text: Werds regnerisch in Tenino? 
@@ -5618,7 +5610,7 @@
 4	Tenino	weather/find	B-location
 5	?	weather/find	O
 
-# id: 455
+# id: 454
 # intent: SearchCreativeWork
 # text-en: Please look up Three Essays on the Theory of Sexuality show .
 # text: Bitte suach de Three Essays on the Theory of Sexuality Show.
@@ -5635,7 +5627,7 @@
 11	Show	SearchCreativeWork	B-object_type
 12	.	SearchCreativeWork	O
 
-# id: 456
+# id: 455
 # intent: BookRestaurant
 # text-en: I want to eat in Ramona
 # text: I mechat in Ramona essn
@@ -5645,7 +5637,7 @@
 4	Ramona	BookRestaurant	B-location
 5	essn	BookRestaurant	O
 
-# id: 457
+# id: 456
 # intent: AddToPlaylist
 # text-en: Add the boy george track to the Emo Forever playlist.
 # text: Mach des Boy George Liad auf de Emo Forever Playlist. 
@@ -5660,7 +5652,7 @@
 9	Forever	AddToPlaylist	I-playlist
 10	Playlist.	AddToPlaylist	O
 
-# id: 458
+# id: 457
 # intent: BookRestaurant
 # text-en: I want to book a steakhouse in Vimy Ridge .
 # text: I mechad in am Steakhouse in Vimy Ridge buacha. 
@@ -5675,7 +5667,7 @@
 9	buacha	BookRestaurant	O
 10	.	BookRestaurant	O
 
-# id: 459
+# id: 458
 # intent: SearchScreeningEvent
 # text-en: Is Without Witness playing twenty two hours from now
 # text: Werd Without Witness in zwoarazwangst Stundn vo jetzad gspuid
@@ -5689,7 +5681,7 @@
 8	jetzad	SearchScreeningEvent	I-datetime
 9	gspuid	SearchScreeningEvent	O
 
-# id: 460
+# id: 459
 # intent: BookRestaurant
 # text-en: Book spot for 9
 # text: Buach an Blotz füa 9
@@ -5699,7 +5691,7 @@
 4	füa	BookRestaurant	O
 5	9	BookRestaurant	B-party_size_number
 
-# id: 461
+# id: 460
 # intent: AddToPlaylist
 # text-en: add this track to my Hands Up playlist
 # text: Mach des Liadl in mei Hands Up Playlist
@@ -5712,7 +5704,7 @@
 7	Up	AddToPlaylist	I-playlist
 8	Playlist	AddToPlaylist	O
 
-# id: 462
+# id: 461
 # intent: PlayMusic
 # text-en: Play something from 90s Pop Rock Essentials
 # text: Spui eps vo 90s Pop Rock Essentials
@@ -5724,7 +5716,7 @@
 6	Rock	PlayMusic	I-playlist
 7	Essentials	PlayMusic	I-playlist
 
-# id: 463
+# id: 462
 # intent: SearchCreativeWork
 # text-en: Can you find me the Blue Spring trailer ?
 # text: Konnst du mir den Blue Spring Trailer findn? 
@@ -5738,7 +5730,7 @@
 8	findn	SearchCreativeWork	O
 9	?	SearchCreativeWork	O
 
-# id: 464
+# id: 463
 # intent: RateBook
 # text-en: Give two stars out of 6 to 36 Children
 # text: Gib 36 Children zwoa Sterne vo 6 
@@ -5750,7 +5742,7 @@
 6	vo	RateBook	O
 7	6	RateBook	B-best_rating
 
-# id: 465
+# id: 464
 # intent: SearchScreeningEvent
 # text-en: I want animated movies at MJR Theatres
 # text: I mechad animierte Filme in MJR Theatres
@@ -5762,7 +5754,7 @@
 6	MJR	SearchScreeningEvent	B-location
 7	Theatres	SearchScreeningEvent	I-location
 
-# id: 466
+# id: 465
 # intent: AddToPlaylist
 # text-en: Add the artist mike to the Sexy as Folk playlist.
 # text: Mach den Künstla Mike in de Sexy as Fok Playlist. 
@@ -5777,7 +5769,7 @@
 9	Folk	AddToPlaylist	I-playlist
 10	Playlist.	AddToPlaylist	O
 
-# id: 467
+# id: 466
 # intent: AddToPlaylist
 # text-en: add Highway Patrolman in my playlist this is al green
 # text: Mach Highway Patrolman in mei Playlist this is al green
@@ -5792,7 +5784,7 @@
 9	al	AddToPlaylist	I-playlist
 10	green	AddToPlaylist	I-playlist
 
-# id: 468
+# id: 467
 # intent: SearchCreativeWork
 # text-en: Find me the novel with the name To Lose My Life …
 # text: Find ma den Roman mit dem Namen To Lose My Life … 
@@ -5809,7 +5801,7 @@
 11	Life	SearchCreativeWork	I-object_name
 12	…	SearchCreativeWork	O
 
-# id: 469
+# id: 468
 # intent: RateBook
 # text-en: mark this album a score of 5
 # text: Markier des Album mit am Wert vo 5 
@@ -5822,7 +5814,7 @@
 7	vo	RateBook	O
 8	5	RateBook	B-rating_value
 
-# id: 470
+# id: 469
 # intent: SearchScreeningEvent
 # text-en: Is Rare Birds showing at the nearest movie theatre at noon .
 # text: Werd Rare Birds im nächsten Kino um Middog gspuid
@@ -5836,7 +5828,7 @@
 8	Middog	SearchScreeningEvent	B-datetime
 9	gspuid	SearchScreeningEvent	O
 
-# id: 471
+# id: 470
 # intent: RateBook
 # text-en: Rate The 8-Week Cholesterol Cure three out of 6 .
 # text: Bewert The 8-Week Cholesterol Cure mit drei vo 6. 
@@ -5851,7 +5843,7 @@
 9	6	RateBook	B-best_rating
 10	.	RateBook	O
 
-# id: 472
+# id: 471
 # intent: AddToPlaylist
 # text-en: Add martin barre to my punk unplugged playlist.
 # text: Mach Martin Barre in mei punk unplugged Playlist. 
@@ -5864,7 +5856,7 @@
 7	unplugged	AddToPlaylist	I-playlist
 8	Playlist.	AddToPlaylist	O
 
-# id: 473
+# id: 472
 # intent: RateBook
 # text-en: rate the current novel zero out of 6
 # text: Bewert den aktuellen Roman mit null vo 6
@@ -5877,7 +5869,7 @@
 7	vo	RateBook	O
 8	6	RateBook	B-best_rating
 
-# id: 474
+# id: 473
 # intent: SearchScreeningEvent
 # text-en: What times will The Young Swordsman be showing at my cinema ?
 # text: Zu weichane Zeitn werd The Young Swordsman in meim Kino zoagt? 
@@ -5894,7 +5886,7 @@
 11	zoagt	SearchScreeningEvent	O
 12	?	SearchScreeningEvent	O
 
-# id: 475
+# id: 474
 # intent: SearchScreeningEvent
 # text-en: What are the movies showing in the neighbourhood
 # text: Weichane Filme wern in da Nachbarschaft gspuid 
@@ -5906,7 +5898,7 @@
 6	Nachbarschaft	SearchScreeningEvent	I-location
 7	gspuid	SearchScreeningEvent	O
 
-# id: 476
+# id: 475
 # intent: BookRestaurant
 # text-en: I want to book Oregon Electric Station in North City .
 # text: I mechad im Oregon Electric Station in North City buacha. 
@@ -5922,7 +5914,7 @@
 10	buacha	BookRestaurant	O
 11	.	BookRestaurant	O
 
-# id: 477
+# id: 476
 # intent: weather/find
 # text-en: how's the weather here at two Am
 # text: Wia isn s Weda do um zwoa in da fria 
@@ -5937,7 +5929,7 @@
 9	da	weather/find	I-datetime
 10	fria	weather/find	I-datetime
 
-# id: 478
+# id: 477
 # intent: SearchScreeningEvent
 # text-en: Fine the movie schedules for the Wanda Group .
 # text: Suach ma de Vorstellungszeitn füa de Wanda Group. 
@@ -5951,7 +5943,7 @@
 8	Group	SearchScreeningEvent	I-location
 9	.	SearchScreeningEvent	O
 
-# id: 479
+# id: 478
 # intent: weather/find
 # text-en: what is the forecast for Waurika in Samoa
 # text: Wos is de Vorhersage füa Waurika in Samoa
@@ -5964,7 +5956,7 @@
 7	in	weather/find	O
 8	Samoa	weather/find	B-location
 
-# id: 480
+# id: 479
 # intent: SearchScreeningEvent
 # text-en: Show the movie schedules in the neighborhood
 # text: Zoag de Vorstellungszeitn in da Nachbarschaft o
@@ -5976,7 +5968,7 @@
 6	Nachbarschaft	SearchScreeningEvent	I-location
 7	o	SearchScreeningEvent	O
 
-# id: 481
+# id: 480
 # intent: PlayMusic
 # text-en: Play some blues britânico .
 # text: Spui bissl Blues Britânico. 
@@ -5986,7 +5978,7 @@
 4	Britânico	PlayMusic	I-genre
 5	.	PlayMusic	O
 
-# id: 482
+# id: 481
 # intent: SearchScreeningEvent
 # text-en: Is No Time to Be Young showing at AMC Theaters
 # text: Werd No Time to Be Young in AMC Theaters gspuid 
@@ -6001,7 +5993,7 @@
 9	Theaters	SearchScreeningEvent	I-location
 10	gspuid	SearchScreeningEvent	O
 
-# id: 483
+# id: 482
 # intent: SearchCreativeWork
 # text-en: Please look up and find me Monty Python Live at the Hollywood Bowl .
 # text: Bitte schau noch und find ma Monty Python Live at the Hollywood Bowl. 
@@ -6020,7 +6012,7 @@
 13	Bowl	SearchCreativeWork	I-object_name
 14	.	SearchCreativeWork	O
 
-# id: 484
+# id: 483
 # intent: weather/find
 # text-en: what is the forecast for here for blizzard conditions at five pm
 # text: Wia is de Vorhersage do füa Schneesturmbedingungen um fünfe nammiddog
@@ -6035,7 +6027,7 @@
 9	fünfe	weather/find	B-datetime
 10	nammiddog	weather/find	I-datetime
 
-# id: 485
+# id: 484
 # intent: AddToPlaylist
 # text-en: add ireland in the junior eurovision song contest 2015 to my Jazzy Dinner playlist
 # text: Mach Ireland in the Junior Eurovision Song Contest 2015 in mei Jazzy Dinner Playlist
@@ -6054,7 +6046,7 @@
 13	Dinner	AddToPlaylist	I-playlist
 14	Playlist	AddToPlaylist	O
 
-# id: 486
+# id: 485
 # intent: AddToPlaylist
 # text-en: Add a song to Indie Hipster
 # text: Mach a Liadl zu Indie Hipster dazua
@@ -6066,7 +6058,7 @@
 6	Hipster	AddToPlaylist	I-playlist
 7	dazua	AddToPlaylist	O
 
-# id: 487
+# id: 486
 # intent: SearchCreativeWork
 # text-en: Can you find me the National Anthem of the Ancient Britons television show ?
 # text: Konnst du mir de National Anthem of the Ancient Britons Fernsehsendung findn? 
@@ -6084,7 +6076,7 @@
 12	findn	SearchCreativeWork	O
 13	?	SearchCreativeWork	O
 
-# id: 488
+# id: 487
 # intent: AddToPlaylist
 # text-en: To the travelling playlist, please add this David Gahan song .
 # text: In de travelling Playlist, bitte mach des David Gahan Liad do eine.  
@@ -6102,7 +6094,7 @@
 12	eine	AddToPlaylist	O
 13	.	AddToPlaylist	O
 
-# id: 489
+# id: 488
 # intent: PlayMusic
 # text-en: I want to hear them from the artist Murcof
 # text: I mechad de vom Künstla Murcof hearn 
@@ -6114,7 +6106,7 @@
 6	Murcof	PlayMusic	B-artist
 7	hearn	PlayMusic	O
 
-# id: 490
+# id: 489
 # intent: RateBook
 # text-en: rate The Gift: Imagination and the Erotic Life of Property five stars
 # text: Bewert The Gift: Imagination and the Erotic Life of Property mit fünf Sterne 
@@ -6132,7 +6124,7 @@
 12	fünf	RateBook	B-rating_value
 13	Sterne	RateBook	B-rating_unit
 
-# id: 491
+# id: 490
 # intent: SearchCreativeWork
 # text-en: Find me a TV show called Baby Blue
 # text: Suach ma a Fernsehserie namens Baby Blue
@@ -6144,7 +6136,7 @@
 7	Baby	SearchCreativeWork	B-object_name
 8	Blue	SearchCreativeWork	I-object_name
 
-# id: 492
+# id: 491
 # intent: SearchCreativeWork
 # text-en: look for the book The Girl Who Was Plugged In
 # text: Suach nach dem Buach The Girl Who Was Plugged In 
@@ -6159,7 +6151,7 @@
 9	Plugged	SearchCreativeWork	I-object_name
 10	In	SearchCreativeWork	I-object_name
 
-# id: 493
+# id: 492
 # intent: BookRestaurant
 # text-en: phyllis ward and veronica need a table at a restaurant in 152 days
 # text: Phyllis Ward und Veronica brauchan an Disch in am Restaurant in 152 Dog 
@@ -6177,7 +6169,7 @@
 12	152	BookRestaurant	I-datetime
 13	Dog	BookRestaurant	I-datetime
 
-# id: 494
+# id: 493
 # intent: BookRestaurant
 # text-en: Book a popular restaurant for 5 people
 # text: Buach a beliebtes Restaurant füa 5 Leid 
@@ -6189,7 +6181,7 @@
 6	5	BookRestaurant	B-party_size_number
 7	Leid	BookRestaurant	O
 
-# id: 495
+# id: 494
 # intent: BookRestaurant
 # text-en: Book a reservation for The Dome, Edinburgh close to Brooklawn
 # text: Mach a Reservierung füa The Dome, Edinburgh nahe Brooklawn 
@@ -6203,7 +6195,7 @@
 8	nahe	BookRestaurant	B-location
 9	Brooklawn	BookRestaurant	I-location
 
-# id: 496
+# id: 495
 # intent: AddToPlaylist
 # text-en: Add this album to Old School Death Metal
 # text: Mach des Album zu Old School Death Metal dazua 
@@ -6217,7 +6209,7 @@
 8	Metal	AddToPlaylist	I-playlist
 9	dazua	AddToPlaylist	O
 
-# id: 497
+# id: 496
 # intent: SearchCreativeWork
 # text-en: Look for the TV series Jersey Boys
 # text: Suach nach da TV Serie Jersey Boys 
@@ -6229,7 +6221,7 @@
 6	Jersey	SearchCreativeWork	B-object_name
 7	Boys	SearchCreativeWork	I-object_name
 
-# id: 498
+# id: 497
 # intent: BookRestaurant
 # text-en: Book a reservation for nine people at the best pub nearby Tangier in six months
 # text: Mach a Reservierung füa nein Leid im besten Pub nahe Tangier in sechs Monat 
@@ -6248,7 +6240,7 @@
 13	sechs	BookRestaurant	I-datetime
 14	Monat	BookRestaurant	I-datetime
 
-# id: 499
+# id: 498
 # intent: SearchScreeningEvent
 # text-en: Show me the movies at Harkins Theatres .
 # text: Zoag ma de filme bei Harkins Theatres .
@@ -6261,7 +6253,7 @@
 7	Theatres	SearchScreeningEvent	I-location
 8	.	SearchScreeningEvent	O
 
-# id: 500
+# id: 499
 # intent: BookRestaurant
 # text-en: book a party at their campus within the same area for churrascaria
 # text: Buach a Party an earnam Campus in da gleichen Gegend füa Churrascaria 
@@ -6277,3 +6269,11 @@
 10	Gegend	BookRestaurant	I-location
 11	füa	BookRestaurant	O
 12	Churrascaria	BookRestaurant	B-restaurant_type
+
+# id: 500
+# intent: reminder/show_reminders
+# text-en: Show my reminder
+# text: Zoag meine Erinnerungen  
+1	Zoag	reminder/show_reminders	O
+2	meine	reminder/show_reminders	B-reference
+3	Erinnerungen	reminder/show_reminders	O
