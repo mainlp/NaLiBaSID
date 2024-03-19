@@ -1,0 +1,3399 @@
+# id: 1
+# text: panaikinti žadintuvą 10-tos valandos
+# intent: alarm/cancel_alarm
+1	panaikinti	alarm/cancel_alarm	O
+2	žadintuvą	alarm/cancel_alarm	O
+3	10-tos	alarm/cancel_alarm	B-datetime
+4	valandos	alarm/cancel_alarm	I-datetime
+
+# id: 2
+# text: Atšauk rytojaus dešimtos valandos žadintuvą
+# intent: alarm/cancel_alarm
+1	Atšauk	alarm/cancel_alarm	O
+2	rytojaus	alarm/cancel_alarm	B-datetime
+3	dešimtos	alarm/cancel_alarm	I-datetime
+4	valandos	alarm/cancel_alarm	I-datetime
+5	žadintuvą	alarm/cancel_alarm	O
+
+# id: 3
+# text: Išjungti rytojaus žadintuva.
+# intent: alarm/cancel_alarm
+1	Išjungti	alarm/cancel_alarm	O
+2	rytojaus	alarm/cancel_alarm	B-datetime
+3	žadintuva	alarm/cancel_alarm	O
+4	.	alarm/cancel_alarm	O
+
+# id: 4
+# text: Išjungti žadintuvą
+# intent: alarm/cancel_alarm
+1	Išjungti	alarm/cancel_alarm	O
+2	žadintuvą	alarm/cancel_alarm	O
+
+# id: 5
+# text: Neskambėk
+# intent: alarm/cancel_alarm
+1	Neskambėk	alarm/cancel_alarm	O
+
+# id: 6
+# text: Išjunk rytojaus rytinį žadintuvą
+# intent: alarm/cancel_alarm
+1	Išjunk	alarm/cancel_alarm	O
+2	rytojaus	alarm/cancel_alarm	B-datetime
+3	rytinį	alarm/cancel_alarm	I-datetime
+4	žadintuvą	alarm/cancel_alarm	O
+
+# id: 7
+# text: Reikia atšaukti žadintuvą
+# intent: alarm/cancel_alarm
+1	Reikia	alarm/cancel_alarm	O
+2	atšaukti	alarm/cancel_alarm	O
+3	žadintuvą	alarm/cancel_alarm	O
+
+# id: 8
+# text: Atšaukti žadintuvą rytoj 10.00 val.
+# intent: alarm/cancel_alarm
+1	Atšaukti	alarm/cancel_alarm	O
+2	žadintuvą	alarm/cancel_alarm	O
+3	rytoj	alarm/cancel_alarm	B-datetime
+4	10.00	alarm/cancel_alarm	I-datetime
+5	val	alarm/cancel_alarm	I-datetime
+6	.	alarm/cancel_alarm	O
+
+# id: 9
+# text: Išjunk žadintuva
+# intent: alarm/cancel_alarm
+1	Išjunk	alarm/cancel_alarm	O
+2	žadintuva	alarm/cancel_alarm	O
+
+# id: 10
+# text: Atšauk žadintuvą rytoj septintą
+# intent: alarm/cancel_alarm
+1	Atšauk	alarm/cancel_alarm	O
+2	žadintuvą	alarm/cancel_alarm	O
+3	rytoj	alarm/cancel_alarm	B-datetime
+4	septintą	alarm/cancel_alarm	I-datetime
+
+# id: 11
+# text: Išjunk žadintuva ryto
+# intent: alarm/cancel_alarm
+1	Išjunk	alarm/cancel_alarm	O
+2	žadintuva	alarm/cancel_alarm	O
+3	ryto	alarm/cancel_alarm	B-datetime
+
+# id: 12
+# text: Atšaukti rytojaus žadintuva
+# intent: alarm/cancel_alarm
+1	Atšaukti	alarm/cancel_alarm	O
+2	rytojaus	alarm/cancel_alarm	B-datetime
+3	žadintuva	alarm/cancel_alarm	O
+
+# id: 13
+# text: Išjungti žadintuva, rytdienos rytui 6:40 valandos
+# intent: alarm/cancel_alarm
+1	Išjungti	alarm/cancel_alarm	O
+2	žadintuva	alarm/cancel_alarm	O
+3	,	alarm/cancel_alarm	O
+4	rytdienos	alarm/cancel_alarm	B-datetime
+5	rytui	alarm/cancel_alarm	I-datetime
+6	6:40	alarm/cancel_alarm	I-datetime
+7	valandos	alarm/cancel_alarm	I-datetime
+
+# id: 14
+# text: Išjunk žadintuvą.
+# intent: alarm/cancel_alarm
+1	Išjunk	alarm/cancel_alarm	O
+2	žadintuvą	alarm/cancel_alarm	O
+3	.	alarm/cancel_alarm	O
+
+# id: 15
+# text: Atšaukti žadintuvą 10 val.
+# intent: alarm/cancel_alarm
+1	Atšaukti	alarm/cancel_alarm	O
+2	žadintuvą	alarm/cancel_alarm	O
+3	10	alarm/cancel_alarm	B-datetime
+4	val	alarm/cancel_alarm	I-datetime
+5	.	alarm/cancel_alarm	O
+
+# id: 16
+# text: Atšauk žadintuvą.
+# intent: alarm/cancel_alarm
+1	Atšauk	alarm/cancel_alarm	O
+2	žadintuvą	alarm/cancel_alarm	O
+3	.	alarm/cancel_alarm	O
+
+# id: 17
+# text: Išjunk mano rytinius žadintuvus savaitgaliui
+# intent: alarm/cancel_alarm
+1	Išjunk	alarm/cancel_alarm	O
+2	mano	alarm/cancel_alarm	B-reference
+3	rytinius	alarm/cancel_alarm	B-recurring_datetime
+4	žadintuvus	alarm/cancel_alarm	O
+5	savaitgaliui	alarm/cancel_alarm	B-recurring_datetime
+
+# id: 18
+# text: Išjungti žadintuvą
+# intent: alarm/cancel_alarm
+1	Išjungti	alarm/cancel_alarm	O
+2	žadintuvą	alarm/cancel_alarm	O
+
+# id: 19
+# text: įjungti žadintuvą 10-tai valandai
+# intent: alarm/set_alarm
+1	įjungti	alarm/set_alarm	O
+2	žadintuvą	alarm/set_alarm	O
+3	10-tai	alarm/set_alarm	B-datetime
+4	valandai	alarm/set_alarm	I-datetime
+
+# id: 20
+# text: Įjunk žadintuvą rytoj šeštą valandą ryto
+# intent: alarm/set_alarm
+1	Įjunk	alarm/set_alarm	O
+2	žadintuvą	alarm/set_alarm	O
+3	rytoj	alarm/set_alarm	B-datetime
+4	šeštą	alarm/set_alarm	I-datetime
+5	valandą	alarm/set_alarm	I-datetime
+6	ryto	alarm/set_alarm	I-datetime
+
+# id: 21
+# text: Nustatyk žadintuvą kiekvienai darbo dienai šeštai ryto. 
+# intent: alarm/set_alarm
+1	Nustatyk	alarm/set_alarm	O
+2	žadintuvą	alarm/set_alarm	O
+3	kiekvienai	alarm/set_alarm	B-recurring_datetime
+4	darbo	alarm/set_alarm	I-recurring_datetime
+5	dienai	alarm/set_alarm	I-recurring_datetime
+6	šeštai	alarm/set_alarm	I-recurring_datetime
+7	ryto	alarm/set_alarm	I-recurring_datetime
+8	.	alarm/set_alarm	O
+
+# id: 22
+# text: Nustatyti žadintuvą 15 valandai
+# intent: alarm/set_alarm
+1	Nustatyti	alarm/set_alarm	O
+2	žadintuvą	alarm/set_alarm	O
+3	15	alarm/set_alarm	B-datetime
+4	valandai	alarm/set_alarm	I-datetime
+
+# id: 23
+# text: Nustatyk žadintuvą aštuntai valandai ryto
+# intent: alarm/set_alarm
+1	Nustatyk	alarm/set_alarm	O
+2	žadintuvą	alarm/set_alarm	O
+3	aštuntai	alarm/set_alarm	B-datetime
+4	valandai	alarm/set_alarm	I-datetime
+5	ryto	alarm/set_alarm	I-datetime
+
+# id: 24
+# text: Nustatyk žadintuvą penktai valandai
+# intent: alarm/set_alarm
+1	Nustatyk	alarm/set_alarm	O
+2	žadintuvą	alarm/set_alarm	O
+3	penktai	alarm/set_alarm	B-datetime
+4	valandai	alarm/set_alarm	I-datetime
+
+# id: 25
+# text: Reikia nustatyti žadintuvą penktai
+# intent: alarm/set_alarm
+1	Reikia	alarm/set_alarm	O
+2	nustatyti	alarm/set_alarm	O
+3	žadintuvą	alarm/set_alarm	O
+4	penktai	alarm/set_alarm	B-datetime
+
+# id: 26
+# text: Įjungti žadintuvą rytoj 10.00 val
+# intent: alarm/set_alarm
+1	Įjungti	alarm/set_alarm	O
+2	žadintuvą	alarm/set_alarm	O
+3	rytoj	alarm/set_alarm	B-datetime
+4	10.00	alarm/set_alarm	I-datetime
+5	val	alarm/set_alarm	I-datetime
+
+# id: 27
+# text: Užstatyk žadintuva pirmaidenį septintą
+# intent: alarm/set_alarm
+1	Užstatyk	alarm/set_alarm	O
+2	žadintuva	alarm/set_alarm	O
+3	pirmaidenį	alarm/set_alarm	B-datetime
+4	septintą	alarm/set_alarm	I-datetime
+
+# id: 28
+# text: Nustatyk žadintuvą rytoj aštuntai
+# intent: alarm/set_alarm
+1	Nustatyk	alarm/set_alarm	O
+2	žadintuvą	alarm/set_alarm	O
+3	rytoj	alarm/set_alarm	B-datetime
+4	aštuntai	alarm/set_alarm	I-datetime
+
+# id: 29
+# text: įjunk žadintuva aštuntai valandai
+# intent: alarm/set_alarm
+1	įjunk	alarm/set_alarm	O
+2	žadintuva	alarm/set_alarm	O
+3	aštuntai	alarm/set_alarm	B-datetime
+4	valandai	alarm/set_alarm	I-datetime
+
+# id: 30
+# text: Nustatyti rytojui septintai valandai žadintuva
+# intent: alarm/set_alarm
+1	Nustatyti	alarm/set_alarm	O
+2	rytojui	alarm/set_alarm	B-datetime
+3	septintai	alarm/set_alarm	I-datetime
+4	valandai	alarm/set_alarm	I-datetime
+5	žadintuva	alarm/set_alarm	O
+
+# id: 31
+# text: Ijungti žadintuva, darbo dienoms 6:40 h
+# intent: alarm/set_alarm
+1	Ijungti	alarm/set_alarm	O
+2	žadintuva	alarm/set_alarm	O
+3	,	alarm/set_alarm	O
+4	darbo	alarm/set_alarm	B-recurring_datetime
+5	dienoms	alarm/set_alarm	I-recurring_datetime
+6	6:40	alarm/set_alarm	I-recurring_datetime
+7	h	alarm/set_alarm	I-recurring_datetime
+
+# id: 32
+# text: Nustatyti žadintuvą 8 valandai
+# intent: alarm/set_alarm
+1	Nustatyti	alarm/set_alarm	O
+2	žadintuvą	alarm/set_alarm	O
+3	8	alarm/set_alarm	B-datetime
+4	valandai	alarm/set_alarm	I-datetime
+
+# id: 33
+# text: Nustatyk žadintuvą septintai valandai ryto.
+# intent: alarm/set_alarm
+1	Nustatyk	alarm/set_alarm	O
+2	žadintuvą	alarm/set_alarm	O
+3	septintai	alarm/set_alarm	B-datetime
+4	valandai	alarm/set_alarm	I-datetime
+5	ryto	alarm/set_alarm	I-datetime
+6	.	alarm/set_alarm	O
+
+# id: 34
+# text: Įjunkite naują žadintuvą 12 dienos
+# intent: alarm/set_alarm
+1	Įjunkite	alarm/set_alarm	O
+2	naują	alarm/set_alarm	O
+3	žadintuvą	alarm/set_alarm	O
+4	12	alarm/set_alarm	B-datetime
+5	dienos	alarm/set_alarm	I-datetime
+
+# id: 35
+# text: įjungti žadintuvą trečiai
+# intent: alarm/set_alarm
+1	įjungti	alarm/set_alarm	O
+2	žadintuvą	alarm/set_alarm	O
+3	trečiai	alarm/set_alarm	B-datetime
+
+# id: 36
+# text: pakeisk žadintuvą 10-tos valandos 11-tai valandai
+# intent: alarm/modify_alarm
+1	pakeisk	alarm/modify_alarm	O
+2	žadintuvą	alarm/modify_alarm	O
+3	10-tos	alarm/modify_alarm	B-datetime
+4	valandos	alarm/modify_alarm	I-datetime
+5	11-tai	alarm/modify_alarm	I-datetime
+6	valandai	alarm/modify_alarm	I-datetime
+
+# id: 37
+# text: Pakeisk rytojaus žadintuvą iš dešimtis valandos į devintą valandą ryto
+# intent: alarm/modify_alarm
+1	Pakeisk	alarm/modify_alarm	O
+2	rytojaus	alarm/modify_alarm	B-datetime
+3	žadintuvą	alarm/modify_alarm	O
+4	iš	alarm/modify_alarm	B-datetime
+5	dešimtis	alarm/modify_alarm	I-datetime
+6	valandos	alarm/modify_alarm	I-datetime
+7	į	alarm/modify_alarm	I-datetime
+8	devintą	alarm/modify_alarm	I-datetime
+9	valandą	alarm/modify_alarm	I-datetime
+10	ryto	alarm/modify_alarm	I-datetime
+
+# id: 38
+# text: Rytojaus šeštos ryto žadintuvą pakeisk į aštuntą.
+# intent: alarm/modify_alarm
+1	Rytojaus	alarm/modify_alarm	B-datetime
+2	šeštos	alarm/modify_alarm	I-datetime
+3	ryto	alarm/modify_alarm	I-datetime
+4	žadintuvą	alarm/modify_alarm	O
+5	pakeisk	alarm/modify_alarm	O
+6	į	alarm/modify_alarm	O
+7	aštuntą	alarm/modify_alarm	B-datetime
+8	.	alarm/modify_alarm	O
+
+# id: 39
+# text: Pakeisk žadintuvą iš aštuntos valandos į aštuonios trisdešimt
+# intent: alarm/modify_alarm
+1	Pakeisk	alarm/modify_alarm	O
+2	žadintuvą	alarm/modify_alarm	O
+3	iš	alarm/modify_alarm	O
+4	aštuntos	alarm/modify_alarm	B-datetime
+5	valandos	alarm/modify_alarm	I-datetime
+6	į	alarm/modify_alarm	O
+7	aštuonios	alarm/modify_alarm	B-datetime
+8	trisdešimt	alarm/modify_alarm	I-datetime
+
+# id: 40
+# text: Pakeisk žadintuvo laiką į septintą valandą
+# intent: alarm/modify_alarm
+1	Pakeisk	alarm/modify_alarm	O
+2	žadintuvo	alarm/modify_alarm	O
+3	laiką	alarm/modify_alarm	O
+4	į	alarm/modify_alarm	O
+5	septintą	alarm/modify_alarm	B-datetime
+6	valandą	alarm/modify_alarm	I-datetime
+
+# id: 41
+# text: Pakeisk rytojaus aštuntos žadintuvą dešimtai
+# intent: alarm/modify_alarm
+1	Pakeisk	alarm/modify_alarm	O
+2	rytojaus	alarm/modify_alarm	B-datetime
+3	aštuntos	alarm/modify_alarm	I-datetime
+4	žadintuvą	alarm/modify_alarm	O
+5	dešimtai	alarm/modify_alarm	B-datetime
+
+# id: 42
+# text: Pakeisk žadintuvo laiką iš aštuntos į devintą valandą
+# intent: alarm/modify_alarm
+1	Pakeisk	alarm/modify_alarm	O
+2	žadintuvo	alarm/modify_alarm	O
+3	laiką	alarm/modify_alarm	O
+4	iš	alarm/modify_alarm	O
+5	aštuntos	alarm/modify_alarm	B-datetime
+6	į	alarm/modify_alarm	O
+7	devintą	alarm/modify_alarm	B-datetime
+8	valandą	alarm/modify_alarm	I-datetime
+
+# id: 43
+# text: Pakeisti rytojaus žadintuva į šeštą valandą
+# intent: alarm/modify_alarm
+1	Pakeisti	alarm/modify_alarm	O
+2	rytojaus	alarm/modify_alarm	B-datetime
+3	žadintuva	alarm/modify_alarm	O
+4	į	alarm/modify_alarm	O
+5	šeštą	alarm/modify_alarm	B-datetime
+6	valandą	alarm/modify_alarm	I-datetime
+
+# id: 44
+# text: Pakeisti žadintuvo laiką, rytdienai i 5:30 valandą
+# intent: alarm/modify_alarm
+1	Pakeisti	alarm/modify_alarm	O
+2	žadintuvo	alarm/modify_alarm	O
+3	laiką	alarm/modify_alarm	O
+4	,	alarm/modify_alarm	O
+5	rytdienai	alarm/modify_alarm	B-datetime
+6	i	alarm/modify_alarm	I-datetime
+7	5:30	alarm/modify_alarm	I-datetime
+8	valandą	alarm/modify_alarm	I-datetime
+
+# id: 45
+# text: 8 val žadintuvą pakeiti laiku 8.20 valandai
+# intent: alarm/modify_alarm
+1	8	alarm/modify_alarm	B-datetime
+2	val	alarm/modify_alarm	I-datetime
+3	žadintuvą	alarm/modify_alarm	O
+4	pakeiti	alarm/modify_alarm	O
+5	laiku	alarm/modify_alarm	O
+6	8.20	alarm/modify_alarm	B-datetime
+7	valandai	alarm/modify_alarm	I-datetime
+
+# id: 46
+# text: Pakeisk pirmadienio žadintuvą septintai ryto
+# intent: alarm/modify_alarm
+1	Pakeisk	alarm/modify_alarm	O
+2	pirmadienio	alarm/modify_alarm	B-datetime
+3	žadintuvą	alarm/modify_alarm	O
+4	septintai	alarm/modify_alarm	B-datetime
+5	ryto	alarm/modify_alarm	I-datetime
+
+# id: 47
+# text: parodyt žadintuvus nustatytus
+# intent: alarm/show_alarms
+1	parodyt	alarm/show_alarms	O
+2	žadintuvus	alarm/show_alarms	O
+3	nustatytus	alarm/show_alarms	O
+
+# id: 48
+# text: Parodyk kokie žadintuvai šiuo metu yra įjungti
+# intent: alarm/show_alarms
+1	Parodyk	alarm/show_alarms	O
+2	kokie	alarm/show_alarms	O
+3	žadintuvai	alarm/show_alarms	O
+4	šiuo	alarm/show_alarms	O
+5	metu	alarm/show_alarms	O
+6	yra	alarm/show_alarms	O
+7	įjungti	alarm/show_alarms	O
+
+# id: 49
+# text: Kokie yra aktyvūs žadintuvai?
+# intent: alarm/show_alarms
+1	Kokie	alarm/show_alarms	O
+2	yra	alarm/show_alarms	O
+3	aktyvūs	alarm/show_alarms	O
+4	žadintuvai	alarm/show_alarms	O
+5	?	alarm/show_alarms	O
+
+# id: 50
+# text: Aktyvūs žadintuvai
+# intent: alarm/show_alarms
+1	Aktyvūs	alarm/show_alarms	O
+2	žadintuvai	alarm/show_alarms	O
+
+# id: 51
+# text: Parodyk žadintuvo laiką
+# intent: alarm/show_alarms
+1	Parodyk	alarm/show_alarms	O
+2	žadintuvo	alarm/show_alarms	O
+3	laiką	alarm/show_alarms	O
+
+# id: 52
+# text: Kokie žadintuvai yra šiuo metu nustatyti
+# intent: alarm/show_alarms
+1	Kokie	alarm/show_alarms	O
+2	žadintuvai	alarm/show_alarms	O
+3	yra	alarm/show_alarms	O
+4	šiuo	alarm/show_alarms	O
+5	metu	alarm/show_alarms	O
+6	nustatyti	alarm/show_alarms	O
+
+# id: 53
+# text: Parodyk visus žadintuvus
+# intent: alarm/show_alarms
+1	Parodyk	alarm/show_alarms	O
+2	visus	alarm/show_alarms	B-reference
+3	žadintuvus	alarm/show_alarms	O
+
+# id: 54
+# text: Prašau pasakyti nustatytus žadintuvus
+# intent: alarm/show_alarms
+1	Prašau	alarm/show_alarms	O
+2	pasakyti	alarm/show_alarms	O
+3	nustatytus	alarm/show_alarms	O
+4	žadintuvus	alarm/show_alarms	O
+
+# id: 55
+# text: Kokie yra žadintuvai?
+# intent: alarm/show_alarms
+1	Kokie	alarm/show_alarms	O
+2	yra	alarm/show_alarms	O
+3	žadintuvai	alarm/show_alarms	O
+4	?	alarm/show_alarms	O
+
+# id: 56
+# text: Pasakyk kokie pas mane žadintuvai
+# intent: alarm/show_alarms
+1	Pasakyk	alarm/show_alarms	O
+2	kokie	alarm/show_alarms	O
+3	pas	alarm/show_alarms	B-reference
+4	mane	alarm/show_alarms	I-reference
+5	žadintuvai	alarm/show_alarms	O
+
+# id: 57
+# text: Kokie žadintuvai nustatyti?
+# intent: alarm/show_alarms
+1	Kokie	alarm/show_alarms	O
+2	žadintuvai	alarm/show_alarms	O
+3	nustatyti	alarm/show_alarms	O
+4	?	alarm/show_alarms	O
+
+# id: 58
+# text: Pasakyk kokie žadintuvai yra telefone
+# intent: alarm/show_alarms
+1	Pasakyk	alarm/show_alarms	O
+2	kokie	alarm/show_alarms	O
+3	žadintuvai	alarm/show_alarms	O
+4	yra	alarm/show_alarms	O
+5	telefone	alarm/show_alarms	O
+
+# id: 59
+# text: Pažiūreti visus žadintuvus
+# intent: alarm/show_alarms
+1	Pažiūreti	alarm/show_alarms	O
+2	visus	alarm/show_alarms	B-reference
+3	žadintuvus	alarm/show_alarms	O
+
+# id: 60
+# text: Kiek aktyvių žadintuvų pas mane šiuo metu?
+# intent: alarm/show_alarms
+1	Kiek	alarm/show_alarms	O
+2	aktyvių	alarm/show_alarms	O
+3	žadintuvų	alarm/show_alarms	O
+4	pas	alarm/show_alarms	B-reference
+5	mane	alarm/show_alarms	I-reference
+6	šiuo	alarm/show_alarms	B-datetime
+7	metu	alarm/show_alarms	I-datetime
+8	?	alarm/show_alarms	O
+
+# id: 61
+# text: Parodyk visus žadintuvus.
+# intent: alarm/show_alarms
+1	Parodyk	alarm/show_alarms	O
+2	visus	alarm/show_alarms	B-reference
+3	žadintuvus	alarm/show_alarms	O
+4	.	alarm/show_alarms	O
+
+# id: 62
+# text: Parodyk žadintuvo laikus
+# intent: alarm/show_alarms
+1	Parodyk	alarm/show_alarms	O
+2	žadintuvo	alarm/show_alarms	O
+3	laikus	alarm/show_alarms	O
+
+# id: 63
+# text: Parodyk esamus žadintuvus.
+# intent: alarm/show_alarms
+1	Parodyk	alarm/show_alarms	O
+2	esamus	alarm/show_alarms	O
+3	žadintuvus	alarm/show_alarms	O
+4	.	alarm/show_alarms	O
+
+# id: 64
+# text: Kokius žadintuvus turiu savaitgalį
+# intent: alarm/show_alarms
+1	Kokius	alarm/show_alarms	O
+2	žadintuvus	alarm/show_alarms	O
+3	turiu	alarm/show_alarms	O
+4	savaitgalį	alarm/show_alarms	B-datetime
+
+# id: 65
+# text: Priminti žadinimo laiką 
+# intent: alarm/show_alarms
+1	Priminti	alarm/show_alarms	O
+2	žadinimo	alarm/show_alarms	O
+3	laiką	alarm/show_alarms	O
+
+# id: 66
+# text: užmigti
+# intent: alarm/snooze_alarm
+1	užmigti	alarm/snooze_alarm	O
+
+# id: 67
+# text: Nutylink žadintuva. 
+# intent: alarm/snooze_alarm
+1	Nutylink	alarm/snooze_alarm	O
+2	žadintuva	alarm/snooze_alarm	O
+3	.	alarm/snooze_alarm	O
+
+# id: 68
+# text: Nutildyti žadintuvą
+# intent: alarm/snooze_alarm
+1	Nutildyti	alarm/snooze_alarm	O
+2	žadintuvą	alarm/snooze_alarm	O
+
+# id: 69
+# text: Nutildyti žadintuva
+# intent: alarm/snooze_alarm
+1	Nutildyti	alarm/snooze_alarm	O
+2	žadintuva	alarm/snooze_alarm	O
+
+# id: 70
+# text: Užtylink žadintuvą
+# intent: alarm/snooze_alarm
+1	Užtylink	alarm/snooze_alarm	O
+2	žadintuvą	alarm/snooze_alarm	O
+
+# id: 71
+# text: Reikia išjungti žadintuvo garsą
+# intent: alarm/snooze_alarm
+1	Reikia	alarm/snooze_alarm	O
+2	išjungti	alarm/snooze_alarm	O
+3	žadintuvo	alarm/snooze_alarm	O
+4	garsą	alarm/snooze_alarm	O
+
+# id: 72
+# text: Patylink žadintuva
+# intent: alarm/snooze_alarm
+1	Patylink	alarm/snooze_alarm	O
+2	žadintuva	alarm/snooze_alarm	O
+
+# id: 73
+# text: Tyliau!
+# intent: alarm/snooze_alarm
+1	Tyliau	alarm/snooze_alarm	O
+2	!	alarm/snooze_alarm	O
+
+# id: 74
+# text: Užtildyti  žadintuva
+# intent: alarm/snooze_alarm
+1	Užtildyti	alarm/snooze_alarm	O
+2	žadintuva	alarm/snooze_alarm	O
+
+# id: 75
+# text: Ijungti žadintuvui miego režimą
+# intent: alarm/snooze_alarm
+1	Ijungti	alarm/snooze_alarm	O
+2	žadintuvui	alarm/snooze_alarm	O
+3	miego	alarm/snooze_alarm	O
+4	režimą	alarm/snooze_alarm	O
+
+# id: 76
+# text: Užtildyk žadintuvą.
+# intent: alarm/snooze_alarm
+1	Užtildyk	alarm/snooze_alarm	O
+2	žadintuvą	alarm/snooze_alarm	O
+3	.	alarm/snooze_alarm	O
+
+# id: 77
+# text: Numutinti žadintuvą
+# intent: alarm/snooze_alarm
+1	Numutinti	alarm/snooze_alarm	O
+2	žadintuvą	alarm/snooze_alarm	O
+
+# id: 78
+# text: Užmigdyk mano žadintuvą
+# intent: alarm/snooze_alarm
+1	Užmigdyk	alarm/snooze_alarm	O
+2	mano	alarm/snooze_alarm	B-reference
+3	žadintuvą	alarm/snooze_alarm	O
+
+# id: 79
+# text: Nutylk
+# intent: alarm/snooze_alarm
+1	Nutylk	alarm/snooze_alarm	O
+
+# id: 80
+# text: parodyti kiek laiko liko iki žadintuvo
+# intent: alarm/time_left_on_alarm
+1	parodyti	alarm/time_left_on_alarm	O
+2	kiek	alarm/time_left_on_alarm	O
+3	laiko	alarm/time_left_on_alarm	O
+4	liko	alarm/time_left_on_alarm	O
+5	iki	alarm/time_left_on_alarm	O
+6	žadintuvo	alarm/time_left_on_alarm	O
+
+# id: 81
+# text: Kiek dar yra laiko iki žadintuvo?
+# intent: alarm/time_left_on_alarm
+1	Kiek	alarm/time_left_on_alarm	O
+2	dar	alarm/time_left_on_alarm	O
+3	yra	alarm/time_left_on_alarm	O
+4	laiko	alarm/time_left_on_alarm	O
+5	iki	alarm/time_left_on_alarm	O
+6	žadintuvo	alarm/time_left_on_alarm	O
+7	?	alarm/time_left_on_alarm	O
+
+# id: 82
+# text: Kiek minučių iki artimiausio žadintuvo?
+# intent: alarm/time_left_on_alarm
+1	Kiek	alarm/time_left_on_alarm	O
+2	minučių	alarm/time_left_on_alarm	O
+3	iki	alarm/time_left_on_alarm	O
+4	artimiausio	alarm/time_left_on_alarm	B-reference
+5	žadintuvo	alarm/time_left_on_alarm	O
+6	?	alarm/time_left_on_alarm	O
+
+# id: 83
+# text: Kiek liko iki žadintuvo
+# intent: alarm/time_left_on_alarm
+1	Kiek	alarm/time_left_on_alarm	O
+2	liko	alarm/time_left_on_alarm	O
+3	iki	alarm/time_left_on_alarm	O
+4	žadintuvo	alarm/time_left_on_alarm	O
+
+# id: 84
+# text: Kiek laiko iki laiko keltis
+# intent: alarm/time_left_on_alarm
+1	Kiek	alarm/time_left_on_alarm	O
+2	laiko	alarm/time_left_on_alarm	O
+3	iki	alarm/time_left_on_alarm	O
+4	laiko	alarm/time_left_on_alarm	O
+5	keltis	alarm/time_left_on_alarm	O
+
+# id: 85
+# text: Kiek liko laiko iki kito žadintuvo
+# intent: alarm/time_left_on_alarm
+1	Kiek	alarm/time_left_on_alarm	O
+2	liko	alarm/time_left_on_alarm	O
+3	laiko	alarm/time_left_on_alarm	O
+4	iki	alarm/time_left_on_alarm	O
+5	kito	alarm/time_left_on_alarm	B-reference
+6	žadintuvo	alarm/time_left_on_alarm	O
+
+# id: 86
+# text: Kiek liko laiko iki žadintuvo suskambėjimo
+# intent: alarm/time_left_on_alarm
+1	Kiek	alarm/time_left_on_alarm	O
+2	liko	alarm/time_left_on_alarm	O
+3	laiko	alarm/time_left_on_alarm	O
+4	iki	alarm/time_left_on_alarm	O
+5	žadintuvo	alarm/time_left_on_alarm	O
+6	suskambėjimo	alarm/time_left_on_alarm	O
+
+# id: 87
+# text: Kiek liko laiko iki sekančio žadintuvo?
+# intent: alarm/time_left_on_alarm
+1	Kiek	alarm/time_left_on_alarm	O
+2	liko	alarm/time_left_on_alarm	O
+3	laiko	alarm/time_left_on_alarm	O
+4	iki	alarm/time_left_on_alarm	O
+5	sekančio	alarm/time_left_on_alarm	B-reference
+6	žadintuvo	alarm/time_left_on_alarm	O
+7	?	alarm/time_left_on_alarm	O
+
+# id: 88
+# text: Kiek liko laiko iki žadintuvo pradžios?
+# intent: alarm/time_left_on_alarm
+1	Kiek	alarm/time_left_on_alarm	O
+2	liko	alarm/time_left_on_alarm	O
+3	laiko	alarm/time_left_on_alarm	O
+4	iki	alarm/time_left_on_alarm	O
+5	žadintuvo	alarm/time_left_on_alarm	O
+6	pradžios	alarm/time_left_on_alarm	O
+7	?	alarm/time_left_on_alarm	O
+
+# id: 89
+# text: Kiek liko iki kol žadintuvas suskambės
+# intent: alarm/time_left_on_alarm
+1	Kiek	alarm/time_left_on_alarm	O
+2	liko	alarm/time_left_on_alarm	O
+3	iki	alarm/time_left_on_alarm	O
+4	kol	alarm/time_left_on_alarm	O
+5	žadintuvas	alarm/time_left_on_alarm	O
+6	suskambės	alarm/time_left_on_alarm	O
+
+# id: 90
+# text: Kiek laiko dar galiu miegoti?
+# intent: alarm/time_left_on_alarm
+1	Kiek	alarm/time_left_on_alarm	O
+2	laiko	alarm/time_left_on_alarm	O
+3	dar	alarm/time_left_on_alarm	O
+4	galiu	alarm/time_left_on_alarm	O
+5	miegoti	alarm/time_left_on_alarm	O
+6	?	alarm/time_left_on_alarm	O
+
+# id: 91
+# text: Kiek laiko liko iki rytojaus žadintuvo skambėjimo
+# intent: alarm/time_left_on_alarm
+1	Kiek	alarm/time_left_on_alarm	O
+2	laiko	alarm/time_left_on_alarm	O
+3	liko	alarm/time_left_on_alarm	O
+4	iki	alarm/time_left_on_alarm	O
+5	rytojaus	alarm/time_left_on_alarm	B-datetime
+6	žadintuvo	alarm/time_left_on_alarm	O
+7	skambėjimo	alarm/time_left_on_alarm	O
+
+# id: 92
+# text: Kiek laiko liko iki rytojaus žadintuvo
+# intent: alarm/time_left_on_alarm
+1	Kiek	alarm/time_left_on_alarm	O
+2	laiko	alarm/time_left_on_alarm	O
+3	liko	alarm/time_left_on_alarm	O
+4	iki	alarm/time_left_on_alarm	O
+5	rytojaus	alarm/time_left_on_alarm	B-datetime
+6	žadintuvo	alarm/time_left_on_alarm	O
+
+# id: 93
+# text: Kiek man liko laiko miegui, jei dabar pat eičiau į lovą
+# intent: alarm/time_left_on_alarm
+1	Kiek	alarm/time_left_on_alarm	O
+2	man	alarm/time_left_on_alarm	O
+3	liko	alarm/time_left_on_alarm	O
+4	laiko	alarm/time_left_on_alarm	O
+5	miegui	alarm/time_left_on_alarm	O
+6	,	alarm/time_left_on_alarm	O
+7	jei	alarm/time_left_on_alarm	O
+8	dabar	alarm/time_left_on_alarm	O
+9	pat	alarm/time_left_on_alarm	O
+10	eičiau	alarm/time_left_on_alarm	O
+11	į	alarm/time_left_on_alarm	O
+12	lovą	alarm/time_left_on_alarm	O
+
+# id: 94
+# text: Kiek liko laiko iki žadintuvo?
+# intent: alarm/time_left_on_alarm
+1	Kiek	alarm/time_left_on_alarm	O
+2	liko	alarm/time_left_on_alarm	O
+3	laiko	alarm/time_left_on_alarm	O
+4	iki	alarm/time_left_on_alarm	O
+5	žadintuvo	alarm/time_left_on_alarm	O
+6	?	alarm/time_left_on_alarm	O
+
+# id: 95
+# text: Kiek liko iki žadintuvo
+# intent: alarm/time_left_on_alarm
+1	Kiek	alarm/time_left_on_alarm	O
+2	liko	alarm/time_left_on_alarm	O
+3	iki	alarm/time_left_on_alarm	O
+4	žadintuvo	alarm/time_left_on_alarm	O
+
+# id: 96
+# text: Kiek liko laiko iki žadintuvo signalo?
+# intent: alarm/time_left_on_alarm
+1	Kiek	alarm/time_left_on_alarm	O
+2	liko	alarm/time_left_on_alarm	O
+3	laiko	alarm/time_left_on_alarm	O
+4	iki	alarm/time_left_on_alarm	O
+5	žadintuvo	alarm/time_left_on_alarm	O
+6	signalo	alarm/time_left_on_alarm	O
+7	?	alarm/time_left_on_alarm	O
+
+# id: 97
+# text: Kiek minučių liko iki žadintuvo
+# intent: alarm/time_left_on_alarm
+1	Kiek	alarm/time_left_on_alarm	O
+2	minučių	alarm/time_left_on_alarm	O
+3	liko	alarm/time_left_on_alarm	O
+4	iki	alarm/time_left_on_alarm	O
+5	žadintuvo	alarm/time_left_on_alarm	O
+
+# id: 98
+# text: Kiek iki žadintuvo signalo liko
+# intent: alarm/time_left_on_alarm
+1	Kiek	alarm/time_left_on_alarm	O
+2	iki	alarm/time_left_on_alarm	O
+3	žadintuvo	alarm/time_left_on_alarm	O
+4	signalo	alarm/time_left_on_alarm	O
+5	liko	alarm/time_left_on_alarm	O
+
+# id: 99
+# text: Pridėk priminimą iš karto po darbo nuvažiuoti į parduotuvę
+# intent: reminder/set_reminder
+1	Pridėk	reminder/set_reminder	O
+2	priminimą	reminder/set_reminder	O
+3	iš	reminder/set_reminder	B-datetime
+4	karto	reminder/set_reminder	I-datetime
+5	po	reminder/set_reminder	I-datetime
+6	darbo	reminder/set_reminder	I-datetime
+7	nuvažiuoti	reminder/set_reminder	B-reminder/todo
+8	į	reminder/set_reminder	I-reminder/todo
+9	parduotuvę	reminder/set_reminder	I-reminder/todo
+
+# id: 100
+# text: Naujas priminimas kitam ketvirtadieniui šeštai vakaro.
+# intent: reminder/set_reminder
+1	Naujas	reminder/set_reminder	O
+2	priminimas	reminder/set_reminder	O
+3	kitam	reminder/set_reminder	B-datetime
+4	ketvirtadieniui	reminder/set_reminder	I-datetime
+5	šeštai	reminder/set_reminder	I-datetime
+6	vakaro	reminder/set_reminder	I-datetime
+7	.	reminder/set_reminder	O
+
+# id: 101
+# text: Sukurk nauja priminima rytojaus dienai šeštai valandai vakaro
+# intent: reminder/set_reminder
+1	Sukurk	reminder/set_reminder	O
+2	nauja	reminder/set_reminder	O
+3	priminima	reminder/set_reminder	O
+4	rytojaus	reminder/set_reminder	B-datetime
+5	dienai	reminder/set_reminder	I-datetime
+6	šeštai	reminder/set_reminder	I-datetime
+7	valandai	reminder/set_reminder	I-datetime
+8	vakaro	reminder/set_reminder	I-datetime
+
+# id: 102
+# text: Užstatyk priminimą rytojui septintai valandai išnešti šiukšles.
+# intent: reminder/set_reminder
+1	Užstatyk	reminder/set_reminder	O
+2	priminimą	reminder/set_reminder	O
+3	rytojui	reminder/set_reminder	B-datetime
+4	septintai	reminder/set_reminder	I-datetime
+5	valandai	reminder/set_reminder	I-datetime
+6	išnešti	reminder/set_reminder	B-reminder/todo
+7	šiukšles	reminder/set_reminder	I-reminder/todo
+8	.	reminder/set_reminder	O
+
+# id: 103
+# text: Prašau priminti man rytoj 12 val, kad 13 val man pas odontologą.
+# intent: reminder/set_reminder
+1	Prašau	reminder/set_reminder	O
+2	priminti	reminder/set_reminder	O
+3	man	reminder/set_reminder	O
+4	rytoj	reminder/set_reminder	B-datetime
+5	12	reminder/set_reminder	I-datetime
+6	val	reminder/set_reminder	I-datetime
+7	,	reminder/set_reminder	O
+8	kad	reminder/set_reminder	O
+9	13	reminder/set_reminder	B-reminder/todo
+10	val	reminder/set_reminder	I-reminder/todo
+11	man	reminder/set_reminder	I-reminder/todo
+12	pas	reminder/set_reminder	I-reminder/todo
+13	odontologą	reminder/set_reminder	I-reminder/todo
+14	.	reminder/set_reminder	O
+
+# id: 104
+# text: Įvesti naują priminimą kalendoriuje
+# intent: reminder/set_reminder
+1	Įvesti	reminder/set_reminder	O
+2	naują	reminder/set_reminder	O
+3	priminimą	reminder/set_reminder	O
+4	kalendoriuje	reminder/set_reminder	O
+
+# id: 105
+# text: Sukurk naują priminima kasdien 8 ryto išgerti vaistus
+# intent: reminder/set_reminder
+1	Sukurk	reminder/set_reminder	O
+2	naują	reminder/set_reminder	O
+3	priminima	reminder/set_reminder	O
+4	kasdien	reminder/set_reminder	B-recurring_datetime
+5	8	reminder/set_reminder	I-recurring_datetime
+6	ryto	reminder/set_reminder	I-recurring_datetime
+7	išgerti	reminder/set_reminder	B-reminder/todo
+8	vaistus	reminder/set_reminder	I-reminder/todo
+
+# id: 106
+# text: parodyti esamą priminimą
+# intent: reminder/show_reminders
+1	parodyti	reminder/show_reminders	O
+2	esamą	reminder/show_reminders	B-reference
+3	priminimą	reminder/show_reminders	O
+
+# id: 107
+# text: Pakoreguok šiandienos priminimą, kad reikia į parduotuvę pieno ir makaronų
+# intent: reminder/show_reminders
+1	Pakoreguok	reminder/show_reminders	O
+2	šiandienos	reminder/show_reminders	B-datetime
+3	priminimą	reminder/show_reminders	O
+4	,	reminder/show_reminders	O
+5	kad	reminder/show_reminders	B-reminder/todo
+6	reikia	reminder/show_reminders	I-reminder/todo
+7	į	reminder/show_reminders	I-reminder/todo
+8	parduotuvę	reminder/show_reminders	I-reminder/todo
+9	pieno	reminder/show_reminders	I-reminder/todo
+10	ir	reminder/show_reminders	I-reminder/todo
+11	makaronų	reminder/show_reminders	I-reminder/todo
+
+# id: 108
+# text: Perskaityk šiandien dienos priminimus.
+# intent: reminder/show_reminders
+1	Perskaityk	reminder/show_reminders	O
+2	šiandien	reminder/show_reminders	B-datetime
+3	dienos	reminder/show_reminders	I-datetime
+4	priminimus	reminder/show_reminders	O
+5	.	reminder/show_reminders	O
+
+# id: 109
+# text: Dabartinis priminimas
+# intent: reminder/show_reminders
+1	Dabartinis	reminder/show_reminders	B-reference
+2	priminimas	reminder/show_reminders	O
+
+# id: 110
+# text: Esamas priminimas
+# intent: reminder/show_reminders
+1	Esamas	reminder/show_reminders	B-reference
+2	priminimas	reminder/show_reminders	O
+
+# id: 111
+# text: Kokie mano priminimai
+# intent: reminder/show_reminders
+1	Kokie	reminder/show_reminders	O
+2	mano	reminder/show_reminders	B-reference
+3	priminimai	reminder/show_reminders	O
+
+# id: 112
+# text: Prašau perskaityti esamą priminimą
+# intent: reminder/show_reminders
+1	Prašau	reminder/show_reminders	O
+2	perskaityti	reminder/show_reminders	O
+3	esamą	reminder/show_reminders	B-reference
+4	priminimą	reminder/show_reminders	O
+
+# id: 113
+# text: Parodyk esančius priminimus
+# intent: reminder/show_reminders
+1	Parodyk	reminder/show_reminders	O
+2	esančius	reminder/show_reminders	B-reference
+3	priminimus	reminder/show_reminders	O
+
+# id: 114
+# text: Kokie mano esami priminimai
+# intent: reminder/show_reminders
+1	Kokie	reminder/show_reminders	O
+2	mano	reminder/show_reminders	B-reference
+3	esami	reminder/show_reminders	I-reference
+4	priminimai	reminder/show_reminders	O
+
+# id: 115
+# text: Koks priminimas nustatytas?
+# intent: reminder/show_reminders
+1	Koks	reminder/show_reminders	O
+2	priminimas	reminder/show_reminders	O
+3	nustatytas	reminder/show_reminders	O
+4	?	reminder/show_reminders	O
+
+# id: 116
+# text: Kokie yra mano artimiausi priminimai
+# intent: reminder/show_reminders
+1	Kokie	reminder/show_reminders	O
+2	yra	reminder/show_reminders	O
+3	mano	reminder/show_reminders	B-reference
+4	artimiausi	reminder/show_reminders	I-reference
+5	priminimai	reminder/show_reminders	O
+
+# id: 117
+# text: Kokie šios savaitės priminimai
+# intent: reminder/show_reminders
+1	Kokie	reminder/show_reminders	O
+2	šios	reminder/show_reminders	B-datetime
+3	savaitės	reminder/show_reminders	I-datetime
+4	priminimai	reminder/show_reminders	O
+
+# id: 118
+# text: Kada ryt man blokada
+# intent: reminder/show_reminders
+1	Kada	reminder/show_reminders	O
+2	ryt	reminder/show_reminders	B-datetime
+3	man	reminder/show_reminders	O
+4	blokada	reminder/show_reminders	B-reminder/todo
+
+# id: 119
+# text: Skaityti esamus priminimus.
+# intent: reminder/show_reminders
+1	Skaityti	reminder/show_reminders	O
+2	esamus	reminder/show_reminders	B-reference
+3	priminimus	reminder/show_reminders	O
+4	.	reminder/show_reminders	O
+
+# id: 120
+# text: Parodyti pirmadienio priminimus
+# intent: reminder/show_reminders
+1	Parodyti	reminder/show_reminders	O
+2	pirmadienio	reminder/show_reminders	B-datetime
+3	priminimus	reminder/show_reminders	O
+
+# id: 121
+# text: Kokius priminimus turiu už dvieju dienų
+# intent: reminder/show_reminders
+1	Kokius	reminder/show_reminders	O
+2	priminimus	reminder/show_reminders	O
+3	turiu	reminder/show_reminders	O
+4	už	reminder/show_reminders	B-datetime
+5	dvieju	reminder/show_reminders	I-datetime
+6	dienų	reminder/show_reminders	I-datetime
+
+# id: 122
+# text: Parodyti  esamus priminimus
+# intent: reminder/show_reminders
+1	Parodyti	reminder/show_reminders	O
+2	esamus	reminder/show_reminders	B-reference
+3	priminimus	reminder/show_reminders	O
+
+# id: 123
+# text: Atšauk šiandienos priminimą nuvažiuoti į parduotuvę
+# intent: reminder/cancel_reminder
+1	Atšauk	reminder/cancel_reminder	O
+2	šiandienos	reminder/cancel_reminder	B-datetime
+3	priminimą	reminder/cancel_reminder	O
+4	nuvažiuoti	reminder/cancel_reminder	B-reminder/todo
+5	į	reminder/cancel_reminder	I-reminder/todo
+6	parduotuvę	reminder/cancel_reminder	I-reminder/todo
+
+# id: 124
+# text: Išjunk priminimą nuo rytojaus vakaro iki kitos savaites galo. 
+# intent: reminder/cancel_reminder
+1	Išjunk	reminder/cancel_reminder	O
+2	priminimą	reminder/cancel_reminder	O
+3	nuo	reminder/cancel_reminder	B-datetime
+4	rytojaus	reminder/cancel_reminder	I-datetime
+5	vakaro	reminder/cancel_reminder	I-datetime
+6	iki	reminder/cancel_reminder	I-datetime
+7	kitos	reminder/cancel_reminder	I-datetime
+8	savaites	reminder/cancel_reminder	I-datetime
+9	galo	reminder/cancel_reminder	I-datetime
+10	.	reminder/cancel_reminder	O
+
+# id: 125
+# text: Reikia atšaukti priminimą
+# intent: reminder/cancel_reminder
+1	Reikia	reminder/cancel_reminder	O
+2	atšaukti	reminder/cancel_reminder	O
+3	priminimą	reminder/cancel_reminder	O
+
+# id: 126
+# text: Atšauk šiandienos priminimą
+# intent: reminder/cancel_reminder
+1	Atšauk	reminder/cancel_reminder	O
+2	šiandienos	reminder/cancel_reminder	B-datetime
+3	priminimą	reminder/cancel_reminder	O
+
+# id: 127
+# text: Atšauk rytojaus priminimą apie kebabų valgymą
+# intent: reminder/cancel_reminder
+1	Atšauk	reminder/cancel_reminder	O
+2	rytojaus	reminder/cancel_reminder	B-datetime
+3	priminimą	reminder/cancel_reminder	O
+4	apie	reminder/cancel_reminder	O
+5	kebabų	reminder/cancel_reminder	B-reminder/todo
+6	valgymą	reminder/cancel_reminder	I-reminder/todo
+
+# id: 128
+# text: Nuimti rytojaus septintos valandos priminimą.
+# intent: reminder/cancel_reminder
+1	Nuimti	reminder/cancel_reminder	O
+2	rytojaus	reminder/cancel_reminder	B-datetime
+3	septintos	reminder/cancel_reminder	I-datetime
+4	valandos	reminder/cancel_reminder	I-datetime
+5	priminimą	reminder/cancel_reminder	O
+6	.	reminder/cancel_reminder	O
+
+# id: 129
+# text: Rytdienos susitikima su Karoliu atšaukti
+# intent: reminder/cancel_reminder
+1	Rytdienos	reminder/cancel_reminder	B-datetime
+2	susitikima	reminder/cancel_reminder	B-reminder/todo
+3	su	reminder/cancel_reminder	I-reminder/todo
+4	Karoliu	reminder/cancel_reminder	I-reminder/todo
+5	atšaukti	reminder/cancel_reminder	O
+
+# id: 130
+# text: Atšaukti pirmadienio priminimus
+# intent: reminder/cancel_reminder
+1	Atšaukti	reminder/cancel_reminder	O
+2	pirmadienio	reminder/cancel_reminder	B-datetime
+3	priminimus	reminder/cancel_reminder	O
+
+# id: 131
+# text: Ištrink gydytojo vizito priminimą
+# intent: reminder/cancel_reminder
+1	Ištrink	reminder/cancel_reminder	O
+2	gydytojo	reminder/cancel_reminder	B-reminder/todo
+3	vizito	reminder/cancel_reminder	I-reminder/todo
+4	priminimą	reminder/cancel_reminder	O
+
+# id: 132
+# text: Išjungti šiandienos priminimą
+# intent: reminder/cancel_reminder
+1	Išjungti	reminder/cancel_reminder	O
+2	šiandienos	reminder/cancel_reminder	B-datetime
+3	priminimą	reminder/cancel_reminder	O
+
+# id: 133
+# text: parodyti temparatūrą
+# intent: weather/find
+1	parodyti	weather/find	O
+2	temparatūrą	weather/find	B-weather/attribute
+
+# id: 134
+# text: Ar šiandien vakare Vilniuje numatomas lietus?
+# intent: weather/find
+1	Ar	weather/find	O
+2	šiandien	weather/find	B-datetime
+3	vakare	weather/find	I-datetime
+4	Vilniuje	weather/find	B-location
+5	numatomas	weather/find	O
+6	lietus	weather/find	B-weather/attribute
+7	?	weather/find	O
+
+# id: 135
+# text: Ar bus saulėta kitą savaite prie jūros?
+# intent: weather/find
+1	Ar	weather/find	O
+2	bus	weather/find	O
+3	saulėta	weather/find	B-weather/attribute
+4	kitą	weather/find	B-datetime
+5	savaite	weather/find	I-datetime
+6	prie	weather/find	B-location
+7	jūros	weather/find	I-location
+8	?	weather/find	O
+
+# id: 136
+# text: Kokia orų prognozė
+# intent: weather/find
+1	Kokia	weather/find	O
+2	orų	weather/find	O
+3	prognozė	weather/find	O
+
+# id: 137
+# text: Kokie orai mano namuose
+# intent: weather/find
+1	Kokie	weather/find	O
+2	orai	weather/find	O
+3	mano	weather/find	B-location
+4	namuose	weather/find	I-location
+
+# id: 138
+# text: Kokia dabar temperatūra
+# intent: weather/find
+1	Kokia	weather/find	O
+2	dabar	weather/find	B-datetime
+3	temperatūra	weather/find	B-weather/attribute
+
+# id: 139
+# text: Ar dabar šilta
+# intent: weather/find
+1	Ar	weather/find	O
+2	dabar	weather/find	B-datetime
+3	šilta	weather/find	B-weather/attribute
+
+# id: 140
+# text: Klaipėdoje šiandien bus nuo 7 iki 15 laipsnių šilumos
+# intent: weather/find
+1	Klaipėdoje	weather/find	B-location
+2	šiandien	weather/find	B-datetime
+3	bus	weather/find	O
+4	nuo	weather/find	B-weather/attribute
+5	7	weather/find	I-weather/attribute
+6	iki	weather/find	I-weather/attribute
+7	15	weather/find	I-weather/attribute
+8	laipsnių	weather/find	I-weather/attribute
+9	šilumos	weather/find	I-weather/attribute
+
+# id: 141
+# text: Koks šiandien oras?
+# intent: weather/find
+1	Koks	weather/find	O
+2	šiandien	weather/find	B-datetime
+3	oras	weather/find	O
+4	?	weather/find	O
+
+# id: 142
+# text: Lauke diena šilta
+# intent: weather/find
+1	Lauke	weather/find	O
+2	diena	weather/find	B-datetime
+3	šilta	weather/find	B-weather/attribute
+
+# id: 143
+# text: Kokia šiandien temperatūra Vilniuje?
+# intent: weather/find
+1	Kokia	weather/find	O
+2	šiandien	weather/find	B-datetime
+3	temperatūra	weather/find	B-weather/attribute
+4	Vilniuje	weather/find	B-location
+5	?	weather/find	O
+
+# id: 144
+# text: Kokia temperatūra bus už savaitės kroatijoje
+# intent: weather/find
+1	Kokia	weather/find	O
+2	temperatūra	weather/find	B-weather/attribute
+3	bus	weather/find	O
+4	už	weather/find	B-datetime
+5	savaitės	weather/find	I-datetime
+6	kroatijoje	weather/find	B-location
+
+# id: 145
+# text: Kokia šiandien temperatūra Vilniuje. 
+# intent: weather/find
+1	Kokia	weather/find	O
+2	šiandien	weather/find	B-datetime
+3	temperatūra	weather/find	B-weather/attribute
+4	Vilniuje	weather/find	B-location
+5	.	weather/find	O
+
+# id: 146
+# text: Ar ryt ryte 8:00 Vilniuje lis?
+# intent: weather/find
+1	Ar	weather/find	O
+2	ryt	weather/find	B-datetime
+3	ryte	weather/find	I-datetime
+4	8:00	weather/find	I-datetime
+5	Vilniuje	weather/find	B-location
+6	lis	weather/find	B-weather/attribute
+7	?	weather/find	O
+
+# id: 147
+# text: Kokia rytojaus temperatūra Vilniuje?
+# intent: weather/find
+1	Kokia	weather/find	O
+2	rytojaus	weather/find	B-datetime
+3	temperatūra	weather/find	B-weather/attribute
+4	Vilniuje	weather/find	B-location
+5	?	weather/find	O
+
+# id: 148
+# text: Ar lis pirmadienį Vilniuje?
+# intent: weather/find
+1	Ar	weather/find	O
+2	lis	weather/find	B-weather/attribute
+3	pirmadienį	weather/find	B-datetime
+4	Vilniuje	weather/find	B-location
+5	?	weather/find	O
+
+# id: 149
+# text: Pateikt rytojaus orų prognozę Vilniuje.
+# intent: weather/find
+1	Pateikt	weather/find	O
+2	rytojaus	weather/find	B-datetime
+3	orų	weather/find	O
+4	prognozę	weather/find	O
+5	Vilniuje	weather/find	B-location
+6	.	weather/find	O
+
+# id: 150
+# text: Ar planuojamas lietus balandžio 12
+# intent: weather/find
+1	Ar	weather/find	O
+2	planuojamas	weather/find	O
+3	lietus	weather/find	B-weather/attribute
+4	balandžio	weather/find	B-datetime
+5	12	weather/find	I-datetime
+
+# id: 151
+# text: Noriu pažiūrėti orą rytoj
+# intent: weather/find
+1	Noriu	weather/find	O
+2	pažiūrėti	weather/find	O
+3	orą	weather/find	O
+4	rytoj	weather/find	B-datetime
+
+# id: 152
+# text: parodyti debesuotumą
+# intent: weather/find
+1	parodyti	weather/find	O
+2	debesuotumą	weather/find	B-weather/attribute
+
+# id: 153
+# text: Kiek šilumos rytoj bus Palangoje?
+# intent: weather/find
+1	Kiek	weather/find	O
+2	šilumos	weather/find	B-weather/attribute
+3	rytoj	weather/find	B-datetime
+4	bus	weather/find	O
+5	Palangoje	weather/find	B-location
+6	?	weather/find	O
+
+# id: 154
+# text: Koks oras buvo praeita liepa Milane?
+# intent: weather/find
+1	Koks	weather/find	O
+2	oras	weather/find	O
+3	buvo	weather/find	O
+4	praeita	weather/find	B-datetime
+5	liepa	weather/find	I-datetime
+6	Milane	weather/find	B-location
+7	?	weather/find	O
+
+# id: 155
+# text: Kokie orai Vilniuje
+# intent: weather/find
+1	Kokie	weather/find	O
+2	orai	weather/find	O
+3	Vilniuje	weather/find	B-location
+
+# id: 156
+# text: Parodyk orų prognozę Latvijos
+# intent: weather/find
+1	Parodyk	weather/find	O
+2	orų	weather/find	O
+3	prognozę	weather/find	O
+4	Latvijos	weather/find	B-location
+
+# id: 157
+# text: Ar šiandien lis?
+# intent: weather/find
+1	Ar	weather/find	O
+2	šiandien	weather/find	B-datetime
+3	lis	weather/find	B-weather/attribute
+4	?	weather/find	O
+
+# id: 158
+# text: Ar dabar lyja
+# intent: weather/find
+1	Ar	weather/find	O
+2	dabar	weather/find	B-datetime
+3	lyja	weather/find	B-weather/attribute
+
+# id: 159
+# text: Vilniuje rytoj lis lietus
+# intent: weather/find
+1	Vilniuje	weather/find	B-location
+2	rytoj	weather/find	B-datetime
+3	lis	weather/find	B-weather/attribute
+4	lietus	weather/find	I-weather/attribute
+
+# id: 160
+# text: Ar šiandien lis?
+# intent: weather/find
+1	Ar	weather/find	O
+2	šiandien	weather/find	B-datetime
+3	lis	weather/find	B-weather/attribute
+4	?	weather/find	O
+
+# id: 161
+# text: Žiema Alpėse šalta?
+# intent: weather/find
+1	Žiema	weather/find	B-datetime
+2	Alpėse	weather/find	B-location
+3	šalta	weather/find	B-weather/attribute
+4	?	weather/find	O
+
+# id: 162
+# text: Ar rytoj vakare Vilniuje lis?
+# intent: weather/find
+1	Ar	weather/find	O
+2	rytoj	weather/find	B-datetime
+3	vakare	weather/find	I-datetime
+4	Vilniuje	weather/find	B-location
+5	lis	weather/find	B-weather/attribute
+6	?	weather/find	O
+
+# id: 163
+# text: Ar rytoj Vilniuje lis penktą valandą
+# intent: weather/find
+1	Ar	weather/find	O
+2	rytoj	weather/find	B-datetime
+3	Vilniuje	weather/find	B-location
+4	lis	weather/find	B-weather/attribute
+5	penktą	weather/find	B-datetime
+6	valandą	weather/find	I-datetime
+
+# id: 164
+# text: Ar rytoj lis Prancūzijoje.
+# intent: weather/find
+1	Ar	weather/find	O
+2	rytoj	weather/find	B-datetime
+3	lis	weather/find	B-weather/attribute
+4	Prancūzijoje	weather/find	B-location
+5	.	weather/find	O
+
+# id: 165
+# text: Kokie orai bus Madride gegužes 21 - 24 d imtinai
+# intent: weather/find
+1	Kokie	weather/find	O
+2	orai	weather/find	O
+3	bus	weather/find	O
+4	Madride	weather/find	B-location
+5	gegužes	weather/find	B-datetime
+6	21	weather/find	I-datetime
+7	-	weather/find	I-datetime
+8	24	weather/find	I-datetime
+9	d	weather/find	O
+10	imtinai	weather/find	O
+
+# id: 166
+# text: Ar numatomas rytoj lietus Vilniuje?
+# intent: weather/find
+1	Ar	weather/find	O
+2	numatomas	weather/find	O
+3	rytoj	weather/find	B-datetime
+4	lietus	weather/find	B-weather/attribute
+5	Vilniuje	weather/find	B-location
+6	?	weather/find	O
+
+# id: 167
+# text: Kada bus saulėta Vilniuje?
+# intent: weather/find
+1	Kada	weather/find	O
+2	bus	weather/find	O
+3	saulėta	weather/find	B-weather/attribute
+4	Vilniuje	weather/find	B-location
+5	?	weather/find	O
+
+# id: 168
+# text: Pateik detalią  rytojaus  kritulių prognozę Vilniuje.
+# intent: weather/find
+1	Pateik	weather/find	O
+2	detalią	weather/find	O
+3	rytojaus	weather/find	B-datetime
+4	kritulių	weather/find	B-weather/attribute
+5	prognozę	weather/find	O
+6	Vilniuje	weather/find	B-location
+7	.	weather/find	O
+
+# id: 169
+# text: Ar kitą savaitę šals?
+# intent: weather/find
+1	Ar	weather/find	O
+2	kitą	weather/find	B-datetime
+3	savaitę	weather/find	I-datetime
+4	šals	weather/find	B-weather/attribute
+5	?	weather/find	O
+
+# id: 170
+# text:  Ar rytoj lis?
+# intent: weather/find
+1	Ar	weather/find	O
+2	rytoj	weather/find	B-datetime
+3	lis	weather/find	B-weather/attribute
+4	?	weather/find	O
+
+# id: 171
+# text: parodyti vėjo greitį
+# intent: weather/find
+1	parodyti	weather/find	O
+2	vėjo	weather/find	B-weather/attribute
+3	greitį	weather/find	I-weather/attribute
+
+# id: 172
+# text: Ar bus saulėta rytoj Palangoje?
+# intent: weather/find
+1	Ar	weather/find	O
+2	bus	weather/find	O
+3	saulėta	weather/find	B-weather/attribute
+4	rytoj	weather/find	B-datetime
+5	Palangoje	weather/find	B-location
+6	?	weather/find	O
+
+# id: 173
+# text: Ar šiandien vakare bus rūkas tarp Kauno ir Vilniaus?
+# intent: weather/find
+1	Ar	weather/find	O
+2	šiandien	weather/find	B-datetime
+3	vakare	weather/find	I-datetime
+4	bus	weather/find	O
+5	rūkas	weather/find	B-weather/attribute
+6	tarp	weather/find	B-location
+7	Kauno	weather/find	I-location
+8	ir	weather/find	I-location
+9	Vilniaus	weather/find	I-location
+10	?	weather/find	O
+
+# id: 174
+# text: Koks oras Šiauliuose
+# intent: weather/find
+1	Koks	weather/find	O
+2	oras	weather/find	O
+3	Šiauliuose	weather/find	B-location
+
+# id: 175
+# text: Ar snigs rytoj
+# intent: weather/find
+1	Ar	weather/find	O
+2	snigs	weather/find	B-weather/attribute
+3	rytoj	weather/find	B-datetime
+
+# id: 176
+# text: Kokia bus savaitgalį temperatūra prie jūros?
+# intent: weather/find
+1	Kokia	weather/find	O
+2	bus	weather/find	O
+3	savaitgalį	weather/find	B-datetime
+4	temperatūra	weather/find	B-weather/attribute
+5	prie	weather/find	B-location
+6	jūros	weather/find	I-location
+7	?	weather/find	O
+
+# id: 177
+# text: Kokia Vilniuje temperatūra
+# intent: weather/find
+1	Kokia	weather/find	O
+2	Vilniuje	weather/find	B-location
+3	temperatūra	weather/find	B-weather/attribute
+
+# id: 178
+# text: Ar šiandien švies saulė?
+# intent: weather/find
+1	Ar	weather/find	O
+2	šiandien	weather/find	B-datetime
+3	švies	weather/find	B-weather/attribute
+4	saulė	weather/find	I-weather/attribute
+5	?	weather/find	O
+
+# id: 179
+# text: Pas močiute dieną karšta
+# intent: weather/find
+1	Pas	weather/find	B-location
+2	močiute	weather/find	I-location
+3	dieną	weather/find	B-datetime
+4	karšta	weather/find	B-weather/attribute
+
+# id: 180
+# text: Kiek laipsnių šeštadienį dvyliktą?
+# intent: weather/find
+1	Kiek	weather/find	O
+2	laipsnių	weather/find	B-weather/attribute
+3	šeštadienį	weather/find	B-datetime
+4	dvyliktą	weather/find	I-datetime
+5	?	weather/find	O
+
+# id: 181
+# text: Ar poryt Kaune naktį bus žvaigzdių danguj
+# intent: weather/find
+1	Ar	weather/find	O
+2	poryt	weather/find	B-datetime
+3	Kaune	weather/find	B-location
+4	naktį	weather/find	B-datetime
+5	bus	weather/find	O
+6	žvaigzdių	weather/find	B-weather/attribute
+7	danguj	weather/find	I-weather/attribute
+
+# id: 182
+# text: Savaitgalio orų prognozė.
+# intent: weather/find
+1	Savaitgalio	weather/find	B-datetime
+2	orų	weather/find	O
+3	prognozė	weather/find	O
+4	.	weather/find	O
+
+# id: 183
+# text: Koks vėjo stiprumas bus Drevernoje ši šeštadieni nuo 9 iki 14 valandos
+# intent: weather/find
+1	Koks	weather/find	O
+2	vėjo	weather/find	B-weather/attribute
+3	stiprumas	weather/find	I-weather/attribute
+4	bus	weather/find	O
+5	Drevernoje	weather/find	B-location
+6	ši	weather/find	B-datetime
+7	šeštadieni	weather/find	I-datetime
+8	nuo	weather/find	I-datetime
+9	9	weather/find	I-datetime
+10	iki	weather/find	I-datetime
+11	14	weather/find	I-datetime
+12	valandos	weather/find	I-datetime
+
+# id: 184
+# text: Ar rytoj Vilniuje bus giedra?
+# intent: weather/find
+1	Ar	weather/find	O
+2	rytoj	weather/find	B-datetime
+3	Vilniuje	weather/find	B-location
+4	bus	weather/find	O
+5	giedra	weather/find	B-weather/attribute
+6	?	weather/find	O
+
+# id: 185
+# text: Kiek ryt bus temperatūros Vilniuje?
+# intent: weather/find
+1	Kiek	weather/find	O
+2	ryt	weather/find	B-datetime
+3	bus	weather/find	O
+4	temperatūros	weather/find	B-weather/attribute
+5	Vilniuje	weather/find	B-location
+6	?	weather/find	O
+
+# id: 186
+# text: Pateik detalią rytojaus temperatūrą Vilniuje.
+# intent: weather/find
+1	Pateik	weather/find	O
+2	detalią	weather/find	O
+3	rytojaus	weather/find	B-datetime
+4	temperatūrą	weather/find	B-weather/attribute
+5	Vilniuje	weather/find	B-location
+6	.	weather/find	O
+
+# id: 187
+# text: Kiek lietaus gali iškristi šį savaitgalį
+# intent: weather/find
+1	Kiek	weather/find	O
+2	lietaus	weather/find	B-weather/attribute
+3	gali	weather/find	O
+4	iškristi	weather/find	O
+5	šį	weather/find	B-datetime
+6	savaitgalį	weather/find	I-datetime
+
+# id: 188
+# text: Koks rytoj bus vėjo stiprumas?
+# intent: weather/find
+1	Koks	weather/find	O
+2	rytoj	weather/find	B-datetime
+3	bus	weather/find	O
+4	vėjo	weather/find	B-weather/attribute
+5	stiprumas	weather/find	I-weather/attribute
+6	?	weather/find	O
+
+# id: 189
+# text: Pridėk į mano grojaraštį Spotify visas Adele dainas.
+# intent: AddToPlaylist
+1	Pridėk	AddToPlaylist	O
+2	į	AddToPlaylist	O
+3	mano	AddToPlaylist	B-reference
+4	grojaraštį	AddToPlaylist	O
+5	Spotify	AddToPlaylist	B-service
+6	visas	AddToPlaylist	O
+7	Adele	AddToPlaylist	B-artist
+8	dainas	AddToPlaylist	B-music_item
+9	.	AddToPlaylist	O
+
+# id: 190
+# text: Pridėk imagine dragons naujausią albumą i mano grojarašti.
+# intent: AddToPlaylist
+1	Pridėk	AddToPlaylist	O
+2	imagine	AddToPlaylist	B-artist
+3	dragons	AddToPlaylist	I-artist
+4	naujausią	AddToPlaylist	O
+5	albumą	AddToPlaylist	B-music_item
+6	i	AddToPlaylist	O
+7	mano	AddToPlaylist	B-reference
+8	grojarašti	AddToPlaylist	O
+9	.	AddToPlaylist	O
+
+# id: 191
+# text: Įtrauk Juoda Orchideja i saraša
+# intent: AddToPlaylist
+1	Įtrauk	AddToPlaylist	O
+2	Juoda	AddToPlaylist	B-track
+3	Orchideja	AddToPlaylist	I-track
+4	i	AddToPlaylist	O
+5	saraša	AddToPlaylist	B-playlist
+
+# id: 192
+# text: Įdėk “Dont stop me now” į mano grojaraštį
+# intent: AddToPlaylist
+1	Įdėk	AddToPlaylist	O
+2	“	AddToPlaylist	O
+3	Dont	AddToPlaylist	B-track
+4	stop	AddToPlaylist	I-track
+5	me	AddToPlaylist	I-track
+6	now	AddToPlaylist	I-track
+7	”	AddToPlaylist	O
+8	į	AddToPlaylist	O
+9	mano	AddToPlaylist	B-reference
+10	grojaraštį	AddToPlaylist	O
+
+# id: 193
+# text: Prašau pridėti grojančią dainą į mėgstamiausių sąrašą.
+# intent: AddToPlaylist
+1	Prašau	AddToPlaylist	O
+2	pridėti	AddToPlaylist	O
+3	grojančią	AddToPlaylist	O
+4	dainą	AddToPlaylist	B-music_item
+5	į	AddToPlaylist	O
+6	mėgstamiausių	AddToPlaylist	B-playlist
+7	sąrašą	AddToPlaylist	I-playlist
+8	.	AddToPlaylist	O
+
+# id: 194
+# text: Įdėk šita dainą į playlist
+# intent: AddToPlaylist
+1	Įdėk	AddToPlaylist	O
+2	šita	AddToPlaylist	B-reference
+3	dainą	AddToPlaylist	B-music_item
+4	į	AddToPlaylist	O
+5	playlist	AddToPlaylist	B-playlist
+
+# id: 195
+# text: Pridėk šią dainą į Mėgstamus!
+# intent: AddToPlaylist
+1	Pridėk	AddToPlaylist	O
+2	šią	AddToPlaylist	O
+3	dainą	AddToPlaylist	B-music_item
+4	į	AddToPlaylist	O
+5	Mėgstamus	AddToPlaylist	B-playlist
+6	!	AddToPlaylist	O
+
+# id: 196
+# text: Pridek i mano grojarašti imagine dragons dainą believer
+# intent: AddToPlaylist
+1	Pridek	AddToPlaylist	O
+2	i	AddToPlaylist	O
+3	mano	AddToPlaylist	B-reference
+4	grojarašti	AddToPlaylist	O
+5	imagine	AddToPlaylist	B-artist
+6	dragons	AddToPlaylist	I-artist
+7	dainą	AddToPlaylist	B-music_item
+8	believer	AddToPlaylist	B-track
+
+# id: 197
+# text: Įdeti sumertime sadness i grojaraštį
+# intent: AddToPlaylist
+1	Įdeti	AddToPlaylist	O
+2	sumertime	AddToPlaylist	B-track
+3	sadness	AddToPlaylist	I-track
+4	i	AddToPlaylist	O
+5	grojaraštį	AddToPlaylist	O
+
+# id: 198
+# text: Pridėti dainą į grojaraštį "Bėgimas", beyonce run the world
+# intent: AddToPlaylist
+1	Pridėti	AddToPlaylist	O
+2	dainą	AddToPlaylist	B-music_item
+3	į	AddToPlaylist	O
+4	grojaraštį	AddToPlaylist	O
+5	"	AddToPlaylist	O
+6	Bėgimas	AddToPlaylist	B-playlist
+7	"	AddToPlaylist	O
+8	,	AddToPlaylist	O
+9	beyonce	AddToPlaylist	B-artist
+10	run	AddToPlaylist	B-track
+11	the	AddToPlaylist	I-track
+12	world	AddToPlaylist	I-track
+
+# id: 199
+# text: Įtraukti šią dainą į grojaraštį rami.
+# intent: AddToPlaylist
+1	Įtraukti	AddToPlaylist	O
+2	šią	AddToPlaylist	O
+3	dainą	AddToPlaylist	B-music_item
+4	į	AddToPlaylist	O
+5	grojaraštį	AddToPlaylist	O
+6	rami	AddToPlaylist	B-playlist
+7	.	AddToPlaylist	O
+
+# id: 200
+# text: Pridėk naujausią Beyonce albumą I mano youtube grojaraštį lenga
+# intent: AddToPlaylist
+1	Pridėk	AddToPlaylist	O
+2	naujausią	AddToPlaylist	O
+3	Beyonce	AddToPlaylist	B-artist
+4	albumą	AddToPlaylist	B-music_item
+5	I	AddToPlaylist	O
+6	mano	AddToPlaylist	B-reference
+7	youtube	AddToPlaylist	B-service
+8	grojaraštį	AddToPlaylist	O
+9	lenga	AddToPlaylist	B-playlist
+
+# id: 201
+# text: rezervuoti restorana 18 valandai 7 žmonės 3 patiekalu vakarienei
+# intent: BookRestaurant
+1	rezervuoti	BookRestaurant	O
+2	restorana	BookRestaurant	B-restaurant_type
+3	18	BookRestaurant	B-datetime
+4	valandai	BookRestaurant	O
+5	7	BookRestaurant	B-party_size_number
+6	žmonės	BookRestaurant	O
+7	3	BookRestaurant	O
+8	patiekalu	BookRestaurant	O
+9	vakarienei	BookRestaurant	O
+
+# id: 202
+# text: Kur galėčiau pavalgyti su dviem draugais šiandien vakare netoli manes?
+# intent: BookRestaurant
+1	Kur	BookRestaurant	O
+2	galėčiau	BookRestaurant	O
+3	pavalgyti	BookRestaurant	O
+4	su	BookRestaurant	B-party_size_description
+5	dviem	BookRestaurant	I-party_size_description
+6	draugais	BookRestaurant	I-party_size_description
+7	šiandien	BookRestaurant	B-datetime
+8	vakare	BookRestaurant	I-datetime
+9	netoli	BookRestaurant	B-location
+10	manes	BookRestaurant	O
+11	?	BookRestaurant	O
+
+# id: 203
+# text: Kokia picerija arčiausiai mūsų
+# intent: BookRestaurant
+1	Kokia	BookRestaurant	O
+2	picerija	BookRestaurant	B-restaurant_type
+3	arčiausiai	BookRestaurant	B-location
+4	mūsų	BookRestaurant	O
+
+# id: 204
+# text: Noriu cepelinų keturiems žmonems šiandien 19 val
+# intent: BookRestaurant
+1	Noriu	BookRestaurant	O
+2	cepelinų	BookRestaurant	B-served_dish
+3	keturiems	BookRestaurant	B-party_size_number
+4	žmonems	BookRestaurant	O
+5	šiandien	BookRestaurant	B-datetime
+6	19	BookRestaurant	I-datetime
+7	val	BookRestaurant	I-datetime
+
+# id: 205
+# text: Noriu rezervuoti žuvies maisto restoraną šiandien vakare trims žmonėms, Vilniaus mieste.
+# intent: BookRestaurant
+1	Noriu	BookRestaurant	O
+2	rezervuoti	BookRestaurant	O
+3	žuvies	BookRestaurant	B-restaurant_type
+4	maisto	BookRestaurant	O
+5	restoraną	BookRestaurant	B-restaurant_type
+6	šiandien	BookRestaurant	B-datetime
+7	vakare	BookRestaurant	I-datetime
+8	trims	BookRestaurant	B-party_size_number
+9	žmonėms	BookRestaurant	O
+10	,	BookRestaurant	O
+11	Vilniaus	BookRestaurant	B-location
+12	mieste	BookRestaurant	O
+13	.	BookRestaurant	O
+
+# id: 206
+# text: Užrezervuok 7 valandai 4 žmonėms staliuką italų restorane, vilniuje
+# intent: BookRestaurant
+1	Užrezervuok	BookRestaurant	O
+2	7	BookRestaurant	B-datetime
+3	valandai	BookRestaurant	I-datetime
+4	4	BookRestaurant	B-party_size_number
+5	žmonėms	BookRestaurant	O
+6	staliuką	BookRestaurant	O
+7	italų	BookRestaurant	B-cuisine
+8	restorane	BookRestaurant	B-restaurant_type
+9	,	BookRestaurant	O
+10	vilniuje	BookRestaurant	B-location
+
+# id: 207
+# text: Prašau rezervuoti staliuką Vilniaus centre geriausiai įvertintam azijiečių restorane 4 žmonėms rytoj 20:00
+# intent: BookRestaurant
+1	Prašau	BookRestaurant	O
+2	rezervuoti	BookRestaurant	O
+3	staliuką	BookRestaurant	O
+4	Vilniaus	BookRestaurant	B-location
+5	centre	BookRestaurant	B-location
+6	geriausiai	BookRestaurant	B-sort
+7	įvertintam	BookRestaurant	I-sort
+8	azijiečių	BookRestaurant	B-cuisine
+9	restorane	BookRestaurant	B-restaurant_type
+10	4	BookRestaurant	B-party_size_number
+11	žmonėms	BookRestaurant	O
+12	rytoj	BookRestaurant	B-datetime
+13	20:00	BookRestaurant	I-datetime
+
+# id: 208
+# text: Surask rytietišką restoraną 3 km spinduliu?
+# intent: BookRestaurant
+1	Surask	BookRestaurant	O
+2	rytietišką	BookRestaurant	B-cuisine
+3	restoraną	BookRestaurant	B-restaurant_type
+4	3	BookRestaurant	B-location
+5	km	BookRestaurant	I-location
+6	spinduliu	BookRestaurant	I-location
+7	?	BookRestaurant	O
+
+# id: 209
+# text: Noriu staliuko 4 žmonėms, norėsim picos, ją norėsim valgyti lauke 20 val
+# intent: BookRestaurant
+1	Noriu	BookRestaurant	O
+2	staliuko	BookRestaurant	O
+3	4	BookRestaurant	B-party_size_number
+4	žmonėms	BookRestaurant	O
+5	,	BookRestaurant	O
+6	norėsim	BookRestaurant	O
+7	picos	BookRestaurant	B-served_dish
+8	,	BookRestaurant	O
+9	ją	BookRestaurant	O
+10	norėsim	BookRestaurant	O
+11	valgyti	BookRestaurant	O
+12	lauke	BookRestaurant	B-facility
+13	20	BookRestaurant	B-datetime
+14	val	BookRestaurant	I-datetime
+
+# id: 210
+# text: Rezervuok Neringos restorane staliuką penkiems rytoj septintai vakaro.
+# intent: BookRestaurant
+1	Rezervuok	BookRestaurant	O
+2	Neringos	BookRestaurant	B-location
+3	restorane	BookRestaurant	B-restaurant_type
+4	staliuką	BookRestaurant	O
+5	penkiems	BookRestaurant	B-party_size_number
+6	rytoj	BookRestaurant	B-datetime
+7	septintai	BookRestaurant	I-datetime
+8	vakaro	BookRestaurant	I-datetime
+9	.	BookRestaurant	O
+
+# id: 211
+# text: Uzsakyk sušių šeštai valandai prie mano namu
+# intent: BookRestaurant
+1	Uzsakyk	BookRestaurant	O
+2	sušių	BookRestaurant	B-served_dish
+3	šeštai	BookRestaurant	B-datetime
+4	valandai	BookRestaurant	O
+5	prie	BookRestaurant	B-location
+6	mano	BookRestaurant	O
+7	namu	BookRestaurant	O
+
+# id: 212
+# text: Rezervuoti kiniška restorana aštuntai valandai keturiems žmonėms. 
+# intent: BookRestaurant
+1	Rezervuoti	BookRestaurant	O
+2	kiniška	BookRestaurant	B-cuisine
+3	restorana	BookRestaurant	B-restaurant_type
+4	aštuntai	BookRestaurant	B-restaurant_type
+5	valandai	BookRestaurant	I-restaurant_type
+6	keturiems	BookRestaurant	B-party_size_number
+7	žmonėms	BookRestaurant	O
+8	.	BookRestaurant	O
+
+# id: 213
+# text: Užsakyti staliuka dviem, šiam vakarui, nuo 20 valandos, Belgiškame retorane, Vilniaus senamiestyje
+# intent: BookRestaurant
+1	Užsakyti	BookRestaurant	O
+2	staliuka	BookRestaurant	O
+3	dviem	BookRestaurant	B-party_size_number
+4	,	BookRestaurant	O
+5	šiam	BookRestaurant	B-datetime
+6	vakarui	BookRestaurant	I-datetime
+7	,	BookRestaurant	O
+8	nuo	BookRestaurant	B-datetime
+9	20	BookRestaurant	I-datetime
+10	valandos	BookRestaurant	I-datetime
+11	,	BookRestaurant	O
+12	Belgiškame	BookRestaurant	B-cuisine
+13	retorane	BookRestaurant	O
+14	,	BookRestaurant	O
+15	Vilniaus	BookRestaurant	B-location
+16	senamiestyje	BookRestaurant	B-location
+
+# id: 214
+# text: Staliuko 4 asmenims rezervacija, 5 km spinduliu nuo manęs, europietiška virtuvė, 19:00.
+# intent: BookRestaurant
+1	Staliuko	BookRestaurant	O
+2	4	BookRestaurant	B-party_size_number
+3	asmenims	BookRestaurant	O
+4	rezervacija	BookRestaurant	O
+5	,	BookRestaurant	O
+6	5	BookRestaurant	B-location
+7	km	BookRestaurant	I-location
+8	spinduliu	BookRestaurant	I-location
+9	nuo	BookRestaurant	O
+10	manęs	BookRestaurant	O
+11	,	BookRestaurant	O
+12	europietiška	BookRestaurant	B-cuisine
+13	virtuvė	BookRestaurant	O
+14	,	BookRestaurant	O
+15	19:00	BookRestaurant	B-datetime
+16	.	BookRestaurant	O
+
+# id: 215
+# text: Staliukas restorane "Fokus" dviem žmonėm antradienį
+# intent: BookRestaurant
+1	Staliukas	BookRestaurant	O
+2	restorane	BookRestaurant	B-restaurant_type
+3	"	BookRestaurant	O
+4	Fokus	BookRestaurant	B-restaurant_name
+5	"	BookRestaurant	O
+6	dviem	BookRestaurant	B-party_size_number
+7	žmonėm	BookRestaurant	O
+8	antradienį	BookRestaurant	B-datetime
+
+# id: 216
+# text: Rezervuok staliuką trims šiandienai šeštai valandai vakaro restorane Fiorentino.
+# intent: BookRestaurant
+1	Rezervuok	BookRestaurant	O
+2	staliuką	BookRestaurant	O
+3	trims	BookRestaurant	B-party_size_number
+4	šiandienai	BookRestaurant	B-datetime
+5	šeštai	BookRestaurant	I-datetime
+6	valandai	BookRestaurant	I-datetime
+7	vakaro	BookRestaurant	I-datetime
+8	restorane	BookRestaurant	B-restaurant_type
+9	Fiorentino	BookRestaurant	B-restaurant_name
+10	.	BookRestaurant	O
+
+# id: 217
+# text: Užsakyk man staliuką šešiems asmenims liepos 14-tai Kauno centre, kuris turi vaikų žaidimo zoną
+# intent: BookRestaurant
+1	Užsakyk	BookRestaurant	O
+2	man	BookRestaurant	O
+3	staliuką	BookRestaurant	O
+4	šešiems	BookRestaurant	B-party_size_number
+5	asmenims	BookRestaurant	O
+6	liepos	BookRestaurant	B-datetime
+7	14-tai	BookRestaurant	I-datetime
+8	Kauno	BookRestaurant	B-location
+9	centre	BookRestaurant	B-location
+10	,	BookRestaurant	O
+11	kuris	BookRestaurant	O
+12	turi	BookRestaurant	O
+13	vaikų	BookRestaurant	B-facility
+14	žaidimo	BookRestaurant	I-facility
+15	zoną	BookRestaurant	I-facility
+
+# id: 218
+# text: Po savaites norėčiau užsakyti staliuką keturėm  19 valandą kinų virtuvės patiekalai asorti netoli nuo namu iki 500 metrų.
+# intent: BookRestaurant
+1	Po	BookRestaurant	B-datetime
+2	savaites	BookRestaurant	I-datetime
+3	norėčiau	BookRestaurant	O
+4	užsakyti	BookRestaurant	O
+5	staliuką	BookRestaurant	O
+6	keturėm	BookRestaurant	B-party_size_number
+7	19	BookRestaurant	B-datetime
+8	valandą	BookRestaurant	I-datetime
+9	kinų	BookRestaurant	B-cuisine
+10	virtuvės	BookRestaurant	O
+11	patiekalai	BookRestaurant	O
+12	asorti	BookRestaurant	O
+13	netoli	BookRestaurant	B-location
+14	nuo	BookRestaurant	O
+15	namu	BookRestaurant	O
+16	iki	BookRestaurant	B-location
+17	500	BookRestaurant	I-location
+18	metrų	BookRestaurant	I-location
+19	.	BookRestaurant	O
+
+# id: 219
+# text: Užsakyk staliuka dviems kur nors romantiškai Valentino dienai. 
+# intent: BookRestaurant
+1	Užsakyk	BookRestaurant	O
+2	staliuka	BookRestaurant	O
+3	dviems	BookRestaurant	B-party_size_number
+4	kur	BookRestaurant	O
+5	nors	BookRestaurant	O
+6	romantiškai	BookRestaurant	O
+7	Valentino	BookRestaurant	B-datetime
+8	dienai	BookRestaurant	I-datetime
+9	.	BookRestaurant	O
+
+# id: 220
+# text: Kur pavalgyti Vilniuje
+# intent: BookRestaurant
+1	Kur	BookRestaurant	O
+2	pavalgyti	BookRestaurant	O
+3	Vilniuje	BookRestaurant	B-location
+
+# id: 221
+# text: Itališkas restorans šiandien 19 val penkiems asmenims
+# intent: BookRestaurant
+1	Itališkas	BookRestaurant	B-cuisine
+2	restorans	BookRestaurant	B-restaurant_type
+3	šiandien	BookRestaurant	B-datetime
+4	19	BookRestaurant	I-datetime
+5	val	BookRestaurant	I-datetime
+6	penkiems	BookRestaurant	B-party_size_number
+7	asmenims	BookRestaurant	O
+
+# id: 222
+# text: Užrezervuok staliuką kiniečių restorane 3km atstumu nuo manęs, 3 žmonėms šiandien 14 valandai.
+# intent: BookRestaurant
+1	Užrezervuok	BookRestaurant	O
+2	staliuką	BookRestaurant	O
+3	kiniečių	BookRestaurant	B-cuisine
+4	restorane	BookRestaurant	B-restaurant_type
+5	3km	BookRestaurant	B-location
+6	atstumu	BookRestaurant	I-location
+7	nuo	BookRestaurant	O
+8	manęs	BookRestaurant	O
+9	,	BookRestaurant	O
+10	3	BookRestaurant	B-party_size_number
+11	žmonėms	BookRestaurant	O
+12	šiandien	BookRestaurant	B-datetime
+13	14	BookRestaurant	I-datetime
+14	valandai	BookRestaurant	I-datetime
+15	.	BookRestaurant	O
+
+# id: 223
+# text: Užrezervuok staliuką Amandus restorane  8 žmonėms 8 valandai
+# intent: BookRestaurant
+1	Užrezervuok	BookRestaurant	O
+2	staliuką	BookRestaurant	O
+3	Amandus	BookRestaurant	B-restaurant_name
+4	restorane	BookRestaurant	B-restaurant_type
+5	8	BookRestaurant	B-party_size_number
+6	žmonėms	BookRestaurant	O
+7	8	BookRestaurant	B-datetime
+8	valandai	BookRestaurant	O
+
+# id: 224
+# text: 10 žmoniu lauke makaronų 19 val
+# intent: BookRestaurant
+1	10	BookRestaurant	B-party_size_number
+2	žmoniu	BookRestaurant	O
+3	lauke	BookRestaurant	B-facility
+4	makaronų	BookRestaurant	B-served_dish
+5	19	BookRestaurant	B-datetime
+6	val	BookRestaurant	I-datetime
+
+# id: 225
+# text: Rezervuok staliuką dviems mcdonalds arčiausiai namų šeštadienį trečią.
+# intent: BookRestaurant
+1	Rezervuok	BookRestaurant	O
+2	staliuką	BookRestaurant	O
+3	dviems	BookRestaurant	B-party_size_number
+4	mcdonalds	BookRestaurant	B-restaurant_name
+5	arčiausiai	BookRestaurant	B-location
+6	namų	BookRestaurant	O
+7	šeštadienį	BookRestaurant	B-datetime
+8	trečią	BookRestaurant	I-datetime
+9	.	BookRestaurant	O
+
+# id: 226
+# text: Užrezervuok vietą gimtadieniui picerijoje dvidešimt žmoniu
+# intent: BookRestaurant
+1	Užrezervuok	BookRestaurant	O
+2	vietą	BookRestaurant	O
+3	gimtadieniui	BookRestaurant	O
+4	picerijoje	BookRestaurant	B-served_dish
+5	dvidešimt	BookRestaurant	B-party_size_number
+6	žmoniu	BookRestaurant	O
+
+# id: 227
+# text: Užrezervuoti užupio picerijoje aštuoniems žmonėms šešta valandą penktadienį
+# intent: BookRestaurant
+1	Užrezervuoti	BookRestaurant	O
+2	užupio	BookRestaurant	B-location
+3	picerijoje	BookRestaurant	B-served_dish
+4	aštuoniems	BookRestaurant	B-party_size_number
+5	žmonėms	BookRestaurant	O
+6	šešta	BookRestaurant	B-datetime
+7	valandą	BookRestaurant	I-datetime
+8	penktadienį	BookRestaurant	I-datetime
+
+# id: 228
+# text: Užsakyti stalą 10 žmonių, penktadienio vakarui, 19 h, Forto restorane, užkandžiai prie alaus, picos.
+# intent: BookRestaurant
+1	Užsakyti	BookRestaurant	O
+2	stalą	BookRestaurant	O
+3	10	BookRestaurant	B-party_size_number
+4	žmonių	BookRestaurant	O
+5	,	BookRestaurant	O
+6	penktadienio	BookRestaurant	B-datetime
+7	vakarui	BookRestaurant	I-datetime
+8	,	BookRestaurant	O
+9	19	BookRestaurant	B-datetime
+10	h	BookRestaurant	I-datetime
+11	,	BookRestaurant	O
+12	Forto	BookRestaurant	B-restaurant_name
+13	restorane	BookRestaurant	B-restaurant_type
+14	,	BookRestaurant	O
+15	užkandžiai	BookRestaurant	B-served_dish
+16	prie	BookRestaurant	I-served_dish
+17	alaus	BookRestaurant	I-served_dish
+18	,	BookRestaurant	O
+19	picos	BookRestaurant	B-served_dish
+20	.	BookRestaurant	O
+
+# id: 229
+# text: Staliuko 2 asmenims rezervacija, 2 km spinduliu nuo manęs, korėjietiška virtuvė, 17:00.
+# intent: BookRestaurant
+1	Staliuko	BookRestaurant	O
+2	2	BookRestaurant	B-party_size_number
+3	asmenims	BookRestaurant	O
+4	rezervacija	BookRestaurant	O
+5	,	BookRestaurant	O
+6	2	BookRestaurant	B-location
+7	km	BookRestaurant	I-location
+8	spinduliu	BookRestaurant	I-location
+9	nuo	BookRestaurant	O
+10	manęs	BookRestaurant	O
+11	,	BookRestaurant	O
+12	korėjietiška	BookRestaurant	B-cuisine
+13	virtuvė	BookRestaurant	O
+14	,	BookRestaurant	O
+15	17:00	BookRestaurant	B-datetime
+16	.	BookRestaurant	O
+
+# id: 230
+# text: Ieškoti restorano Vilnius centre, penktadienio vakarą nuo 19 val šešiems žmonėms
+# intent: BookRestaurant
+1	Ieškoti	BookRestaurant	O
+2	restorano	BookRestaurant	O
+3	Vilnius	BookRestaurant	B-location
+4	centre	BookRestaurant	B-location
+5	,	BookRestaurant	O
+6	penktadienio	BookRestaurant	B-datetime
+7	vakarą	BookRestaurant	I-datetime
+8	nuo	BookRestaurant	I-datetime
+9	19	BookRestaurant	I-datetime
+10	val	BookRestaurant	I-datetime
+11	šešiems	BookRestaurant	B-party_size_number
+12	žmonėms	BookRestaurant	O
+
+# id: 231
+# text: Užsakyk staliuką dviems šiam vakarui miesto centre.
+# intent: BookRestaurant
+1	Užsakyk	BookRestaurant	O
+2	staliuką	BookRestaurant	O
+3	dviems	BookRestaurant	B-party_size_number
+4	šiam	BookRestaurant	B-datetime
+5	vakarui	BookRestaurant	I-datetime
+6	miesto	BookRestaurant	O
+7	centre	BookRestaurant	B-location
+8	.	BookRestaurant	O
+
+# id: 232
+# text: Rezervuok keturiems asmenims staliukas alaus bare, įvertintą ne mažiau kaip 4, aplink Klaipėdą
+# intent: BookRestaurant
+1	Rezervuok	BookRestaurant	O
+2	keturiems	BookRestaurant	B-party_size_number
+3	asmenims	BookRestaurant	O
+4	staliukas	BookRestaurant	O
+5	alaus	BookRestaurant	B-restaurant_type
+6	bare	BookRestaurant	I-restaurant_type
+7	,	BookRestaurant	O
+8	įvertintą	BookRestaurant	O
+9	ne	BookRestaurant	B-sort
+10	mažiau	BookRestaurant	I-sort
+11	kaip	BookRestaurant	I-sort
+12	4	BookRestaurant	I-sort
+13	,	BookRestaurant	O
+14	aplink	BookRestaurant	B-location
+15	Klaipėdą	BookRestaurant	B-location
+
+# id: 233
+# text: Noriu atšvęsti jubiliejų restorane "Tomas" nuo 19 val iki uždarymo 25 žmones.
+# intent: BookRestaurant
+1	Noriu	BookRestaurant	O
+2	atšvęsti	BookRestaurant	O
+3	jubiliejų	BookRestaurant	O
+4	restorane	BookRestaurant	B-restaurant_type
+5	"	BookRestaurant	O
+6	Tomas	BookRestaurant	B-restaurant_name
+7	"	BookRestaurant	O
+8	nuo	BookRestaurant	B-datetime
+9	19	BookRestaurant	I-datetime
+10	val	BookRestaurant	I-datetime
+11	iki	BookRestaurant	I-datetime
+12	uždarymo	BookRestaurant	I-datetime
+13	25	BookRestaurant	B-party_size_number
+14	žmones	BookRestaurant	O
+15	.	BookRestaurant	O
+
+# id: 234
+# text: Užsakyk penktadienio vakarui septintai staliuką keturiems kepsnių restorane.
+# intent: BookRestaurant
+1	Užsakyk	BookRestaurant	O
+2	penktadienio	BookRestaurant	B-datetime
+3	vakarui	BookRestaurant	I-datetime
+4	septintai	BookRestaurant	I-datetime
+5	staliuką	BookRestaurant	O
+6	keturiems	BookRestaurant	B-party_size_number
+7	kepsnių	BookRestaurant	B-restaurant_type
+8	restorane	BookRestaurant	I-restaurant_type
+9	.	BookRestaurant	O
+
+# id: 235
+# text: Kas pietums šiandien 1 km nuo manęs
+# intent: BookRestaurant
+1	Kas	BookRestaurant	O
+2	pietums	BookRestaurant	O
+3	šiandien	BookRestaurant	B-datetime
+4	1	BookRestaurant	B-location
+5	km	BookRestaurant	I-location
+6	nuo	BookRestaurant	O
+7	manęs	BookRestaurant	O
+
+# id: 236
+# text: Noriu rezervuoti staliuką dviems vakarienei kitą antradienį Kauno mieste, septintai valandai vakaro.
+# intent: BookRestaurant
+1	Noriu	BookRestaurant	O
+2	rezervuoti	BookRestaurant	O
+3	staliuką	BookRestaurant	O
+4	dviems	BookRestaurant	B-party_size_number
+5	vakarienei	BookRestaurant	O
+6	kitą	BookRestaurant	B-datetime
+7	antradienį	BookRestaurant	I-datetime
+8	Kauno	BookRestaurant	B-location
+9	mieste	BookRestaurant	O
+10	,	BookRestaurant	O
+11	septintai	BookRestaurant	B-datetime
+12	valandai	BookRestaurant	I-datetime
+13	vakaro	BookRestaurant	I-datetime
+14	.	BookRestaurant	O
+
+# id: 237
+# text: Užrezervuok staliuką 2 žmonėms 6 valandai prie manęs
+# intent: BookRestaurant
+1	Užrezervuok	BookRestaurant	O
+2	staliuką	BookRestaurant	O
+3	2	BookRestaurant	B-party_size_number
+4	žmonėms	BookRestaurant	O
+5	6	BookRestaurant	B-datetime
+6	valandai	BookRestaurant	I-datetime
+7	prie	BookRestaurant	B-location
+8	manęs	BookRestaurant	O
+
+# id: 238
+# text: 2 žmones 15:30 viduje norėsim steak
+# intent: BookRestaurant
+1	2	BookRestaurant	B-party_size_number
+2	žmones	BookRestaurant	O
+3	15:30	BookRestaurant	B-datetime
+4	viduje	BookRestaurant	B-facility
+5	norėsim	BookRestaurant	O
+6	steak	BookRestaurant	B-served_dish
+
+# id: 239
+# text: Verslo pietus, ketvirtadienį, Vilniaus centre staliukas 5 - iems,  jūros gerybės, didkepsniai
+# intent: BookRestaurant
+1	Verslo	BookRestaurant	O
+2	pietus	BookRestaurant	O
+3	,	BookRestaurant	O
+4	ketvirtadienį	BookRestaurant	B-datetime
+5	,	BookRestaurant	O
+6	Vilniaus	BookRestaurant	B-location
+7	centre	BookRestaurant	B-location
+8	staliukas	BookRestaurant	O
+9	5	BookRestaurant	B-party_size_number
+10	-	BookRestaurant	I-party_size_number
+11	iems	BookRestaurant	I-party_size_number
+12	,	BookRestaurant	O
+13	jūros	BookRestaurant	B-served_dish
+14	gerybės	BookRestaurant	I-served_dish
+15	,	BookRestaurant	O
+16	didkepsniai	BookRestaurant	B-served_dish
+
+# id: 240
+# text: užsakyk meksikietiškas restoranas Vilniuje, pagal reitingą ir geriausius atsiliepimus
+# intent: BookRestaurant
+1	užsakyk	BookRestaurant	O
+2	meksikietiškas	BookRestaurant	B-cuisine
+3	restoranas	BookRestaurant	B-restaurant_type
+4	Vilniuje	BookRestaurant	B-location
+5	,	BookRestaurant	O
+6	pagal	BookRestaurant	B-sort
+7	reitingą	BookRestaurant	I-sort
+8	ir	BookRestaurant	O
+9	geriausius	BookRestaurant	B-sort
+10	atsiliepimus	BookRestaurant	I-sort
+
+# id: 241
+# text: Surask kiniško maisto restoraną  dviejų kilometrų spinduliu ir  užsakyk jame staliuką šešiems asmenis  šiam vakarui nuo šeštos valandos.
+# intent: BookRestaurant
+1	Surask	BookRestaurant	O
+2	kiniško	BookRestaurant	B-cuisine
+3	maisto	BookRestaurant	O
+4	restoraną	BookRestaurant	B-restaurant_type
+5	dviejų	BookRestaurant	B-location
+6	kilometrų	BookRestaurant	I-location
+7	spinduliu	BookRestaurant	I-location
+8	ir	BookRestaurant	O
+9	užsakyk	BookRestaurant	O
+10	jame	BookRestaurant	O
+11	staliuką	BookRestaurant	O
+12	šešiems	BookRestaurant	B-party_size_number
+13	asmenis	BookRestaurant	O
+14	šiam	BookRestaurant	B-datetime
+15	vakarui	BookRestaurant	I-datetime
+16	nuo	BookRestaurant	I-datetime
+17	šeštos	BookRestaurant	I-datetime
+18	valandos	BookRestaurant	I-datetime
+19	.	BookRestaurant	O
+
+# id: 242
+# text: Rezervuok dviems kinietiško maisto restorane netoli manęs 
+# intent: BookRestaurant
+1	Rezervuok	BookRestaurant	O
+2	dviems	BookRestaurant	B-party_size_number
+3	kinietiško	BookRestaurant	B-cuisine
+4	maisto	BookRestaurant	O
+5	restorane	BookRestaurant	B-restaurant_type
+6	netoli	BookRestaurant	B-location
+7	manęs	BookRestaurant	O
+
+# id: 243
+# text: surasti dainą tina turnet i will
+# intent: PlayMusic
+1	surasti	PlayMusic	O
+2	dainą	PlayMusic	B-music_item
+3	tina	PlayMusic	B-artist
+4	turnet	PlayMusic	I-artist
+5	i	PlayMusic	B-track
+6	will	PlayMusic	I-track
+
+# id: 244
+# text: Groti, Sel As ziuriu i Tave pasauli
+# intent: PlayMusic
+1	Groti	PlayMusic	O
+2	,	PlayMusic	O
+3	Sel	PlayMusic	B-artist
+4	As	PlayMusic	B-track
+5	ziuriu	PlayMusic	I-track
+6	i	PlayMusic	I-track
+7	Tave	PlayMusic	I-track
+8	pasauli	PlayMusic	I-track
+
+# id: 245
+# text: Groti paskutinę dainą iš imagine dragons naujausio albumo.
+# intent: PlayMusic
+1	Groti	PlayMusic	O
+2	paskutinę	PlayMusic	B-sort
+3	dainą	PlayMusic	B-music_item
+4	iš	PlayMusic	O
+5	imagine	PlayMusic	B-artist
+6	dragons	PlayMusic	I-artist
+7	naujausio	PlayMusic	B-sort
+8	albumo	PlayMusic	B-music_item
+9	.	PlayMusic	O
+
+# id: 246
+# text: Įjungti m-1 grojamiausias
+# intent: PlayMusic
+1	Įjungti	PlayMusic	O
+2	m-1	PlayMusic	B-service
+3	grojamiausias	PlayMusic	B-sort
+
+# id: 247
+# text: Grok lengvą Jazz muziką sekančias dvi valandas
+# intent: PlayMusic
+1	Grok	PlayMusic	O
+2	lengvą	PlayMusic	O
+3	Jazz	PlayMusic	B-genre
+4	muziką	PlayMusic	O
+5	sekančias	PlayMusic	O
+6	dvi	PlayMusic	O
+7	valandas	PlayMusic	O
+
+# id: 248
+# text: Paleisk country muzikos stiliaus dainų miksą per spotify
+# intent: PlayMusic
+1	Paleisk	PlayMusic	O
+2	country	PlayMusic	B-genre
+3	muzikos	PlayMusic	O
+4	stiliaus	PlayMusic	O
+5	dainų	PlayMusic	B-music_item
+6	miksą	PlayMusic	O
+7	per	PlayMusic	O
+8	spotify	PlayMusic	B-service
+
+# id: 249
+# text: Užleisk “Midnights” grojaraštį per “Spotify”
+# intent: PlayMusic
+1	Užleisk	PlayMusic	O
+2	“	PlayMusic	O
+3	Midnights	PlayMusic	B-playlist
+4	”	PlayMusic	O
+5	grojaraštį	PlayMusic	O
+6	per	PlayMusic	O
+7	“	PlayMusic	O
+8	Spotify	PlayMusic	B-service
+9	”	PlayMusic	O
+
+# id: 250
+# text: Prašau paleisti populiariasią pop dainą spotify
+# intent: PlayMusic
+1	Prašau	PlayMusic	O
+2	paleisti	PlayMusic	O
+3	populiariasią	PlayMusic	B-sort
+4	pop	PlayMusic	B-genre
+5	dainą	PlayMusic	B-music_item
+6	spotify	PlayMusic	B-service
+
+# id: 251
+# text:  Per Spotify  the weekend muzika
+# intent: PlayMusic
+1	Per	PlayMusic	O
+2	Spotify	PlayMusic	B-service
+3	the	PlayMusic	B-artist
+4	weekend	PlayMusic	I-artist
+5	muzika	PlayMusic	O
+
+# id: 252
+# text: Paleisk the roop per spotify
+# intent: PlayMusic
+1	Paleisk	PlayMusic	O
+2	the	PlayMusic	B-artist
+3	roop	PlayMusic	I-artist
+4	per	PlayMusic	O
+5	spotify	PlayMusic	B-service
+
+# id: 253
+# text: Pagrok daina believer
+# intent: PlayMusic
+1	Pagrok	PlayMusic	O
+2	daina	PlayMusic	B-music_item
+3	believer	PlayMusic	B-artist
+
+# id: 254
+# text: Užleisti midnights albuma per spotify
+# intent: PlayMusic
+1	Užleisti	PlayMusic	O
+2	midnights	PlayMusic	B-artist
+3	albuma	PlayMusic	B-music_item
+4	per	PlayMusic	O
+5	spotify	PlayMusic	B-service
+
+# id: 255
+# text: Per Youtube paleisti, Fredy Mercury, we are the champions 
+# intent: PlayMusic
+1	Per	PlayMusic	O
+2	Youtube	PlayMusic	B-service
+3	paleisti	PlayMusic	O
+4	,	PlayMusic	O
+5	Fredy	PlayMusic	B-artist
+6	Mercury	PlayMusic	I-artist
+7	,	PlayMusic	O
+8	we	PlayMusic	B-track
+9	are	PlayMusic	I-track
+10	the	PlayMusic	I-track
+11	champions	PlayMusic	I-track
+
+# id: 256
+# text: Surask ir grok 1990 metų stiliaus muziką per youtube
+# intent: PlayMusic
+1	Surask	PlayMusic	O
+2	ir	PlayMusic	O
+3	grok	PlayMusic	O
+4	1990	PlayMusic	B-datetime
+5	metų	PlayMusic	O
+6	stiliaus	PlayMusic	O
+7	muziką	PlayMusic	O
+8	per	PlayMusic	O
+9	youtube	PlayMusic	B-service
+
+# id: 257
+# text: Groti šokių muziką 2023 metų
+# intent: PlayMusic
+1	Groti	PlayMusic	O
+2	šokių	PlayMusic	B-genre
+3	muziką	PlayMusic	O
+4	2023	PlayMusic	B-datetime
+5	metų	PlayMusic	O
+
+# id: 258
+# text: Per Spotify paleisk grojaraštį sportas
+# intent: PlayMusic
+1	Per	PlayMusic	O
+2	Spotify	PlayMusic	B-service
+3	paleisk	PlayMusic	O
+4	grojaraštį	PlayMusic	O
+5	sportas	PlayMusic	B-playlist
+
+# id: 259
+# text: Surasti paskutinį koncertą Pavaroti
+# intent: PlayMusic
+1	Surasti	PlayMusic	O
+2	paskutinį	PlayMusic	B-sort
+3	koncertą	PlayMusic	B-music_item
+4	Pavaroti	PlayMusic	B-artist
+
+# id: 260
+# text: Įjungti žiedu valdovo garso takelį per spotify.
+# intent: PlayMusic
+1	Įjungti	PlayMusic	O
+2	žiedu	PlayMusic	B-movie_name
+3	valdovo	PlayMusic	I-movie_name
+4	garso	PlayMusic	B-music_item
+5	takelį	PlayMusic	I-music_item
+6	per	PlayMusic	O
+7	spotify	PlayMusic	B-service
+8	.	PlayMusic	O
+
+# id: 261
+# text: Dua Lipa albumas
+# intent: PlayMusic
+1	Dua	PlayMusic	B-artist
+2	Lipa	PlayMusic	I-artist
+3	albumas	PlayMusic	B-music_item
+
+# id: 262
+# text: Noriu paklausyti Queen dainų
+# intent: PlayMusic
+1	Noriu	PlayMusic	O
+2	paklausyti	PlayMusic	O
+3	Queen	PlayMusic	B-artist
+4	dainų	PlayMusic	B-music_item
+
+# id: 263
+# text: Noriu klausytis elektrininės muzikos per spotify
+# intent: PlayMusic
+1	Noriu	PlayMusic	O
+2	klausytis	PlayMusic	O
+3	elektrininės	PlayMusic	B-genre
+4	muzikos	PlayMusic	O
+5	per	PlayMusic	O
+6	spotify	PlayMusic	B-service
+
+# id: 264
+# text: Užleisk “Summertime sadness” pagal Lana Del Rey per Spotify
+# intent: PlayMusic
+1	Užleisk	PlayMusic	O
+2	“	PlayMusic	O
+3	Summertime	PlayMusic	B-track
+4	sadness	PlayMusic	I-track
+5	”	PlayMusic	O
+6	pagal	PlayMusic	O
+7	Lana	PlayMusic	B-artist
+8	Del	PlayMusic	I-artist
+9	Rey	PlayMusic	I-artist
+10	per	PlayMusic	O
+11	Spotify	PlayMusic	B-service
+
+# id: 265
+# text: Noriu klausytis 90 metų dainų
+# intent: PlayMusic
+1	Noriu	PlayMusic	O
+2	klausytis	PlayMusic	O
+3	90	PlayMusic	B-datetime
+4	metų	PlayMusic	I-datetime
+5	dainų	PlayMusic	B-music_item
+
+# id: 266
+# text: Per spotify ariana grande muzika
+# intent: PlayMusic
+1	Per	PlayMusic	O
+2	spotify	PlayMusic	B-service
+3	ariana	PlayMusic	B-artist
+4	grande	PlayMusic	I-artist
+5	muzika	PlayMusic	O
+
+# id: 267
+# text: Pagrok ką nors romantiško iš youtube.
+# intent: PlayMusic
+1	Pagrok	PlayMusic	O
+2	ką	PlayMusic	O
+3	nors	PlayMusic	O
+4	romantiško	PlayMusic	B-genre
+5	iš	PlayMusic	O
+6	youtube	PlayMusic	B-service
+7	.	PlayMusic	O
+
+# id: 268
+# text: Ijunk žaibo makvyno garso takelį
+# intent: PlayMusic
+1	Ijunk	PlayMusic	O
+2	žaibo	PlayMusic	B-movie_name
+3	makvyno	PlayMusic	I-movie_name
+4	garso	PlayMusic	B-music_item
+5	takelį	PlayMusic	I-music_item
+
+# id: 269
+# text: Užleisti dont stop me now pagal queen per spotify
+# intent: PlayMusic
+1	Užleisti	PlayMusic	O
+2	dont	PlayMusic	B-track
+3	stop	PlayMusic	I-track
+4	me	PlayMusic	I-track
+5	now	PlayMusic	I-track
+6	pagal	PlayMusic	O
+7	queen	PlayMusic	B-artist
+8	per	PlayMusic	O
+9	spotify	PlayMusic	B-service
+
+# id: 270
+# text: Per Spotify groti, Baumila Kunigunda
+# intent: PlayMusic
+1	Per	PlayMusic	O
+2	Spotify	PlayMusic	B-service
+3	groti	PlayMusic	O
+4	,	PlayMusic	O
+5	Baumila	PlayMusic	B-artist
+6	Kunigunda	PlayMusic	B-track
+
+# id: 271
+# text: Geriausios pop 2022 metų dainos
+# intent: PlayMusic
+1	Geriausios	PlayMusic	B-sort
+2	pop	PlayMusic	B-genre
+3	2022	PlayMusic	B-datetime
+4	metų	PlayMusic	O
+5	dainos	PlayMusic	B-music_item
+
+# id: 272
+# text: Paleisti bet kurią atlikėjo Mamontovas dainą per media grotuvą.
+# intent: PlayMusic
+1	Paleisti	PlayMusic	O
+2	bet	PlayMusic	O
+3	kurią	PlayMusic	O
+4	atlikėjo	PlayMusic	O
+5	Mamontovas	PlayMusic	B-artist
+6	dainą	PlayMusic	B-music_item
+7	per	PlayMusic	O
+8	media	PlayMusic	B-service
+9	grotuvą	PlayMusic	O
+10	.	PlayMusic	O
+
+# id: 273
+# text: Paleisk ką nors iš two steps from hell
+# intent: PlayMusic
+1	Paleisk	PlayMusic	O
+2	ką	PlayMusic	O
+3	nors	PlayMusic	O
+4	iš	PlayMusic	O
+5	two	PlayMusic	B-artist
+6	steps	PlayMusic	I-artist
+7	from	PlayMusic	I-artist
+8	hell	PlayMusic	I-artist
+
+# id: 274
+# text: Norėčiau paklausyti ramios klasikines muzikos  iš čekalino repertuaro
+# intent: PlayMusic
+1	Norėčiau	PlayMusic	O
+2	paklausyti	PlayMusic	O
+3	ramios	PlayMusic	O
+4	klasikines	PlayMusic	B-genre
+5	muzikos	PlayMusic	O
+6	iš	PlayMusic	O
+7	čekalino	PlayMusic	B-artist
+8	repertuaro	PlayMusic	O
+
+# id: 275
+# text: Surasti ir groti daina dance dance dance with my hands hands hands.
+# intent: PlayMusic
+1	Surasti	PlayMusic	O
+2	ir	PlayMusic	O
+3	groti	PlayMusic	O
+4	daina	PlayMusic	B-music_item
+5	dance	PlayMusic	B-track
+6	dance	PlayMusic	I-track
+7	dance	PlayMusic	I-track
+8	with	PlayMusic	I-track
+9	my	PlayMusic	I-track
+10	hands	PlayMusic	I-track
+11	hands	PlayMusic	I-track
+12	hands	PlayMusic	I-track
+13	.	PlayMusic	O
+
+# id: 276
+# text: Roko baladės
+# intent: PlayMusic
+1	Roko	PlayMusic	B-genre
+2	baladės	PlayMusic	I-genre
+
+# id: 277
+# text: Grok Juoda Orchideja keturis kartus
+# intent: PlayMusic
+1	Grok	PlayMusic	O
+2	Juoda	PlayMusic	B-track
+3	Orchideja	PlayMusic	I-track
+4	keturis	PlayMusic	O
+5	kartus	PlayMusic	O
+
+# id: 278
+# text: Man reikia geriausių 90s muzikos dainų per apple music.
+# intent: PlayMusic
+1	Man	PlayMusic	O
+2	reikia	PlayMusic	O
+3	geriausių	PlayMusic	B-sort
+4	90s	PlayMusic	B-datetime
+5	muzikos	PlayMusic	O
+6	dainų	PlayMusic	B-music_item
+7	per	PlayMusic	O
+8	apple	PlayMusic	B-service
+9	music	PlayMusic	I-service
+10	.	PlayMusic	O
+
+# id: 279
+# text: Užleisk “Dont stop me now” pagal Queen per “Spotify”
+# intent: PlayMusic
+1	Užleisk	PlayMusic	O
+2	“	PlayMusic	O
+3	Dont	PlayMusic	B-track
+4	stop	PlayMusic	I-track
+5	me	PlayMusic	I-track
+6	now	PlayMusic	I-track
+7	”	PlayMusic	O
+8	pagal	PlayMusic	O
+9	Queen	PlayMusic	B-artist
+10	per	PlayMusic	O
+11	“	PlayMusic	O
+12	Spotify	PlayMusic	B-service
+13	”	PlayMusic	O
+
+# id: 280
+# text: Per spotify saulio pliusaičio muzika
+# intent: PlayMusic
+1	Per	PlayMusic	O
+2	spotify	PlayMusic	B-service
+3	saulio	PlayMusic	B-artist
+4	pliusaičio	PlayMusic	I-artist
+5	muzika	PlayMusic	O
+
+# id: 281
+# text: įjunk iš kažkokio filmo roko muzika
+# intent: PlayMusic
+1	įjunk	PlayMusic	O
+2	iš	PlayMusic	O
+3	kažkokio	PlayMusic	O
+4	filmo	PlayMusic	O
+5	roko	PlayMusic	B-genre
+6	muzika	PlayMusic	O
+
+# id: 282
+# text: Per Youtube paliesti Džordana, Nemylejau Tavęs
+# intent: PlayMusic
+1	Per	PlayMusic	O
+2	Youtube	PlayMusic	B-sort
+3	paliesti	PlayMusic	O
+4	Džordana	PlayMusic	B-artist
+5	,	PlayMusic	O
+6	Nemylejau	PlayMusic	B-track
+7	Tavęs	PlayMusic	I-track
+
+# id: 283
+# text: Kesha muzikos albumai
+# intent: PlayMusic
+1	Kesha	PlayMusic	B-artist
+2	muzikos	PlayMusic	O
+3	albumai	PlayMusic	B-music_item
+
+# id: 284
+# text: Groti rap stiliaus dainas.
+# intent: PlayMusic
+1	Groti	PlayMusic	O
+2	rap	PlayMusic	B-genre
+3	stiliaus	PlayMusic	O
+4	dainas	PlayMusic	B-music_item
+5	.	PlayMusic	O
+
+# id: 285
+# text: Grok bethoveno penktąją simfoniją
+# intent: PlayMusic
+1	Grok	PlayMusic	O
+2	bethoveno	PlayMusic	B-artist
+3	penktąją	PlayMusic	B-track
+4	simfoniją	PlayMusic	I-track
+
+# id: 286
+# text: Parinkti linksmą šokių muziką dabartinių top atlikėjų 
+# intent: PlayMusic
+1	Parinkti	PlayMusic	O
+2	linksmą	PlayMusic	O
+3	šokių	PlayMusic	B-genre
+4	muziką	PlayMusic	O
+5	dabartinių	PlayMusic	O
+6	top	PlayMusic	B-sort
+7	atlikėjų	PlayMusic	O
+
+# id: 287
+# text: Barako obamos biografijai duoti keturis balus is penkių.
+# intent: RateBook
+1	Barako	RateBook	B-object_name
+2	obamos	RateBook	I-object_name
+3	biografijai	RateBook	B-object_type
+4	duoti	RateBook	O
+5	keturis	RateBook	B-rating_value
+6	balus	RateBook	B-rating_unit
+7	is	RateBook	O
+8	penkių	RateBook	B-best_rating
+9	.	RateBook	O
+
+# id: 288
+# text: Prasau ivertinti knyga "Kaip as ismokau gyventi" penkiais
+# intent: RateBook
+1	Prasau	RateBook	O
+2	ivertinti	RateBook	O
+3	knyga	RateBook	B-object_type
+4	"	RateBook	O
+5	Kaip	RateBook	B-object_name
+6	as	RateBook	I-object_name
+7	ismokau	RateBook	I-object_name
+8	gyventi	RateBook	I-object_name
+9	"	RateBook	O
+10	penkiais	RateBook	B-rating_value
+
+# id: 289
+# text: Vertinu Žiedų valdovo trilogija 10 balų iš 10.
+# intent: RateBook
+1	Vertinu	RateBook	O
+2	Žiedų	RateBook	B-object_name
+3	valdovo	RateBook	I-object_name
+4	trilogija	RateBook	B-object_type
+5	10	RateBook	B-rating_value
+6	balų	RateBook	B-rating_unit
+7	iš	RateBook	O
+8	10	RateBook	B-best_rating
+9	.	RateBook	O
+
+# id: 290
+# text: Duok knygų serijai “Liūtės daina” 10 iš 10
+# intent: RateBook
+1	Duok	RateBook	O
+2	knygų	RateBook	O
+3	serijai	RateBook	B-object_type
+4	“	RateBook	O
+5	Liūtės	RateBook	B-object_name
+6	daina	RateBook	I-object_name
+7	”	RateBook	O
+8	10	RateBook	B-rating_value
+9	iš	RateBook	O
+10	10	RateBook	B-best_rating
+
+# id: 291
+# text: Įvertink knygą Balta drobulė auščiausiu įvertinimu.
+# intent: RateBook
+1	Įvertink	RateBook	O
+2	knygą	RateBook	B-object_type
+3	Balta	RateBook	B-object_name
+4	drobulė	RateBook	I-object_name
+5	auščiausiu	RateBook	B-sort
+6	įvertinimu	RateBook	O
+7	.	RateBook	O
+
+# id: 292
+# text: Ivertink visas Hario poterio knygas 9 balu is 10
+# intent: RateBook
+1	Ivertink	RateBook	O
+2	visas	RateBook	B-object_select
+3	Hario	RateBook	B-object_name
+4	poterio	RateBook	I-object_name
+5	knygas	RateBook	O
+6	9	RateBook	B-rating_value
+7	balu	RateBook	O
+8	is	RateBook	O
+9	10	RateBook	O
+
+# id: 293
+# text: Inertiškai knygų serija liūtas duok 10 is 10
+# intent: RateBook
+1	Inertiškai	RateBook	O
+2	knygų	RateBook	B-object_type
+3	serija	RateBook	I-object_type
+4	liūtas	RateBook	B-object_name
+5	duok	RateBook	O
+6	10	RateBook	B-rating_value
+7	is	RateBook	O
+8	10	RateBook	B-best_rating
+
+# id: 294
+# text: Haris Poteris, tamsos kambarys, 10 balu
+# intent: RateBook
+1	Haris	RateBook	B-object_part_of_series_type
+2	Poteris	RateBook	I-object_part_of_series_type
+3	,	RateBook	O
+4	tamsos	RateBook	B-object_name
+5	kambarys	RateBook	I-object_name
+6	,	RateBook	O
+7	10	RateBook	B-best_rating
+8	balu	RateBook	B-rating_unit
+
+# id: 295
+# text: Įvertink skaitytą knygą 10 balų vertinimo sistema.
+# intent: RateBook
+1	Įvertink	RateBook	O
+2	skaitytą	RateBook	B-object_select
+3	knygą	RateBook	O
+4	10	RateBook	B-rating_value
+5	balų	RateBook	B-rating_unit
+6	vertinimo	RateBook	O
+7	sistema	RateBook	O
+8	.	RateBook	O
+
+# id: 296
+# text: Įvertink perkaitytą knygą  "Haris poteris"  penkiom žvaigždutėmis
+# intent: RateBook
+1	Įvertink	RateBook	O
+2	perkaitytą	RateBook	O
+3	knygą	RateBook	O
+4	"	RateBook	O
+5	Haris	RateBook	B-object_name
+6	poteris	RateBook	I-object_name
+7	"	RateBook	O
+8	penkiom	RateBook	B-rating_value
+9	žvaigždutėmis	RateBook	B-rating_unit
+
+# id: 297
+# text: Rašytojo Hugo knygą Paryžiaus katedra vertinu penkiais balais iš dešimties.
+# intent: RateBook
+1	Rašytojo	RateBook	O
+2	Hugo	RateBook	O
+3	knygą	RateBook	O
+4	Paryžiaus	RateBook	B-object_name
+5	katedra	RateBook	I-object_name
+6	vertinu	RateBook	O
+7	penkiais	RateBook	B-rating_value
+8	balais	RateBook	B-rating_unit
+9	iš	RateBook	O
+10	dešimties	RateBook	B-best_rating
+11	.	RateBook	O
+
+# id: 298
+# text: Žiedų valdovo trilogiją įvertink 5 žvaigždutėmis iš 5
+# intent: RateBook
+1	Žiedų	RateBook	B-object_name
+2	valdovo	RateBook	I-object_name
+3	trilogiją	RateBook	B-object_type
+4	įvertink	RateBook	O
+5	5	RateBook	B-rating_value
+6	žvaigždutėmis	RateBook	B-rating_unit
+7	iš	RateBook	O
+8	5	RateBook	B-best_rating
+
+# id: 299
+# text: Parodyk 2023 metu Dior kolekcijos drabuziu modelius. 
+# intent: SearchCreativeWork
+1	Parodyk	SearchCreativeWork	O
+2	2023	SearchCreativeWork	B-datetime
+3	metu	SearchCreativeWork	O
+4	Dior	SearchCreativeWork	B-object_name
+5	kolekcijos	SearchCreativeWork	B-object_type
+6	drabuziu	SearchCreativeWork	I-object_type
+7	modelius	SearchCreativeWork	I-object_type
+8	.	SearchCreativeWork	O
+
+# id: 300
+# text: Surask “Karybų piratai” filmą
+# intent: SearchCreativeWork
+1	Surask	SearchCreativeWork	O
+2	“	SearchCreativeWork	O
+3	Karybų	SearchCreativeWork	B-movie_name
+4	piratai	SearchCreativeWork	I-movie_name
+5	”	SearchCreativeWork	O
+6	filmą	SearchCreativeWork	B-object_type
+
+# id: 301
+# text: Rask vangogo saulėgrąžas.
+# intent: SearchCreativeWork
+1	Rask	SearchCreativeWork	O
+2	vangogo	SearchCreativeWork	B-artist
+3	saulėgrąžas	SearchCreativeWork	B-object_name
+4	.	SearchCreativeWork	O
+
+# id: 302
+# text: Surask filmo ratai 3 kaip atrodo zaibo makvyno draugas.
+# intent: SearchCreativeWork
+1	Surask	SearchCreativeWork	O
+2	filmo	SearchCreativeWork	B-object_type
+3	ratai	SearchCreativeWork	B-object_name
+4	3	SearchCreativeWork	I-object_name
+5	kaip	SearchCreativeWork	O
+6	atrodo	SearchCreativeWork	O
+7	zaibo	SearchCreativeWork	B-object_select
+8	makvyno	SearchCreativeWork	I-object_select
+9	draugas	SearchCreativeWork	I-object_select
+10	.	SearchCreativeWork	O
+
+# id: 303
+# text: Rask anonsą Karibų piratai
+# intent: SearchCreativeWork
+1	Rask	SearchCreativeWork	O
+2	anonsą	SearchCreativeWork	B-object_type
+3	Karibų	SearchCreativeWork	B-object_name
+4	piratai	SearchCreativeWork	I-object_name
+
+# id: 304
+# text: Netflikse, rasti filma Matrica, 1 dali
+# intent: SearchCreativeWork
+1	Netflikse	SearchCreativeWork	B-service
+2	,	SearchCreativeWork	O
+3	rasti	SearchCreativeWork	O
+4	filma	SearchCreativeWork	B-object_type
+5	Matrica	SearchCreativeWork	B-object_name
+6	,	SearchCreativeWork	O
+7	1	SearchCreativeWork	B-object_select
+8	dali	SearchCreativeWork	I-object_select
+
+# id: 305
+# text: Surask filmą Neliečiamieji.
+# intent: SearchCreativeWork
+1	Surask	SearchCreativeWork	O
+2	filmą	SearchCreativeWork	B-object_type
+3	Neliečiamieji	SearchCreativeWork	B-object_name
+4	.	SearchCreativeWork	O
+
+# id: 306
+# text: Surask fantastinį filmą lietuvių kalba 2023 metų laidos
+# intent: SearchCreativeWork
+1	Surask	SearchCreativeWork	O
+2	fantastinį	SearchCreativeWork	B-object_type
+3	filmą	SearchCreativeWork	I-object_type
+4	lietuvių	SearchCreativeWork	B-object_select
+5	kalba	SearchCreativeWork	I-object_select
+6	2023	SearchCreativeWork	B-datetime
+7	metų	SearchCreativeWork	O
+8	laidos	SearchCreativeWork	O
+
+# id: 307
+# text: Surask šiais metais  geriausią reitingą turinti fantastinį romaną.
+# intent: SearchCreativeWork
+1	Surask	SearchCreativeWork	O
+2	šiais	SearchCreativeWork	B-datetime
+3	metais	SearchCreativeWork	I-datetime
+4	geriausią	SearchCreativeWork	B-object_select
+5	reitingą	SearchCreativeWork	I-object_select
+6	turinti	SearchCreativeWork	O
+7	fantastinį	SearchCreativeWork	B-object_type
+8	romaną	SearchCreativeWork	I-object_type
+9	.	SearchCreativeWork	O
+
+# id: 308
+# text: Surask Mone žymiausią paveiklą
+# intent: SearchCreativeWork
+1	Surask	SearchCreativeWork	O
+2	Mone	SearchCreativeWork	B-object_name
+3	žymiausią	SearchCreativeWork	B-object_select
+4	paveiklą	SearchCreativeWork	B-object_type
+
+# id: 309
+# text: Noriu surasti Fridos Kalos autoportretą su palaidais plaukais  
+# intent: SearchCreativeWork
+1	Noriu	SearchCreativeWork	O
+2	surasti	SearchCreativeWork	O
+3	Fridos	SearchCreativeWork	B-object_name
+4	Kalos	SearchCreativeWork	I-object_name
+5	autoportretą	SearchCreativeWork	B-object_type
+6	su	SearchCreativeWork	O
+7	palaidais	SearchCreativeWork	B-object_select
+8	plaukais	SearchCreativeWork	I-object_select
+
+# id: 310
+# text: parodyk vilniuje laikus sekamadieni drama
+# intent: SearchScreeningEvent
+1	parodyk	SearchScreeningEvent	O
+2	vilniuje	SearchScreeningEvent	B-location
+3	laikus	SearchScreeningEvent	B-object_type
+4	sekamadieni	SearchScreeningEvent	B-datetime
+5	drama	SearchScreeningEvent	B-movie_type
+
+# id: 311
+# text: Kuriuose vilniaus kino teatruose dar rodo filma Avataras?
+# intent: SearchScreeningEvent
+1	Kuriuose	SearchScreeningEvent	O
+2	vilniaus	SearchScreeningEvent	B-location
+3	kino	SearchScreeningEvent	B-object_location_type
+4	teatruose	SearchScreeningEvent	I-object_location_type
+5	dar	SearchScreeningEvent	O
+6	rodo	SearchScreeningEvent	O
+7	filma	SearchScreeningEvent	O
+8	Avataras	SearchScreeningEvent	B-movie_name
+9	?	SearchScreeningEvent	O
+
+# id: 312
+# text: Kokie rodomi filmai šiuo metu? 
+# intent: SearchScreeningEvent
+1	Kokie	SearchScreeningEvent	O
+2	rodomi	SearchScreeningEvent	O
+3	filmai	SearchScreeningEvent	O
+4	šiuo	SearchScreeningEvent	B-datetime
+5	metu	SearchScreeningEvent	I-datetime
+6	?	SearchScreeningEvent	O
+
+# id: 313
+# text: Kur ir kada šiandien rodo filmą Avataras 2
+# intent: SearchScreeningEvent
+1	Kur	SearchScreeningEvent	O
+2	ir	SearchScreeningEvent	O
+3	kada	SearchScreeningEvent	O
+4	šiandien	SearchScreeningEvent	B-datetime
+5	rodo	SearchScreeningEvent	O
+6	filmą	SearchScreeningEvent	B-movie_type
+7	Avataras	SearchScreeningEvent	B-movie_name
+8	2	SearchScreeningEvent	I-movie_name
+
+# id: 314
+# text: Kokie siaubo filmai šiuo metu rodomi Vilniuje
+# intent: SearchScreeningEvent
+1	Kokie	SearchScreeningEvent	O
+2	siaubo	SearchScreeningEvent	B-movie_type
+3	filmai	SearchScreeningEvent	I-movie_type
+4	šiuo	SearchScreeningEvent	B-datetime
+5	metu	SearchScreeningEvent	I-datetime
+6	rodomi	SearchScreeningEvent	O
+7	Vilniuje	SearchScreeningEvent	B-location
+
+# id: 315
+# text: Surask veiksmo filmą “Apollo” kine 17:00 valandą
+# intent: SearchScreeningEvent
+1	Surask	SearchScreeningEvent	O
+2	veiksmo	SearchScreeningEvent	B-movie_type
+3	filmą	SearchScreeningEvent	I-movie_type
+4	“	SearchScreeningEvent	O
+5	Apollo	SearchScreeningEvent	B-location
+6	”	SearchScreeningEvent	O
+7	kine	SearchScreeningEvent	O
+8	17:00	SearchScreeningEvent	B-datetime
+9	valandą	SearchScreeningEvent	O
+
+# id: 316
+# text: Kokius filmus šiandien rodo nuo 19:00 Vingio forum cinemas kino teatre?
+# intent: SearchScreeningEvent
+1	Kokius	SearchScreeningEvent	O
+2	filmus	SearchScreeningEvent	B-object_type
+3	šiandien	SearchScreeningEvent	B-datetime
+4	rodo	SearchScreeningEvent	O
+5	nuo	SearchScreeningEvent	B-datetime
+6	19:00	SearchScreeningEvent	I-datetime
+7	Vingio	SearchScreeningEvent	B-location
+8	forum	SearchScreeningEvent	I-location
+9	cinemas	SearchScreeningEvent	I-location
+10	kino	SearchScreeningEvent	O
+11	teatre	SearchScreeningEvent	O
+12	?	SearchScreeningEvent	O
+
+# id: 317
+# text: Kokius filmus rodo kinoteatre? 
+# intent: SearchScreeningEvent
+1	Kokius	SearchScreeningEvent	O
+2	filmus	SearchScreeningEvent	B-object_type
+3	rodo	SearchScreeningEvent	O
+4	kinoteatre	SearchScreeningEvent	B-object_location_type
+5	?	SearchScreeningEvent	O
+
+# id: 318
+# text: Kada rodo šita filmą šiandien
+# intent: SearchScreeningEvent
+1	Kada	SearchScreeningEvent	O
+2	rodo	SearchScreeningEvent	O
+3	šita	SearchScreeningEvent	B-object_select
+4	filmą	SearchScreeningEvent	B-object_type
+5	šiandien	SearchScreeningEvent	B-datetime
+
+# id: 319
+# text: Rask komediją arčiausiai namų šiandien nuo trečios.
+# intent: SearchScreeningEvent
+1	Rask	SearchScreeningEvent	O
+2	komediją	SearchScreeningEvent	B-movie_type
+3	arčiausiai	SearchScreeningEvent	B-location
+4	namų	SearchScreeningEvent	O
+5	šiandien	SearchScreeningEvent	B-datetime
+6	nuo	SearchScreeningEvent	I-datetime
+7	trečios	SearchScreeningEvent	I-datetime
+8	.	SearchScreeningEvent	O
+
+# id: 320
+# text: Kokius filmus rodo Akropolio kino teatras rytoj nuo penktos iki astuntos
+# intent: SearchScreeningEvent
+1	Kokius	SearchScreeningEvent	O
+2	filmus	SearchScreeningEvent	B-object_type
+3	rodo	SearchScreeningEvent	O
+4	Akropolio	SearchScreeningEvent	B-location
+5	kino	SearchScreeningEvent	I-location
+6	teatras	SearchScreeningEvent	I-location
+7	rytoj	SearchScreeningEvent	B-datetime
+8	nuo	SearchScreeningEvent	I-datetime
+9	penktos	SearchScreeningEvent	I-datetime
+10	iki	SearchScreeningEvent	I-datetime
+11	astuntos	SearchScreeningEvent	I-datetime
+
+# id: 321
+# text: Surasti veiksmo filmą penktadienį 18 val forum cinemas kino teatre.
+# intent: SearchScreeningEvent
+1	Surasti	SearchScreeningEvent	O
+2	veiksmo	SearchScreeningEvent	B-movie_type
+3	filmą	SearchScreeningEvent	I-movie_type
+4	penktadienį	SearchScreeningEvent	B-datetime
+5	18	SearchScreeningEvent	I-datetime
+6	val	SearchScreeningEvent	I-datetime
+7	forum	SearchScreeningEvent	B-location
+8	cinemas	SearchScreeningEvent	I-location
+9	kino	SearchScreeningEvent	O
+10	teatre	SearchScreeningEvent	O
+11	.	SearchScreeningEvent	O
+
+# id: 322
+# text: Forum Cinema Akropolis, ši penktadieni vakare nuo 18 h, veiksmo filmas
+# intent: SearchScreeningEvent
+1	Forum	SearchScreeningEvent	B-location
+2	Cinema	SearchScreeningEvent	I-location
+3	Akropolis	SearchScreeningEvent	I-location
+4	,	SearchScreeningEvent	O
+5	ši	SearchScreeningEvent	B-datetime
+6	penktadieni	SearchScreeningEvent	I-datetime
+7	vakare	SearchScreeningEvent	I-datetime
+8	nuo	SearchScreeningEvent	I-datetime
+9	18	SearchScreeningEvent	I-datetime
+10	h	SearchScreeningEvent	I-datetime
+11	,	SearchScreeningEvent	O
+12	veiksmo	SearchScreeningEvent	B-movie_type
+13	filmas	SearchScreeningEvent	I-movie_type
+
+# id: 323
+# text: Surask filmo seansą, Vingio kino teatre nuo 16 valandos.
+# intent: SearchScreeningEvent
+1	Surask	SearchScreeningEvent	O
+2	filmo	SearchScreeningEvent	B-object_type
+3	seansą	SearchScreeningEvent	I-object_type
+4	,	SearchScreeningEvent	O
+5	Vingio	SearchScreeningEvent	B-location
+6	kino	SearchScreeningEvent	I-location
+7	teatre	SearchScreeningEvent	I-location
+8	nuo	SearchScreeningEvent	B-datetime
+9	16	SearchScreeningEvent	I-datetime
+10	valandos	SearchScreeningEvent	I-datetime
+11	.	SearchScreeningEvent	O
+
+# id: 324
+# text: Surasti filmą Vilniaus kinoteatre šį penktadienį nuo 18 val.
+# intent: SearchScreeningEvent
+1	Surasti	SearchScreeningEvent	O
+2	filmą	SearchScreeningEvent	B-object_type
+3	Vilniaus	SearchScreeningEvent	B-location
+4	kinoteatre	SearchScreeningEvent	I-location
+5	šį	SearchScreeningEvent	B-datetime
+6	penktadienį	SearchScreeningEvent	I-datetime
+7	nuo	SearchScreeningEvent	I-datetime
+8	18	SearchScreeningEvent	I-datetime
+9	val	SearchScreeningEvent	I-datetime
+10	.	SearchScreeningEvent	O
+
+# id: 325
+# text: Surask, kuriame kinoteatre 5 kilometrų spinduliu ir kada rodomas filmas Avataras.
+# intent: SearchScreeningEvent
+1	Surask	SearchScreeningEvent	O
+2	,	SearchScreeningEvent	O
+3	kuriame	SearchScreeningEvent	O
+4	kinoteatre	SearchScreeningEvent	O
+5	5	SearchScreeningEvent	B-location
+6	kilometrų	SearchScreeningEvent	I-location
+7	spinduliu	SearchScreeningEvent	I-location
+8	ir	SearchScreeningEvent	O
+9	kada	SearchScreeningEvent	O
+10	rodomas	SearchScreeningEvent	O
+11	filmas	SearchScreeningEvent	B-object_type
+12	Avataras	SearchScreeningEvent	B-movie_name
+13	.	SearchScreeningEvent	O
+
+# id: 326
+# text: Kur ir kokie arčiausiai manęs rodomi animaciniai filmai
+# intent: SearchScreeningEvent
+1	Kur	SearchScreeningEvent	O
+2	ir	SearchScreeningEvent	O
+3	kokie	SearchScreeningEvent	O
+4	arčiausiai	SearchScreeningEvent	B-location
+5	manęs	SearchScreeningEvent	O
+6	rodomi	SearchScreeningEvent	O
+7	animaciniai	SearchScreeningEvent	B-movie_type
+8	filmai	SearchScreeningEvent	I-movie_type
+
+# id: 327
+# text: Kur ir kokie arčiausiai manęs rodomi animaciniai filmai
+# intent: SearchScreeningEvent
+1	Kur	SearchScreeningEvent	O
+2	ir	SearchScreeningEvent	O
+3	kokie	SearchScreeningEvent	O
+4	arčiausiai	SearchScreeningEvent	B-location
+5	manęs	SearchScreeningEvent	O
+6	rodomi	SearchScreeningEvent	O
+7	animaciniai	SearchScreeningEvent	B-movie_type
+8	filmai	SearchScreeningEvent	I-movie_type
