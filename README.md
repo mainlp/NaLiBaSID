@@ -6,20 +6,29 @@
 
 - For Bavarian, we further present translations of a part of the large MASSIVE [(FitzGerald et al., 2023)](https://aclanthology.org/2023.acl-long.235/) dataset to Bavarian to evaluate the effect of transferring to a low-resource language without orthography in a cross-datasets setting.
 
-- We evaluate the performance of cross-lingual language models on our translated and native data, to gauge the effect of having natural utterances versus translations for SID.
+- We evaluate the performance of cross-lingual language models on our translated and native data with the MaChAmp toolkit [(van der Goot et al., 2021)](https://aclanthology.org/2021.eacl-demos.22/), to gauge the effect of having natural utterances versus translations for SID.
 
 ### Corpus Statistics
 ![corp_stats](https://github.com/mainlp/NaLiBaSID/assets/92130844/c02be2f4-0cae-4046-8308-124c9f47d2bb)
 
 ### How to use this repository?
-- `data`: NaLiBaSID datasets
+- `data`: annotated NaLiBaSID datasets
   - **de-ba.test** & **.valid**: Bavarian xSID translations *de-ba*
   - **lt.test** & **.valid**: Lithuanian xSID translations *lt*
   - **de-ba.MAS.test** + **.valid**: Bavarian MASSIVE translation *MAS:de-ba*
   - **de-ba.xMAS.test** + **.valid**: Bavarian xSID + MASSIVE translations *xMAS:de-ba*
   - **de-ba.nat**: Natural Bavarian data *nat:de-ba*
   - **lt.nat**: Natural Lithuanian data *nat:lt*
+ - `configs`:
+   - MaChAmp dataset and parameter configs used for producing the results presented in the paper
+ - `scripts`:
+   - TODO
+   - Script for metric calculations is not included. Please refer to [`nluEval.py`](https://bitbucket.org/robvanderg/xsid/src/master/scripts/nluEval.py) (implementation by [van der Goot et al. (2021)](https://aclanthology.org/2021.eacl-demos.22/)).
+ - `predictions`:
+   - Output predictions and model scores. Produced with MaChAmp's `predict.py`
 
 ### Paper
 TODO
 
+### Acknowledgement
+This work is supported by ERC Consolidator Grant DIALECT no. 101043235.
