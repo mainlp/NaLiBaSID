@@ -9,7 +9,7 @@
 - We evaluate the performance of cross-lingual language models on our translated and native data, to gauge the effect of having natural utterances versus translations for SID.
 
 ### Corpus Statistics
-TODO
+![corp_stats](https://github.com/mainlp/NaLiBaSID/assets/92130844/c02be2f4-0cae-4046-8308-124c9f47d2bb)
 
 ### How to use this repository?
 - `data`: NaLiBaSID datasets
