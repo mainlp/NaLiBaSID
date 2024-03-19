@@ -1,0 +1,19 @@
+{
+    "intent": {
+        "optimization_metrics": "accuracy",
+        "accuracy": {
+            "accuracy": 0.47277227722772275,
+            "sum": "accuracy"
+        }
+    },
+    "slots": {
+        "optimization_metrics": "span_f1",
+        "span_f1": {
+            "precision": 0.20072771376591875,
+            "recall": 0.18925100057175528,
+            "span_f1": 0.19482048263684518,
+            "sum": "span_f1"
+        }
+    },
+    "sum": 0.6675927598645679
+}
