@@ -26,6 +26,8 @@
    - Script for metric calculations is not included. Please refer to [`nluEval.py`](https://bitbucket.org/robvanderg/xsid/src/master/scripts/nluEval.py) (implementation by [van der Goot et al. (2021)](https://aclanthology.org/2021.eacl-demos.22/)).
  - `predictions`:
    - Output predictions and model scores. Produced with MaChAmp's `predict.py`
+   - `Whole data` contains the natural datasets that are not split into test and development sets
+   - `Test data` and `Valid data` also include the predictions on the English and German xSID datasets
 
 ### Paper
 TODO
