@@ -22,7 +22,8 @@
  - `configs`:
    - MaChAmp dataset and parameter configs used for producing the results presented in the paper
  - `scripts`:
-   - TODO
+   - run every step with `scripts/00_runAll.sh` (including training which may lead to a long duration)
+   - alternatively run each step individually with the provided scripts `01`-`03`
    - Script for metric calculations is not included. Please refer to [`nluEval.py`](https://bitbucket.org/robvanderg/xsid/src/master/scripts/nluEval.py) (implementation by [van der Goot et al. (2021)](https://aclanthology.org/2021.eacl-demos.22/)).
  - `predictions`:
    - Output predictions and model scores. Produced with MaChAmp's `predict.py`
