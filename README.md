@@ -4,9 +4,9 @@
 
 - We collect natural datasets of utterances from native speakers to be able to evaluate on more realistic data.
 
-- For Bavarian, we further present translations of a part of the large MASSIVE [(FitzGerald et al., 2023)](https://aclanthology.org/2023.acl-long.235/) dataset to Bavarian to evaluate the effect of transferring to a low-resource language without orthography in a cross-datasets setting.
+- For Bavarian, we further present translations of a part of the large MASSIVE ([FitzGerald et al., 2023](https://aclanthology.org/2023.acl-long.235/)) dataset to Bavarian to evaluate the effect of transferring to a low-resource language without orthography in a cross-datasets setting.
 
-- We evaluate the performance of cross-lingual language models on our translated and native data with the MaChAmp toolkit [(van der Goot et al., 2021)](https://aclanthology.org/2021.eacl-demos.22/), to gauge the effect of having natural utterances versus translations for SID.
+- We evaluate the performance of cross-lingual language models on our translated and native data with the MaChAmp toolkit ([van der Goot et al., 2021](https://aclanthology.org/2021.eacl-demos.22/)), to gauge the effect of having natural utterances versus translations for SID.
 
 ### Corpus Statistics
 ![corp_stats](https://github.com/mainlp/NaLiBaSID/assets/92130844/c02be2f4-0cae-4046-8308-124c9f47d2bb)
