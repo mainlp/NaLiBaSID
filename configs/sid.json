@@ -1,7 +1,7 @@
 {
     "SID": {
-        "train_data_path": "../train_data/en.train.conll",
-        "dev_data_path": "../train_data/en.valid.conll",
+        "train_data_path": "train_data/en.train.conll",
+        "dev_data_path": "train_data/en.valid.conll",
         "word_idx": 1,
         "tasks": {
             "slots": {
