@@ -32,7 +32,15 @@
    - `test_data` and `valid_data` also include the predictions on the English and German xSID datasets
 
 ### Paper
-TODO
-
+If you use the data and/or code in this repository, please cite the following:
+```
+@inproceedings{Winkler2024,
+  title = "Slot and Intent Detection Resources for {B}avarian and {L}ithuanian: Assessing Translations vs Natural Queries to Digital Assistants",
+  author = "Winkler, Miriam and Juozapaityte, Virginija and van der Goot, Rob and Plank, Barbara",
+  booktitle = "Proceedings of The 2024 Joint International Conference on Computational Linguistics, Language Resources and Evaluation",
+  year = "2024",
+  publisher = "Association for Computational Linguistics",
+}
+```
 ### Acknowledgement
 This work is supported by ERC Consolidator Grant DIALECT no. 101043235.
