@@ -22,10 +22,10 @@
  - `configs`:
    - MaChAmp dataset and parameter configs used for producing the results presented in the paper
  - `scripts`:
-   - Run every step with `scripts/00_runAll.sh` (including training which may lead to a long duration)
+   - Run setup and training of all models with `scripts/00_runAll.sh` (training may lead to a long duration)
    - Alternatively run each step individually with the provided scripts
    - Let the models predict on the test data with MaChAmp's `predict.py`
-   - Script for metric calculations is not included. Please refer to [`nluEval.py`](https://bitbucket.org/robvanderg/xsid/src/master/scripts/nluEval.py) (implementation by [van der Goot et al. (2021)](https://aclanthology.org/2021.eacl-demos.22/)).
+   - Script for metric calculations (`nluEval.py`) is provided by [van der Goot et al. (2021)](https://aclanthology.org/2021.eacl-demos.22/).
  - `predictions`:
    - Output predictions and model scores. Produced with MaChAmp's `predict.py`
    - `whole_data` contains the natural datasets that are not split into test and development sets
@@ -41,6 +41,17 @@ If you use the data and/or code in this repository, please cite the following:
   year = "2024",
   publisher = "Association for Computational Linguistics",
 }
+
+@inproceedings{van-der-goot-etal-2020-cross,
+      title={From Masked-Language Modeling to Translation: Non-{E}nglish Auxiliary Tasks Improve Zero-shot Spoken Language Understanding},
+      author={van der Goot, Rob and Sharaf, Ibrahim and Imankulova, Aizhan and {\"U}st{\"u}n, Ahmet and Stepanovic, Marija and Ramponi, Alan and Khairunnisa, Siti Oryza and Komachi, Mamoru and Plank, Barbara},
+    booktitle = "Proceedings of the 2021 Conference of the North {A}merican Chapter of the Association for Computational Linguistics: Human Language Technologies, Volume 1 (Long and Short Papers)",
+    year = "2021",
+    address = "Mexico City, Mexico",
+    publisher = "Association for Computational Linguistics"
+}
 ```
+For more languages, please refer to the xSID [GitHub repository](https://github.com/mainlp/xsid/tree/main).
+
 ### Acknowledgement
 This work is supported by ERC Consolidator Grant DIALECT no. 101043235.
