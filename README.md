@@ -13,6 +13,7 @@
 
 ### How to use this repository?
 - `data`: annotated NaLiBaSID datasets
+  access the data with the password `MaiNLP`
   - **de-ba.test** & **.valid**: Bavarian xSID translations *de-ba*
   - **lt.test** & **.valid**: Lithuanian xSID translations *lt*
   - **de-ba.MAS.test** + **.valid**: Bavarian MASSIVE translation *MAS:de-ba*
