@@ -30,6 +30,7 @@
    - Script for metric calculations (`nluEval.py`) is provided by [van der Goot et al. (2021)](https://aclanthology.org/2021.eacl-demos.22/).
  - `predictions`:
    - Output predictions and model scores. Produced with MaChAmp's `predict.py`
+   - access the data with the **password** `MaiNLP`
    - `whole_data` contains the natural datasets that are not split into test and development sets
    - `test_data` and `valid_data` also include the predictions on the English and German xSID datasets
 
